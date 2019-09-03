@@ -1,0 +1,377 @@
+#bequiet {
+background:#000;
+color:#fff;
+}
+
+#bequiet h1 {
+font-size:2.5em;
+color:#fff;
+overflow:hidden;
+line-height:1.2em;
+border-bottom: none;
+text-transform: uppercase;
+}
+
+#bequiet h2 {
+font-size:2em;
+color:#fff;
+overflow:hidden;
+line-height:1.2em;
+border-bottom: none;
+text-transform: uppercase;
+}
+
+#bequiet h3 {
+font-size:1.5em;
+text-transform:none;
+text-align:left;
+color:#fff;
+overflow:hidden;
+line-height:1.2em;
+border-bottom:3px solid #F08207;
+padding-left:10px;
+}
+
+#bequiet a {
+color:#F08207;
+}
+
+#bequiet p.kategorielink a {
+color:#F08207;
+}
+
+#bequiet p.kategorielink a:after {
+content:" »";
+}
+
+#bequiet p, #bequiet .image-text p{
+padding: 10px;
+margin: 0;
+}
+
+
+#bequiet table {
+width:100%;
+border-collapse:collapse;
+color:#555;
+border:1px solid #555;
+margin:20px auto;
+}
+
+#bequiet table tbody tr th,#bequiet table tbody tr td {
+text-align:center;
+padding:10px;
+}
+
+#bequiet table tbody tr:nth-child(even) {
+background:#d0d0d0;
+}
+
+#bequiet table tbody tr:nth-child(odd) {
+background:#eeeeee;
+}
+
+#bequiet table tbody td:nth-child(0n+1) {
+text-align:left;
+font-weight: 700;
+}
+
+#bequiet .table-highlight { border-left: 2px solid #F08207; border-right: 2px solid #F08207; color: #F08207; font-weight: 700;}
+
+
+#bequiet .text-center {
+text-align:center;
+}
+
+#bequiet .msres_textarea {
+width:100%;
+min-height: 250px;
+padding:10px;
+padding-top:0;
+padding-bottom:20px;
+float:left;
+}
+
+#bequiet .msres_textarea p {
+padding:20px;
+font-size: 16px;
+}
+
+#bequiet .ms_light {
+background:#F08207;
+color:#fff;
+}
+
+#bequiet .ms_light a {
+color:#fff;
+}
+
+#bequiet .ms_light a:after {
+content:" »";
+}
+
+#bequiet .ms_light h2,#bequiet .ms_light h3 {
+color:#55;
+}
+
+#bequiet .ms_links {
+background:#fff;
+display:flex;
+justify-content:space-around;
+flex-wrap:wrap;
+clear:both;
+margin-top:20px;
+padding:15px 0;
+}
+
+#bequiet .ms_links h2, #bequiet .ms_links h3 {
+color: #555;
+}
+
+#bequiet .ms_links img {
+width:100%;
+padding: 10px;
+}
+
+#bequiet .ms_links div {
+border:1px solid #ccc;
+padding-bottom:20px;
+flex:0 1 30%;
+}
+
+#bequiet .ms_links div div{
+    border: none;
+    padding: 0px;
+    display: block;
+}
+
+#bequiet .ms_links div div:hover span{
+color:#F08207;
+}
+
+#bequiet .ms_links div:hover {
+    border: 1px solid #F08207;
+}
+
+#bequiet .ms_links div div:hover {
+    border: none;
+}
+
+#bequiet .ms_links span {
+text-transform:uppercase;
+color:#555;
+font-size:1em;
+}
+
+#bequiet .ms_prod {
+background:#000;
+margin: 0;
+}
+
+.ms_prod span{
+display: block;
+}
+
+#bequiet .ms_prod p {
+padding:0;
+
+}
+
+#bequiet .ms_prod img {
+max-width:250px;
+}
+
+#bequiet a.ms_prod_name {
+font-family:'Roboto_Medium','Helvetica Neue',Helvetica,Arial,sans-serif;
+font-size:1.5em;
+line-height:1.5em;
+text-align: center;
+text-decoration:none;
+display:block;
+margin:5px 0;
+padding:0;
+transition:all .3s;
+}
+
+#bequiet a.ms_prod_name:hover {
+text-decoration:none;
+transition:all .3s;
+}
+
+#bequiet .ms_prod_artnr {
+color:rgba(160,160,160,1.0);
+margin:5px 0;
+padding:0;
+font-size:1em;
+}
+
+#bequiet .ms_prod_prize {
+font-family:'Roboto_Regular','Helvetica Neue',Helvetica,Arial,sans-serif;
+font-size:2em;
+color:inherit;
+margin:10px 0 0;
+padding:0;
+}
+
+#bequiet .ms_prod_ust {
+font-size:.8em;
+color:rgba(160,160,160,1.0);
+margin:0;
+padding:0;
+}
+
+#bequiet .ms_prod_ust a {
+color:inherit;
+font-size:inherit;
+text-decoration:underline;
+}
+
+#bequiet .ms_button {
+font-family:'Roboto_Condensed_Regular';
+font-size:1em;
+display:inline-block;
+color:#fff;
+font-weight:700;
+border:2px solid #F08207;
+text-align:center;
+text-decoration:none;
+margin:20px 0;
+padding:10px 20px;
+border-radius:0;
+transition:all .3s
+}
+
+#bequiet .ms_button::before {
+content: url(/templates/mindfactory_new/module/shop_in_shop/be_quiet_Shop/images/arrow.png);
+font-family:'FontAwesome';
+#content:"\f101";
+margin-right:10px;
+}
+
+#bequiet .ms_button::after {
+content:none;
+}
+
+#bequiet .ms_button:hover {
+color:#F08207;
+background-color:#fff;
+border:2px solid #152A72;
+text-decoration:none;
+transition:all .3s;
+}
+
+#bequiet .ms_vergleich {
+display:flex;
+justify-content:space-around;
+flex-wrap:wrap;
+clear:both;
+margin-top:20px;
+padding:15px 0;
+}
+
+#bequiet .ms_vergleich img {
+width:100%;
+padding: 10px;
+}
+
+#bequiet .ms_vergleich div {
+padding-bottom:20px;
+flex:0 1 12%;
+}
+
+#bequiet .ms_vergleich span {
+display:block;
+}
+
+#bequiet .ms_vergleich .ms_prod_name {
+font-family:'Roboto_Medium','Helvetica Neue',Helvetica,Arial,sans-serif;
+font-size:1.7em;
+line-height:1.5em;
+text-align: center;
+text-decoration:none;
+display:block;
+margin:5px 0;
+padding:0;
+transition:all .3s;
+}
+
+#bequiet .image-text div {
+text-align:left;
+background:#000;
+color:#fff;
+padding:20px
+}
+
+#bequiet .markenseite div.unterboxen.serien div {
+flex:0 1 31%;
+border-top:4px solid #152A72;
+}
+
+#bequiet .markenseite div.unterboxen.serien div:hover {
+border-top:4px solid red;
+}
+
+#bequiet .markenseite div.unterboxen.serien div h3 {
+text-align:left;
+border:none;
+padding:0;
+margin:0;
+}
+
+#bequiet .markenseite div.unterboxen.serien div p {
+text-align:left;
+}
+
+#bequiet .markenseite div.unterboxen.serien div img {
+max-width:80%;
+margin-top:10px;
+}
+
+#bequiet .row div p:first-child::first-letter {float:left;  font-weight: bold; font-size: 60px; font-size: 6rem; line-height: 60px; line-height: 6rem; height:6rem;  text-transform: uppercase; background: #F08207 ; color: #fff; padding: 0 5px; margin-right: 10px;}
+
+#bequiet .markenseite div.unterboxen.serien div{
+background:#333;
+margin: 10px;
+border-top: 4px solid #F08207;
+}
+
+#bequiet .markenseite div.unterboxen.serien div:hover{
+border-top: 4px solid #fff;
+}
+
+#bequiet div.unterboxen div h3{
+border-bottom: none;
+text-align: center;
+color: #F08207;
+display: block;
+}
+
+#bequiet .product_single_row{
+margin: 10px 20px;
+
+}
+
+#bequiet .product_single_row img{
+border: 5px solid #F08207;
+padding: 10px;
+background: #fff;
+}
+
+/* Mobile*/
+@media screen and (max-width: 1670px) {
+
+}
+
+@media screen and (max-width: 850px) {
+
+}
+
+@media screen and (max-width: 750px) {
+
+}
+
+@media screen and (max-width: 600px) {
+#bequiet table td {
+min-width: 200px;
+}
+</style>

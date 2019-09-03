@@ -1,0 +1,195 @@
+<style>
+/*2019-08-13-master-classes.css*/
+#catDatapage h2 {font-size: 2.5em;display: table;margin: 1em auto;text-align: center;border-bottom: 1px solid #00247B;padding: 10px 20px;color: #595f65;font-family: inherit;}
+#catDatapage .markenseite h2:first-child {font-size: 2.5em !important;display: table;margin: 0.5em auto;text-align: center;border-bottom: 1px solid #00247B;padding: 10px 20px, color: #595f65;font-family: inherit;width: auto;}
+#catDatapage h2.image-text {padding: 5px 0;}
+#main h1 {margin: 1em auto;}
+#catDatapage h3, #catDatapage h4 {text-align: left;display: table;padding: 10px 20px 5px 0px;border-bottom: 1px solid #00247B;}
+.clear-both {clear: both;}
+.current-category-description p {font-size: 14px;line-height: 1.5;}
+#catDatapage .section {margin: 0 15px 15px 0;padding: 0;}
+#catDatapage p {text-align: justify;}
+#catDatapage {text-align:center;}
+#catDatapage h2:first-child, #catDatapage .markenseite h2.image-text, #catDatapage .markenseite h3.image-text, #catDatapage h2.image-text {text-align:left;width:100%;margin-bottom:0;background: none;}
+span.kleingeschrieben {text-transform: lowercase;}
+
+#catDatapage p, #catDatapage ul li, #catDatapage table {font-size: 14px;line-height: 1.5;text-align:left;}
+#catDatapage h2 {clear:both;margin-bottom: 20px;}
+#catDatapage .section{margin-bottom:15px;margin:0 15px 15px 0;padding:0;}
+
+#catDatapage .image-text {background-color: #000;display: flex;flex-wrap: nowrap;margin-bottom: 20px;align-items: flex-start;}
+#catDatapage .image-text img {margin: 0;max-width: 100%;min-width: 422px;}
+#catDatapage .image-text p {text-align: justify;color: #fff;padding: 20px;}
+#catDatapage .image-text b, #catDatapage .image-text ul {color:#fff;}
+#catDatapage .image-text h3 {color:#fff;padding-left: 20px;}
+#catDatapage .image-text p a {color: #fff;text-decoration: underline;}
+
+#catDatapage .bild-text {display: flex;flex-wrap: nowrap;align-items: center;border: 1px solid #595f65;padding: 20px;margin-bottom: 20px;justify-content: space-between;}
+#catDatapage .bild-text img {margin: 0;max-width: 25%;}
+#catDatapage .bild-text div {flex: 0 1 73%;}
+#catDatapage .bild-text p {text-align: justify;}
+#catDatapage .bild-text h3 {text-align: left;display: block;border: none;margin: 0;padding: 0;}
+
+#catDatapage ul, #catDatapage ol {clear:both;text-align: left;width: 80%;margin: 20px auto;}
+#catDatapage ul li:before {content: '» ';}
+#catDatapage ol li {list-style-type: decimal;font-size: 14px;line-height: 1.5;}
+
+#catDatapage table {width: 100%;border-collapse: collapse;border: 1px solid #D8D8D8;margin:20px auto;}
+#catDatapage table tbody tr th, #catDatapage table tbody tr td {text-align: left;padding: 10px;}
+#catDatapage table tbody tr:nth-child(even) {background: #D8D8D8;}
+
+#catDatapage .teaser_modern {display: flex;justify-content: space-between;flex-wrap:wrap;max-width: 80%;margin: auto;}
+#catDatapage .teaser_modern li {flex:0 1 26%;margin-bottom:20px;}
+#catDatapage .teaser_modern li a {display:block;text-align:center;text-decoration: underline;}
+#catDatapage .teaser_modern li a:after {content: '»';}
+#catDatapage .teaser_modern li a img {max-width:100%;display:block;margin:0 auto;}
+#catDatapage ul.teaser_modern li:before {content: '';}
+#catDatapage .teaser_modern::after {content: "";flex-basis:26%;}
+
+img.float-left {float:left;margin-right:20px;max-width: 320px;}
+img.float-right {float:right;margin-left:20px;max-width: 320px;}
+img.float-right {max-width: 267px;margin-right:50px;}
+
+#catDatapage .fragen {border: 1px solid #595f65;padding: 20px;margin-bottom: 20px;}
+#catDatapage .fragen p {margin-top: 10px;}
+
+#catDatapage #hersteller.teaser_modern li, #catDatapage .hersteller.teaser_modern li {border: 1px solid #0031a8;margin-bottom: 20px;}
+#catDatapage #hersteller.teaser_modern li a, #catDatapage .hersteller.teaser_modern li a {padding: 20px;}
+#catDatapage #hersteller.teaser_modern li:hover, #catDatapage .hersteller.teaser_modern li:hover {border: 1px solid #001b5c;}
+
+#catDatapage table ul {margin: 0;width: 100%;}
+#catDatapage table.width-50 {width: 50%;}
+
+#catDatapage div.topseller {display: flex;justify-content: space-between;flex-wrap: wrap;clear: both;margin-top: 20px;}
+
+
+/* Topseller nach SiS */
+.ms_prod p{padding:0}
+a.ms_prod_name{font-family:'Roboto_Medium','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:1.2em;line-height:1em;text-decoration:none;display:block;margin:5px 0;padding:0;transition:all .3s}
+a.ms_prod_name:hover{text-decoration:none;transition:all .3s}
+.ms_prod_artnr{color:rgba(160,160,160,1.0);margin:5px 0;padding:0;font-size:1em}
+.ms_prod_prize{font-family:'Roboto_Regular','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:2em;color:inherit;margin:10px 0 0;padding:0}
+.ms_button{font-family:'Roboto_Condensed_Regular';font-size:1em;display:inline-block;color:#FF0000;font-weight:700;border:2px solid #FF0000;text-align:center;text-decoration:none;margin:20px 0;padding:10px 20px;border-radius:none;transition:all .3s}
+.ms_button::after{font-family:'FontAwesome';content:"\f101";margin-left:10px}
+.ms_button:hover{color:#fff;background-color:#FF0000;border:2px solid #FF0000;text-decoration:none;transition:all .3s}
+
+
+#catDatapage div.unterboxen {display: flex;justify-content: space-between;flex-wrap: wrap;clear: both;margin-top: 20px;}
+#catDatapage div.unterboxen div {border: 1px solid #595f65;padding: 20px;margin-bottom: 20px;flex:0 1 48%;}
+#catDatapage div.unterboxen div.flex100 {flex: 0 1 100%;}
+#catDatapage div.unterboxen div h3 {font-size: 1.5em !important;display: table;margin: 0 auto 1em;text-align: center;border-bottom: 1px solid #00247B;padding: 10px 20px;color: #595f65;font-family: inherit;}
+
+#catDatapage div.unterboxen_wrapper {display: flex;justify-content: space-between;}
+#catDatapage div.unterboxen_wrapper div.unterboxen {flex: 0 1 48%;}
+#catDatapage div.unterboxen_wrapper div.unterboxen div {flex: 0 1 100%;}
+
+#catDatapage div.unterboxen div ul {width: 100%;margin-top:0;}
+#catDatapage ul.topseller-boxen {display: flex;justify-content: space-between;flex-wrap: wrap;clear: both;width: 100%}
+#catDatapage ul.topseller-boxen li {border: 1px solid #555; padding: 0px; margin-bottom: 20px; flex: 0 1 30%; list-style-type: none; text-align: center;}
+#catDatapage ul.topseller-boxen li strong {text-align: center;}
+#catDatapage ul.topseller-boxen li:before {content: '';}
+#catDatapage ul.topseller-boxen li img {max-width: 100%;}
+#catDatapage ul.topseller-boxen::after {content: "";flex-basis:30%;}
+#catDatapage ul.topseller-boxen li ul li {display: block;border: none;padding: 0;margin-bottom: 5px;text-align: left;}
+#catDatapage ul.topseller-boxen li ul li:before {content: '» ';}
+#catDatapage ul.topseller-boxen li a {display: block; text-align: center; padding: 5px;background-color: #152A72;color: #fff;font-weight: bold;border: 1px solid #152A72;}
+#catDatapage ul.topseller-boxen li a:hover {color: #152A72; background-color: #fff;}
+
+#catDatapage ul.topseller-boxen.haelfte li {flex:0 1 48%;}
+
+#catDatapage .markenseite div.unterboxen.serien div {flex:0 1 31%;border-top: 4px solid #152A72;}
+#catDatapage .markenseite div.unterboxen.serien div:hover{border-top: 4px solid #FF0000;}
+#catDatapage .markenseite div.unterboxen.serien div h3 {text-align: left;border: none;padding: 0;margin: 0;}
+#catDatapage .markenseite div.unterboxen.serien div p {text-align: left;}
+#catDatapage .markenseite div.unterboxen.serien div img {max-width: 80%;margin-top: 10px;}
+
+/* 08.08.2019 vertikale Ausrichtung*/
+#catDatapage .vertical-align {display: flex; align-items: center;}
+
+/* #catDatapage .markenseite div.unterboxen.serien div p a:after {content: ' »';}*/
+#catDatapage .markenseite div.unterboxen.serien div p:first-of-type {min-height: 150px;}
+#catDatapage .markenseite div.unterboxen.serien.haelfte div {flex:0 1 48%;display: flex;flex-wrap: wrap;justify-content: space-between;align-items: center;}
+#catDatapage .markenseite div.unterboxen.serien.haelfte div h3 {flex: 0 1 100%;}
+#catDatapage .markenseite div.unterboxen.serien.haelfte div img {flex: 0 1 39%;max-width: 39%;}
+#catDatapage .markenseite div.unterboxen.serien.haelfte div p {flex: 0 1 56%;}
+#catDatapage .markenseite div.unterboxen.serien.haelfte div p.kategorielink {flex:0 1 100%;}
+/* #catDatapage .image-text p:last-child a:after {content: ' »';} */
+#catDatapage .image-text p:first-child a:after {content: '';}
+
+#catDatapage .markenseite div.unterboxen.serien:after {content: "";flex: 0 1 31%;}
+
+#catDatapage .markenseite #hersteller-quicklinks {display: flex;justify-content: space-between;flex-wrap: wrap;clear: both;}
+#catDatapage .markenseite #hersteller-quicklinks h2{font-size: 1em!important;}
+#catDatapage .markenseite #hersteller-quicklinks strong{font-size: 1em!important;}
+#catDatapage .markenseite #hersteller-quicklinks li {flex:0 1 31%;border: none;margin-bottom: 20px;}
+#catDatapage .markenseite #hersteller-quicklinks li a {display: block;color: #fff;}
+#catDatapage .markenseite #hersteller-quicklinks li a:after, #catDatapage .markenseite #hersteller-quicklinks li a:before, #catDatapage ul#hersteller-quicklinks li:before {content: '';}
+#catDatapage .markenseite #hersteller-quicklinks li a img {max-width: 100%;}
+#catDatapage .markenseite #hersteller-quicklinks li figure {position: relative;}
+#catDatapage .markenseite #hersteller-quicklinks li figure figcaption h2 {border: none;margin: 0;text-align: center;display: block;padding: 10px;background-color: #333333;color: #fff;}
+#catDatapage .markenseite #hersteller-quicklinks li figure figcaption strong {border: none;margin: 0;text-align: center;display: block;padding: 10px;background-color: #333333;color: #fff;}
+
+#catDatapage #inhaltsverzeichnis {border: 1px solid #595f65;margin-bottom: 20px;float: left;margin-right: 20px;}
+#catDatapage .noclear {clear:none;}
+#catDatapage .clear {clear:both;}
+#catDatapage h3.text-center {text-align: center;margin: 1em auto;padding: 10px 20px;}
+
+#catDatapage .markenseite .image-text p {padding: 10px 10px 0;}
+#catDatapage .image-text strong {color: #ff0000;}
+#catDatapage .markenseite .image-text p.kategorielink, #catDatapage .markenseite .fragen p.kategorielink {text-align: right;margin: 0;}
+#catDatapage .markenseite .image-text p.kategorielink a {text-decoration: underline;color: red;}
+#catDatapage .markenseite .fragen p.kategorielink a {text-decoration: underline;color: #000;}
+#catDatapage .markenseite .fragen p.kategorielink a:after {content: ' »';}
+#catDatapage .markenseite .image-text ul {margin-bottom: 0;}
+#catDatapage .markenseite ul.bigger-margin li {margin: 20px 0;}
+
+table.vornachteile td {width: 50%;vertical-align: top;}
+#catDatapage .fragen:after {content: '';clear: both;display: block;}
+
+/*Fitst Letter Capital in ROW*/
+#catDatapage .row p{padding: 5px 0px;}
+#catDatapage .row div p:first-child::first-letter {float:left;  font-weight: bold;   font-size: 60px; font-size: 6rem; line-height: 60px; line-height: 6rem; height:6rem;  text-transform: uppercase; background: #152A72 ; color: #fff; padding: 0 5px; margin-right: 10px;}
+#catDatapage .table-highlight { border-left: 2px solid #ff0000; border-right: 2px solid #ff0000; color: #ff0000;}
+
+/*Produkt / Serie auf einer Zeile Bild, Text Wechsel*/
+#catDatapage .product_single_row {border: 1px solid #595f65;padding: 10px;margin-bottom: 20px;}
+#catDatapage .product_single_row p {margin-top: 10px;}
+
+
+/* Mobile*/
+@media screen and (max-width: 1670px) {
+	#catDatapage .image-text {display: block;}
+	#catDatapage .bild-text {display: block;}
+	#catDatapage p, #catDatapage .image-text p {text-align: justify;margin-left: 10px;margin-right: 10px;}
+	#catDatapage .markenseite div.unterboxen.serien div {flex: 0 1 49%;}
+	#catDatapage .image-text img {margin: 0;max-width: 100%;min-width: 422px;text-align: left;display: block;margin-left: 10px;margin-right: 10px;padding: 0 20px 0;}
+	#catDatapage .markenseite div.unterboxen.serien.haelfte div p, #catDatapage .markenseite div.unterboxen.serien.haelfte div img {flex: 0 1 100%;max-width: 100%;}
+	#catDatapage .markenseite #hersteller-quicklinks {width: 100%;}
+	#catDatapage .markenseite #hersteller-quicklinks h2{font-size: 1em!important;}
+}
+
+@media screen and (max-width: 850px) {
+	#catDatapage .markenseite div.unterboxen.serien.haelfte div {display: block; border: none;}
+	#catDatapage .markenseite div.unterboxen.serien div, #catDatapage .markenseite div.unterboxen.serien.haelfte div {flex: 0 1 100%;}
+	#catDatapage .markenseite div.unterboxen.serien.haelfte div img {display: block;margin: 10px auto 0;}
+	#catDatapage .markenseite div.unterboxen.serien div a img {display: block;margin: 10px auto 0;}
+	#catDatapage div.unterboxen_wrapper {display: block;}
+}
+
+@media screen and (max-width: 750px) {
+	#catDatapage .markenseite #hersteller-quicklinks li {flex: 0 1 48%;}
+	#catDatapage .vertical-align {display: block; border: 0px solid #595f65;padding: 0px;}
+}
+
+@media screen and (max-width: 600px) {
+	#catDatapage .image-text {display: block;}
+	#catDatapage p, #catDatapage .image-text p {text-align: justify;margin-left: 10px;margin-right: 10px;}
+	#catDatapage div.unterboxen, #catDatapage ul.topseller-boxen {display: block;}
+	#catDatapage #inhaltsverzeichnis {float:none;}
+	h2, h3, h4 {text-align: center !important;}
+	#catDatapage table.width-50 {width: 100%;}
+	#catDatapage .image-text img {margin: 0;max-width: 100%;min-width: 50px;}
+	#catDatapage .vertical-align {display: block; border: 0px solid #595f65;padding: 0px;}
+	#catDatapage div.unterboxen div {border: none;}
+}
+</style>

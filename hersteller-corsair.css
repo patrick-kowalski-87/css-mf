@@ -1,0 +1,372 @@
+#corsair {
+background:#000;
+color:#fff;
+}
+
+#corsair h1 {
+font-size:2.5em;
+color:#fff;
+overflow:hidden;
+line-height:1.2em;
+border-bottom: none;
+text-transform: uppercase;
+}
+
+#corsair h2 {
+font-size:2em;
+color:#fff;
+overflow:hidden;
+line-height:1.2em;
+border-bottom: none;
+text-transform: uppercase;
+}
+
+#corsair h3 {
+font-size:1.5em;
+text-transform:none;
+text-align:left;
+color:#fff;
+overflow:hidden;
+line-height:1.2em;
+border-bottom:3px solid #fecb00;
+padding-left:10px;
+}
+
+#corsair a {
+color:#fecb00;
+}
+
+#corsair p.kategorielink a {
+color:#fecb00;
+}
+
+#corsair p.kategorielink a:after {
+content:" »";
+}
+
+#corsair p, #corsair .image-text p{
+padding: 10px;
+}
+
+
+#corsair table {
+width:100%;
+border-collapse:collapse;
+color:#fff;
+border:1px solid #f1f1f1;
+margin:20px auto;
+}
+
+#corsair table tbody tr th,#corsair table tbody tr td {
+text-align:center;
+padding:10px;
+}
+
+#corsair table tbody tr:nth-child(even) {
+background:#555;
+}
+
+#corsair table tbody tr:nth-child(odd) {
+background:#333;
+}
+
+#corsair table tbody td:nth-child(0n+1) {
+text-align:left;
+font-weight: 700;
+}
+
+#corsair .table-highlight { border-left: 2px solid #fecb00; border-right: 2px solid #fecb00; color: #fecb00; font-weight: 700;}
+
+
+#corsair .text-center {
+text-align:center;
+}
+
+#corsair .msres_textarea {
+width:100%;
+min-height: 250px;
+padding:10px;
+padding-top:0;
+padding-bottom:20px;
+float:left;
+}
+
+#corsair .msres_textarea p {
+padding:20px;
+font-size: 16px;
+}
+
+#corsair .ms_light {
+background:#fecb00;
+color:#000;
+}
+
+#corsair .ms_light a {
+color:#000;
+text-decoration: underline;
+}
+
+#corsair .ms_light a:after {
+content:" »";
+}
+
+#corsair .ms_light h2,#corsair .ms_light h3 {
+color:#555;
+}
+
+#corsair .ms_links {
+display:flex;
+justify-content:space-around;
+flex-wrap:wrap;
+clear:both;
+margin-top:20px;
+padding:15px 0;
+}
+
+#corsair .ms_links h2, #corsair .ms_links h3 {
+color: #fff;
+}
+
+#corsair .ms_links img {
+width:100%;
+margin-bottom: 10px;
+}
+
+#corsair .ms_links div {
+flex:0 1 17%;
+border:5px solid #777;
+padding-bottom:20px;
+margin-bottom: 10px;
+}
+
+#corsair .ms_links div div{
+border: none;
+padding: 0px;
+display: block;
+}
+
+#corsair .ms_links div div:hover span{
+color:#fecb00;
+}
+
+#corsair .ms_links div:hover {
+border: 5px solid #fecb00;
+}
+
+#corsair .ms_links div div:hover {
+border: none;
+}
+
+#corsair .ms_links span {
+text-transform:uppercase;
+color:#fff;
+font-size:1em;
+margin-top: 10px;
+}
+
+#corsair .ms_prod {
+background:#000;
+margin: 0;
+}
+
+.ms_prod span{
+display: block;
+}
+
+#corsair .ms_prod p {
+padding:0;
+
+}
+
+#corsair .ms_prod img {
+max-width:250px;
+}
+
+#corsair a.ms_prod_name {
+font-family:'Roboto_Medium','Helvetica Neue',Helvetica,Arial,sans-serif;
+font-size:1.5em;
+line-height:1.5em;
+text-align: center;
+text-decoration:none;
+display:block;
+margin:5px 0;
+padding:0;
+transition:all .3s;
+}
+
+#corsair a.ms_prod_name:hover {
+text-decoration:none;
+transition:all .3s;
+}
+
+#corsair .ms_prod_artnr {
+color:rgba(160,160,160,1.0);
+margin:5px 0;
+padding:0;
+font-size:1em;
+}
+
+#corsair .ms_prod_prize {
+font-family:'Roboto_Regular','Helvetica Neue',Helvetica,Arial,sans-serif;
+font-size:2em;
+color:inherit;
+margin:10px 0 0;
+padding:0;
+}
+
+#corsair .ms_prod_ust {
+font-size:.8em;
+color:rgba(160,160,160,1.0);
+margin:0;
+padding:0;
+}
+
+#corsair .ms_prod_ust a {
+color:inherit;
+font-size:inherit;
+text-decoration:underline;
+}
+
+#corsair .ms_button {
+font-size:1em;
+display:inline-block;
+text-transform: uppercase;
+color:#fecb00;
+font-weight:700;
+border:2px solid #fecb00;
+text-align:center;
+text-decoration:none;
+margin:20px 0;
+padding:10px 20px;
+border-radius:0;
+transition:all .3s
+}
+
+#corsair .ms_button::after {
+content:none;
+}
+
+#corsair .ms_button:hover {
+color:#fecb00;
+background-color:#fff;
+border:2px solid #152A72;
+text-decoration:none;
+transition:all .3s;
+}
+
+#corsair .ms_vergleich {
+display:flex;
+justify-content:space-around;
+flex-wrap:wrap;
+clear:both;
+margin-top:20px;
+padding:15px 0;
+}
+
+#corsair .ms_vergleich img {
+width:100%;
+padding: 10px;
+}
+
+#corsair .ms_vergleich div {
+padding-bottom:20px;
+flex:0 1 12%;
+}
+
+#corsair .ms_vergleich span {
+display:block;
+}
+
+#corsair .ms_vergleich .ms_prod_name {
+font-family:'Roboto_Medium','Helvetica Neue',Helvetica,Arial,sans-serif;
+font-size:1.7em;
+line-height:1.5em;
+text-align: center;
+text-decoration:none;
+display:block;
+margin:5px 0;
+padding:0;
+transition:all .3s;
+}
+
+#corsair .image-text div {
+text-align:left;
+background:#000;
+color:#fff;
+padding:20px
+}
+
+#corsair .markenseite div.unterboxen.serien div {
+flex:0 1 31%;
+border-top:4px solid #152A72;
+}
+
+#corsair .markenseite div.unterboxen.serien div:hover {
+border-top:4px solid red;
+}
+
+#corsair .markenseite div.unterboxen.serien div h3 {
+text-align:left;
+border:none;
+padding:0;
+margin:0;
+}
+
+#corsair .markenseite div.unterboxen.serien div p {
+text-align:left;
+}
+
+#corsair .markenseite div.unterboxen.serien div img {
+max-width:80%;
+margin-top:10px;
+}
+
+#corsair .row div p:first-child::first-letter {float:left;  font-weight: bold; font-size: 50px; font-size: 5rem; line-height: 50px; line-height: 5rem; height:5rem;  text-transform: uppercase; background: #555 ; color: #FECB00; padding: 0 5px; margin-right: 10px;}
+
+#corsair .markenseite div.unterboxen.serien div{
+background:#333;
+margin: 10px;
+border-top: 4px solid #fecb00;
+}
+
+#corsair .markenseite div.unterboxen.serien div:hover{
+border-top: 4px solid #fff;
+}
+
+#corsair div.unterboxen div h3{
+border-bottom: none;
+text-align: center;
+color: #fecb00;
+display: block;
+}
+
+#corsair .product_single_row{
+margin: 10px 20px;
+
+}
+
+#corsair .product_single_row img{
+border: 5px solid #fecb00;
+padding: 10px;
+background: #fff;
+}
+
+
+/* Mobile*/
+@media screen and (max-width: 1670px) {
+
+}
+
+@media screen and (max-width: 850px) {
+
+}
+
+@media screen and (max-width: 750px) {
+
+}
+
+@media screen and (max-width: 600px) {
+#corsair .ms_links div {
+flex: 0 1 45%;
+}
+</style>
