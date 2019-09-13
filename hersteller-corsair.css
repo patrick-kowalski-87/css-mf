@@ -91,6 +91,10 @@ padding-bottom:20px;
 float:left;
 }
 
+#corsair .msres_textarea img {
+padding: 30px;
+}
+
 #corsair .msres_textarea p {
 padding:20px;
 font-size: 16px;
@@ -112,6 +116,10 @@ content:" »";
 
 #corsair .ms_light h2,#corsair .ms_light h3 {
 color:#555;
+}
+
+#corsair .ms_light h3 {
+border-bottom: 3px dashed #555;
 }
 
 #corsair .ms_links {
@@ -174,7 +182,7 @@ display: block;
 }
 
 #corsair .ms_prod p {
-padding:0;
+padding:15px 0;
 
 }
 
@@ -247,11 +255,11 @@ content:none;
 }
 
 #corsair .ms_button:hover {
-color:#fecb00;
-background-color:#fff;
-border:2px solid #152A72;
+color:#fff;
+background: none;
+border:2px solid #fff;
 text-decoration:none;
-transition:all .3s;
+transition:all .5s;
 }
 
 #corsair .ms_vergleich {
@@ -293,7 +301,7 @@ transition:all .3s;
 text-align:left;
 background:#000;
 color:#fff;
-padding:20px
+padding: 0 20px;
 }
 
 #corsair .markenseite div.unterboxen.serien div {
