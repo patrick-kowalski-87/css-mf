@@ -1,0 +1,446 @@
+#wd {
+  background: #fff;
+  color: #333;
+}
+
+#wd .wd-blue span, #wd .wd-green span, #wd .wd-red span, #wd .wd-purple span {
+  color: #fff !important;
+}
+
+#wd .wd-blue h3, #wd .wd-green h3, #wd .wd-red h3, #wd .wd-purple h3 {
+  color: #fff !important;
+}
+
+#wd .wd-blue {
+  background: #0079b9;
+  color: #fff;
+}
+
+#wd .wd-green {
+  background: #3BAF2A;
+  color: #fff;
+}
+
+#wd .wd-red {
+  background: #e2001a;
+  color: #fff;
+}
+
+#wd .wd-purple {
+  background: #502d84;
+  color: #fff;
+}
+
+#wd h1 {
+  font-size: 2.5em;
+  background: #000000;
+  color: #fff;
+  overflow: hidden;
+  line-height: 1.2em;
+  border-bottom: none;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 10px 0;
+}
+
+#wd h2 {
+  font-family: 'Klaviaka_Condensed_Regular';
+  font-size: 2.2em;
+  color: #555;
+  overflow: hidden;
+  text-transform: uppercase;
+  line-height: 1.2em;
+  border-bottom: 0px;
+  margin-bottom: 0px;
+  font-weight: 900;
+}
+
+#wd h3 {
+  font-family: 'Klaviaka_Condensed_Regular';
+  font-size: 2em;
+  font-weight: 700;
+  text-transform: none;
+  text-align: left;
+  color: #000;
+  overflow: hidden;
+  line-height: 1.2em;
+  border-bottom: none;
+}
+
+#wd a {
+  color: #000000;
+  text-decoration: underline;
+}
+
+#wd p.kategorielink a {
+  color: #000000;
+}
+
+#wd p.kategorielink a:after {
+  content: " »";
+}
+
+#wd p, #wd .image-text p {
+  padding: 10px 0;
+}
+
+#wd_core table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #555;
+  border: 1px solid #555;
+  margin: 20px auto;
+}
+
+#wd_core table tbody tr th, #catDatapage table tbody tr td {
+  text-align: center;
+  padding: 10px;
+}
+
+#wd_core table tbody tr:nth-child(even) {
+  background: #d0d0d0;
+}
+
+#wd .table-highlight {
+  border-left: 2px solid #000000;
+  border-right: 2px solid #000000;
+  font-weight: 700;
+}
+
+#wd .text-center {
+  text-align: center;
+}
+
+#wd .msres_textarea {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  clear: both;
+  margin-top: 0px;
+  padding: 15px 0;
+}
+
+#wd .msres_textarea div {
+  flex: 0 0 50%;
+  padding: 20px;
+}
+
+#wd .msres_textarea p {
+  font-size: 16px;
+}
+
+#wd .msres_textarea img {
+  width: 100%;
+}
+
+#wd .ms_light {
+  background: #000000;
+  color: #fff;
+}
+
+#wd .ms_light a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+#wd .ms_light a:after {
+  content: " »";
+}
+
+#wd .ms_light h2, #wd .ms_light h3 {
+  color: #f1f1f1;
+  border-bottom: none;
+}
+
+#wd .ms_links {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  clear: both;
+  padding: 15px 0;
+}
+
+#wd .ms_links h2, #wd .ms_links h3 {
+  color: #fff;
+}
+
+#wd .ms_links img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#wd .ms_links div {
+  flex: 0 1 20%;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  -webkit-box-shadow: 1px 1px 20px 10px #C9C9C9;
+  box-shadow: 1px 1px 20px 10px #C9C9C9;
+}
+
+#wd .ms_links div div {
+  border: none;
+  padding: 0px;
+  display: block;
+}
+
+#wd .ms_links div div:hover span {
+  color: #000000;
+}
+
+#wd .ms_links div:hover {
+  -webkit-box-shadow: 1px 1px 20px 10px #B8B8B8;
+  box-shadow: 1px 1px 20px 10px #B8B8B8;
+}
+
+#wd .ms_links div div:hover {
+  border: none;
+}
+
+#wd .ms_links span {
+  text-transform: uppercase;
+  color: #333;
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+#wd .ms_prod {
+  background: #fff;
+  margin: 0;
+}
+
+#wd .ms_prod span {
+  display: block;
+}
+
+#wd .ms_prod p {
+  padding: 15px 0;
+}
+
+#wd .ms_prod a {
+  text-decoration: none;
+}
+
+#wd .ms_prod img {
+  max-width: 250px;
+}
+
+#wd a.ms_prod_name {
+  font-family: 'Roboto_Medium', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 5px 0;
+  padding: 0;
+  transition: all .3s;
+}
+
+#wd a.ms_prod_name:hover {
+  text-decoration: none;
+  transition: all .3s;
+}
+
+#wd .ms_prod_artnr {
+  color: rgba(160, 160, 160, 1.0);
+  margin: 5px 0;
+  padding: 0;
+  font-size: 1em;
+}
+
+#wd .ms_button {
+  font-size: 1em;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: 700;
+  border: 2px solid #000000;
+  text-align: center;
+  text-decoration: none;
+  margin: 20px 0;
+  padding: 10px 20px;
+  border-radius: 0;
+  transition: all .3s
+}
+
+#wd .ms_button::after {
+  content: none;
+}
+
+#wd .ms_button:hover {
+  color: #fff;
+  background: #000000;
+  border: 2px solid #fff;
+  text-decoration: none;
+  transition: all .5s;
+}
+
+#wd .image-text .ms_button {
+  background: #fff;
+  color: #000;
+  border: none;
+}
+
+#wd .image-text .ms_button:hover {
+  background: #000;
+  color: #fff;
+}
+
+#wd .ms_vergleich {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  clear: both;
+  margin-top: 20px;
+  padding: 15px 0;
+}
+
+#wd .ms_vergleich img {
+  width: 100%;
+  padding: 10px;
+}
+
+#wd .ms_vergleich div {
+  padding-bottom: 20px;
+  flex: 0 1 12%;
+}
+
+#wd .ms_vergleich span {
+  display: block;
+}
+
+#wd .ms_vergleich .ms_prod_name {
+  font-family: 'Roboto_Medium', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.7em;
+  line-height: 1.5em;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 5px 0;
+  padding: 0;
+  transition: all .3s;
+}
+
+#wd .image-text div {
+  text-align: left;
+  padding: 0 20px;
+}
+
+#wd .markenseite div.unterboxen.serien div h3 {
+  text-align: center;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+#wd .markenseite div.unterboxen.serien div p {
+  text-align: left;
+}
+
+#wd .markenseite div.unterboxen.serien div img {
+  max-width: 80%;
+  margin-top: 10px;
+}
+
+#wd .row div p:first-child::first-letter {
+  float: left;
+  font-weight: bold;
+  font-size: 50px;
+  font-size: 5rem;
+  line-height: 50px;
+  line-height: 5rem;
+  height: 5rem;
+  text-transform: uppercase;
+  background: #959595;
+  color: #000000;
+  padding: 0 5px;
+  margin-right: 10px;
+}
+
+#wd .markenseite div.unterboxen.serien {
+  justify-content: space-evenly;
+}
+
+#wd .markenseite div.unterboxen.serien div {
+  flex: 0 0 22%;
+  background: #333;
+  margin: 10px;
+  border-top: 4px solid #000000;
+}
+
+#wd .markenseite div.unterboxen.serien div:hover {
+  border-top: 4px solid #fff;
+}
+
+#wd div.unterboxen div h3 {
+  border-bottom: none;
+  text-align: center;
+  color: #000000;
+  display: block;
+}
+
+#wd .product_single_row {
+  margin: 5px;
+}
+
+#wd .product_single_row img {
+  border: 5px solid #000000;
+  padding: 10px;
+  background: #fff;
+}
+
+#wd .product_single_row b {
+  color: #000000;
+}
+
+#wd .ms_fragen {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  clear: both;
+}
+
+#wd .ms_fragen div {
+  flex: 0 0 48%;
+  margin: 10px;
+  background: #fff;
+  border: 2px dashed #000000;
+}
+
+#wd .ms_fragen p {
+  line-height: 1.5em;
+  padding: 15px;
+}
+
+/* Mobile*/
+@media screen and (max-width: 1670px) {}
+
+@media screen and (max-width: 850px) {}
+
+@media screen and (max-width: 750px) {}
+
+@media screen and (max-width: 600px) {
+  #wd .ms_links div {
+    flex: 0 1 45%;
+  }
+
+  #wd .ms_fragen div {
+    flex: 0 0 100%;
+  }
+
+  #wd .product_single_row p {
+    padding: 0;
+    margin: 0;
+  }
+
+  #wd .msres_textarea div {
+    flex: 0 0 100%;
+  }
+
+  #wd .msres_textarea p {
+    padding: 10px 0px;
+    margin: 0;
+    font-size: 16px;
+  }
+
+  </style>

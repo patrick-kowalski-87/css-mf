@@ -1,54 +1,60 @@
-#corsair {
+#msi {
   background: #000;
   color: #fff;
 }
 
-#corsair h1 {
+#msi h1 {
   font-size: 2.5em;
-  color: #fff;
+  color: #959595;
   overflow: hidden;
   line-height: 1.2em;
   border-bottom: none;
   text-transform: uppercase;
 }
 
-#corsair h2 {
+#msi h2 {
+  font-family: Klaviaka_Condensed_Medium;
   font-size: 2em;
+  width: 100%;
   color: #fff;
+  background: #ef070d;
   overflow: hidden;
   line-height: 1.2em;
   border-bottom: none;
   text-transform: uppercase;
+  font-weight: 700;
+  border-bottom: none;
 }
 
-#corsair h3 {
+#msi h3 {
   font-size: 1.5em;
   text-transform: none;
   text-align: left;
-  color: #fff;
+  color: #959595;
   overflow: hidden;
   line-height: 1.2em;
-  border-bottom: 3px solid #fecb00;
+  border-bottom: 2px solid #959595;
   padding-left: 10px;
 }
 
-#corsair a {
-  color: #fecb00;
+#msi a {
+  color: #ef070d;
+  text-decoration: underline;
 }
 
-#corsair p.kategorielink a {
-  color: #fecb00;
+#msi p.kategorielink a {
+  color: #ef070d;
 }
 
-#corsair p.kategorielink a:after {
+#msi p.kategorielink a:after {
   content: " »";
 }
 
-#corsair p, #corsair .image-text p {
+#msi p, #msi .image-text p {
   padding: 10px;
 }
 
-#corsair table {
+#msi table {
   width: 100%;
   border-collapse: collapse;
   color: #fff;
@@ -56,36 +62,36 @@
   margin: 20px auto;
 }
 
-#corsair table tbody tr th, #corsair table tbody tr td {
+#msi table tbody tr th, #msi table tbody tr td {
   text-align: center;
   padding: 10px;
 }
 
-#corsair table tbody tr:nth-child(even) {
+#msi table tbody tr:nth-child(even) {
   background: #555;
 }
 
-#corsair table tbody tr:nth-child(odd) {
+#msi table tbody tr:nth-child(odd) {
   background: #333;
 }
 
-#corsair table tbody td:nth-child(0n+1) {
+#msi table tbody td:nth-child(0n+1) {
   text-align: left;
   font-weight: 700;
 }
 
-#corsair .table-highlight {
-  border-left: 2px solid #fecb00;
-  border-right: 2px solid #fecb00;
-  color: #fecb00;
+#msi .table-highlight {
+  border-left: 2px solid #ef070d;
+  border-right: 2px solid #ef070d;
+  color: #ef070d;
   font-weight: 700;
 }
 
-#corsair .text-center {
+#msi .text-center {
   text-align: center;
 }
 
-#corsair .msres_textarea {
+#msi .msres_textarea {
   width: 100%;
   min-height: 250px;
   padding: 10px;
@@ -94,38 +100,38 @@
   float: left;
 }
 
-#corsair .msres_textarea img {
+#msi .msres_textarea img {
   padding: 30px;
 }
 
-#corsair .msres_textarea p {
+#msi .msres_textarea p {
   padding: 20px;
   font-size: 16px;
 }
 
-#corsair .ms_light {
-  background: #fecb00;
-  color: #000;
+#msi .ms_light {
+  background: #ef070d;
+  color: #fff;
 }
 
-#corsair .ms_light a {
-  color: #000;
+#msi .ms_light a {
+  color: #fff;
   text-decoration: underline;
 }
 
-#corsair .ms_light a:after {
+#msi .ms_light a:after {
   content: " »";
 }
 
-#corsair .ms_light h2, #corsair .ms_light h3 {
-  color: #555;
+#msi .ms_light h2, #msi .ms_light h3 {
+  color: #f1f1f1;
 }
 
-#corsair .ms_light h3 {
-  border-bottom: 3px dashed #555;
+#msi .ms_light h3 {
+  border-bottom: 3px dashed #f1f1f1;
 }
 
-#corsair .ms_links {
+#msi .ms_links {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -134,65 +140,65 @@
   padding: 15px 0;
 }
 
-#corsair .ms_links h2, #corsair .ms_links h3 {
+#msi .ms_links h2, #msi .ms_links h3 {
   color: #fff;
 }
 
-#corsair .ms_links img {
+#msi .ms_links img {
   width: 100%;
   margin-bottom: 10px;
 }
 
-#corsair .ms_links div {
+#msi .ms_links div {
   flex: 0 1 17%;
   border: 5px solid #777;
   padding-bottom: 20px;
   margin-bottom: 10px;
 }
 
-#corsair .ms_links div div {
+#msi .ms_links div div {
   border: none;
   padding: 0px;
   display: block;
 }
 
-#corsair .ms_links div div:hover span {
-  color: #fecb00;
+#msi .ms_links div div:hover span {
+  color: #ef070d;
 }
 
-#corsair .ms_links div:hover {
-  border: 5px solid #fecb00;
+#msi .ms_links div:hover {
+  border: 5px solid #ef070d;
 }
 
-#corsair .ms_links div div:hover {
+#msi .ms_links div div:hover {
   border: none;
 }
 
-#corsair .ms_links span {
+#msi .ms_links span {
   text-transform: uppercase;
   color: #fff;
   font-size: 1em;
   margin-top: 10px;
 }
 
-#corsair .ms_prod {
+#msi .ms_prod {
   background: #000;
   margin: 0;
 }
 
-#corsair .ms_prod span {
+.ms_prod span {
   display: block;
 }
 
-#corsair .ms_prod p {
+#msi .ms_prod p {
   padding: 15px 0;
 }
 
-#corsair .ms_prod img {
+#msi .ms_prod img {
   max-width: 250px;
 }
 
-#corsair a.ms_prod_name {
+#msi a.ms_prod_name {
   font-family: 'Roboto_Medium', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1.5em;
   line-height: 1.5em;
@@ -204,19 +210,19 @@
   transition: all .3s;
 }
 
-#corsair a.ms_prod_name:hover {
+#msi a.ms_prod_name:hover {
   text-decoration: none;
   transition: all .3s;
 }
 
-#corsair .ms_prod_artnr {
+#msi .ms_prod_artnr {
   color: rgba(160, 160, 160, 1.0);
   margin: 5px 0;
   padding: 0;
   font-size: 1em;
 }
 
-#corsair .ms_prod_prize {
+#msi .ms_prod_prize {
   font-family: 'Roboto_Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 2em;
   color: inherit;
@@ -224,26 +230,26 @@
   padding: 0;
 }
 
-#corsair .ms_prod_ust {
+#msi .ms_prod_ust {
   font-size: .8em;
   color: rgba(160, 160, 160, 1.0);
   margin: 0;
   padding: 0;
 }
 
-#corsair .ms_prod_ust a {
+#msi .ms_prod_ust a {
   color: inherit;
   font-size: inherit;
   text-decoration: underline;
 }
 
-#corsair .ms_button {
+#msi .ms_button {
   font-size: 1em;
   display: inline-block;
   text-transform: uppercase;
-  color: #fecb00;
+  color: #ef070d;
   font-weight: 700;
-  border: 2px solid #fecb00;
+  border: 2px solid #ef070d;
   text-align: center;
   text-decoration: none;
   margin: 20px 0;
@@ -252,11 +258,11 @@
   transition: all .3s
 }
 
-#corsair .ms_button::after {
+#msi .ms_button::after {
   content: none;
 }
 
-#corsair .ms_button:hover {
+#msi .ms_button:hover {
   color: #fff;
   background: none;
   border: 2px solid #fff;
@@ -264,7 +270,7 @@
   transition: all .5s;
 }
 
-#corsair .ms_vergleich {
+#msi .ms_vergleich {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -273,21 +279,21 @@
   padding: 15px 0;
 }
 
-#corsair .ms_vergleich img {
+#msi .ms_vergleich img {
   width: 100%;
   padding: 10px;
 }
 
-#corsair .ms_vergleich div {
+#msi .ms_vergleich div {
   padding-bottom: 20px;
   flex: 0 1 12%;
 }
 
-#corsair .ms_vergleich span {
+#msi .ms_vergleich span {
   display: block;
 }
 
-#corsair .ms_vergleich .ms_prod_name {
+#msi .ms_vergleich .ms_prod_name {
   font-family: 'Roboto_Medium', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1.7em;
   line-height: 1.5em;
@@ -299,39 +305,30 @@
   transition: all .3s;
 }
 
-#corsair .image-text div {
+#msi .image-text div {
   text-align: left;
   background: #000;
   color: #fff;
   padding: 0 20px;
 }
 
-#corsair .markenseite div.unterboxen.serien div {
-  flex: 0 1 31%;
-  border-top: 4px solid #152A72;
-}
-
-#corsair .markenseite div.unterboxen.serien div:hover {
-  border-top: 4px solid red;
-}
-
-#corsair .markenseite div.unterboxen.serien div h3 {
-  text-align: left;
+#msi .markenseite div.unterboxen.serien div h3 {
+  text-align: center;
   border: none;
   padding: 0;
   margin: 0;
 }
 
-#corsair .markenseite div.unterboxen.serien div p {
+#msi .markenseite div.unterboxen.serien div p {
   text-align: left;
 }
 
-#corsair .markenseite div.unterboxen.serien div img {
+#msi .markenseite div.unterboxen.serien div img {
   max-width: 80%;
   margin-top: 10px;
 }
 
-#corsair .row div p:first-child::first-letter {
+#msi .row div p:first-child::first-letter {
   float: left;
   font-weight: bold;
   font-size: 50px;
@@ -340,37 +337,61 @@
   line-height: 5rem;
   height: 5rem;
   text-transform: uppercase;
-  background: #555;
-  color: #FECB00;
+  background: #959595;
+  color: #ef070d;
   padding: 0 5px;
   margin-right: 10px;
 }
 
-#corsair .markenseite div.unterboxen.serien div {
-  background: #333;
-  margin: 10px;
-  border-top: 4px solid #fecb00;
+#msi .markenseite div.unterboxen.serien {
+  justify-content: space-evenly;
 }
 
-#corsair .markenseite div.unterboxen.serien div:hover {
+#msi .markenseite div.unterboxen.serien div {
+  flex: 0 0 22%;
+  background: #333;
+  margin: 10px;
+  border-top: 4px solid #ef070d;
+}
+
+#msi .markenseite div.unterboxen.serien div:hover {
   border-top: 4px solid #fff;
 }
 
-#corsair div.unterboxen div h3 {
+#msi div.unterboxen div h3 {
   border-bottom: none;
   text-align: center;
-  color: #fecb00;
+  color: #ef070d;
   display: block;
 }
 
-#corsair .product_single_row {
+#msi .product_single_row {
   margin: 10px 20px;
 }
 
-#corsair .product_single_row img {
-  border: 5px solid #fecb00;
+#msi .product_single_row img {
+  border: 5px solid #ef070d;
   padding: 10px;
   background: #fff;
+}
+
+#msi .product_single_row b {
+  color: #ef070d;
+}
+
+#msi .ms_fragen {
+  background: #ef070d;
+  margin: auto;
+  width: 80%;
+}
+
+#msi .ms_fragen b {
+  background: #333;
+  padding: 7px;
+}
+
+#msi .ms_fragen p {
+  line-height: 2.2em;
 }
 
 /* Mobile*/
@@ -381,8 +402,19 @@
 @media screen and (max-width: 750px) {}
 
 @media screen and (max-width: 600px) {
-  #corsair .ms_links div {
+  #msi .ms_links div {
     flex: 0 1 45%;
+  }
+
+  #msi .product_single_row p {
+    padding: 0;
+    margin: 0;
+  }
+
+  #msi .ms_fragen {
+    background: #ef070d;
+    margin: auto;
+    width: 100%;
   }
 
   </style>

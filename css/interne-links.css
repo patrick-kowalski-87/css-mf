@@ -1,0 +1,239 @@
+#HotSpotWrapper {
+	position: relative;
+	border-top: 10px solid #ff0000;
+	background: #000;
+}
+
+#HotSpotWrapper h2{
+  color: #fff;
+	text-align: center;
+}
+
+.border{
+    border: 1px solid;
+}
+
+.HotSpotWrapper-img{
+	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: auto;
+  transition: 500ms opacity;
+  z-index: 1;
+}
+.bullet {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+  background: red;
+  z-index: 1;
+	cursor: pointer;
+	box-shadow: 0 0 0 rgba(204,169,44, 0.4);
+	animation: pulse 2s infinite;
+}
+
+.bullet:hover {
+  background: #fff;
+  z-index: 10;
+	transition: background 2000ms;
+
+}
+
+.bullet.active {
+  background: #fff;
+  z-index: 10;
+  animation: none;
+	transition: background 2000ms;
+
+}
+
+.bullet:active, .bullet:focus {
+    outline: none;
+    border: none;
+}
+
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(255,255,255, 0.6);
+  }
+  70% {
+      -webkit-box-shadow: 0 0 0 20px rgba(255,255,255, 0);
+  }
+  100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(255,255,255, 0);
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(255,255,255, 0.6);
+    box-shadow: 0 0 0 0 rgba(255,0,0, 0.4);
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 20px rgba(255,255,0, 0);
+      box-shadow: 0 0 0 20px rgba(255,255,255, 0);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(255,255,255, 0);
+      box-shadow: 0 0 0 0 rgba(255,255,255, 0);
+  }
+}
+
+#cpuButton, #cpuContent {
+	position: absolute;
+	top: 25.5%;
+	left: 36.5%;
+}
+
+#grakaButton, #grakaContent {
+	position: absolute;
+	top: 52%;
+	left: 45%;
+}
+
+#netzteilButton, #netzteilContent {
+	position: absolute;
+	top: 80%;
+	left: 35%;
+}
+
+#ramButton, #ramContent {
+	position: absolute;
+	top: 60%;
+	left: 38%;
+}
+
+#festplatteButton, #festplatteContent {
+	position: absolute;
+	top: 20%;
+	left: 55%;
+}
+
+#mainboardButton, #mainboardContent {
+	position: absolute;
+	top: 44%;
+	left: 35%;
+}
+
+#gehauseButton, #gehauseContent {
+	position: absolute;
+	top: 35%;
+	left: 65%;
+}
+
+
+#grakaContent, #cpuContent, #netzteilContent, #ramContent, #festplatteContent, #mainboardContent, #gehauseContent{
+	opacity: 0;
+	transform: scale(0);
+}
+
+
+#grakaContent.open, #cpuContent.open, #netzteilContent.open, #ramContent.open, #festplatteContent.open, #mainboardContent.open, #gehauseContent.open{
+opacity: 1.0;
+transform: scale(1.0);
+transition: transform 0.5s;
+}
+
+.contentBox{
+	text-align: left;
+	color: #ffffff;
+	background: #333;
+  border: 1px solid #cbc8db;
+	min-width: 360px;
+	padding: 15px 10px;
+	margin-left: 25px;
+	font-size:.8em;
+  opacity: 1;
+	transform: scale(1);
+	z-index: 9;
+	transition: all 0.5s ease-in;
+}
+
+.contentBox a {
+	text-decoration: none;
+	color: #fff;
+	font-size:1em;
+	padding: 10px 0px;
+}
+
+a.button-all{
+	font-size:1em;
+	display:inline-block;
+	color:#cbc8db;
+	font-weight:700;
+	border:2px solid #cbc8db;
+	text-align:center;
+	text-decoration:none;
+	padding:10px 20px;
+	border-radius:0;
+	transition:all .3s
+}
+
+a.button-all:hover{
+	font-size:1em;
+	display:inline-block;
+	color:#fff;
+	font-weight:700;
+	border:2px solid #ff0000;
+	text-align:center;
+	text-decoration:none;
+	padding:10px 20px;
+	border-radius:0;
+	transition:all .3s
+}
+
+.contentBox a:hover {
+	text-decoration: underline;
+	color: #fff;
+}
+
+.contentBox p a:after {
+	content: " »";
+}
+
+.contentBox span {
+	color: #fff;
+	font-size:2em;
+  padding: 15px 0px;
+	font-weight: 800;
+}
+
+.contentBox ul {
+	padding: 10px;
+  margin-left: 20px;
+}
+.contentBox img {
+	width: 150px;
+  float: right;
+	margin: 0;
+}
+
+/* Mobile*/
+@media screen and (max-width: 1670px) {
+
+}
+
+@media screen and (max-width: 850px) {
+
+}
+
+@media screen and (max-width: 750px) {
+
+}
+
+@media screen and (max-width: 600px) {
+	.bullet {
+		width: 10px;
+		height: 10px;
+		border-radius: 75%;
+	}
+	.contentBox {
+			min-width: 20px;
+	}
+	.contentBox img{
+		display: none;
+	}
+}

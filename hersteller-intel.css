@@ -1,0 +1,448 @@
+#intel {
+  background: #F3F3F3;
+  color: #555;
+}
+
+#intel h1 {
+  font-size: 2.5em;
+  background: #0f7dc2;
+  color: #fff;
+  overflow: hidden;
+  line-height: 1.2em;
+  border-bottom: none;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 10px 0;
+}
+
+#intel h2 {
+  font-family: 'Klaviaka_Condensed_Regular';
+  font-size: 2.2em;
+  color: #555;
+  overflow: hidden;
+  text-transform: uppercase;
+  line-height: 1.2em;
+  border-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+#intel h3 {
+  font-family: 'Klaviaka_Condensed_Regular';
+  font-size: 1.5em;
+  text-transform: none;
+  text-align: left;
+  color: #555;
+  overflow: hidden;
+  line-height: 1.2em;
+  border-left: 10px solid #0f7dc2;
+  border-bottom: none;
+  padding-left: 10px;
+}
+
+#intel a {
+  color: #0f7dc2;
+  text-decoration: underline;
+}
+
+#intel strong {
+  background: #0f7dc2;
+  color: #fff !important;
+  padding: 0 10px;
+}
+
+#intel p.kategorielink a {
+  color: #0f7dc2;
+}
+
+#intel p.kategorielink a:after {
+  content: " »";
+}
+
+#intel p, #intel .image-text p {
+  padding: 10px 0;
+}
+
+#intel_core table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #555;
+  border: 1px solid #555;
+  margin: 20px auto;
+}
+
+#intel_core table tbody tr th, #catDatapage table tbody tr td {
+  text-align: center;
+  padding: 10px;
+}
+
+#intel_core table tbody tr:nth-child(even) {
+  background: #d0d0d0;
+}
+
+#intel .table-highlight {
+  border-left: 2px solid #0f7dc2;
+  border-right: 2px solid #0f7dc2;
+  color: #0f7dc2;
+  font-weight: 700;
+}
+
+#intel .text-center {
+  text-align: center;
+}
+
+#intel .msres_textarea {
+  width: 100%;
+  min-height: 250px;
+  padding: 10px;
+  padding-top: 0;
+  padding-bottom: 20px;
+  float: left;
+}
+
+#intel .msres_textarea img {
+  padding: 30px;
+}
+
+#intel .msres_textarea p {
+  padding: 20px;
+  font-size: 16px;
+}
+
+#intel .ms_light {
+  background: #0f7dc2;
+  color: #fff;
+}
+
+#intel .ms_light a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+#intel .ms_light a:after {
+  content: " »";
+}
+
+#intel .ms_light h2, #intel .ms_light h3 {
+  color: #f1f1f1;
+  border-bottom: none;
+}
+
+#intel .ms_light h3 {
+  border-bottom: 3px dashed #f1f1f1;
+}
+
+#intel .ms_links {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  clear: both;
+  margin-top: 20px;
+  padding: 15px 0;
+}
+
+#intel .ms_links h2, #intel .ms_links h3 {
+  color: #fff;
+}
+
+#intel .ms_links img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#intel .ms_links div {
+  flex: 0 1 17%;
+  border: 5px solid #777;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+#intel .ms_links div div {
+  border: none;
+  padding: 0px;
+  display: block;
+}
+
+#intel .ms_links div div:hover span {
+  color: #0f7dc2;
+}
+
+#intel .ms_links div:hover {
+  border: 5px solid #0f7dc2;
+}
+
+#intel .ms_links div div:hover {
+  border: none;
+}
+
+#intel .ms_links span {
+  text-transform: uppercase;
+  color: #333;
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+#intel .ms_prod {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  clear: both;
+  margin-top: 20px;
+  padding: 15px 0;
+}
+
+#intel .ms_prod div {
+  background: #fff;
+  padding-bottom: 20px;
+  flex: 0 1 23%;
+}
+
+#intel .ms_prod span {
+  display: block;
+}
+
+#intel .ms_prod p {
+  padding: 15px 0;
+}
+
+#intel .ms_prod a {
+  text-decoration: none;
+}
+
+#intel .ms_prod img {
+  max-width: 100%;
+}
+
+#intel a.ms_prod_name {
+  font-family: 'Roboto_Medium', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 5px 0;
+  padding: 0;
+  transition: all .3s;
+}
+
+#intel a.ms_prod_name:hover {
+  text-decoration: none;
+  transition: all .3s;
+}
+
+#intel .ms_prod_artnr {
+  color: rgba(160, 160, 160, 1.0);
+  margin: 5px 0;
+  padding: 0;
+  font-size: 1em;
+}
+
+#intel .ms_prod_prize {
+  font-family: 'Roboto_Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 2em;
+  color: inherit;
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+#intel .ms_prod_ust {
+  font-size: .8em;
+  color: rgba(160, 160, 160, 1.0);
+  margin: 0;
+  padding: 0;
+}
+
+#intel .ms_prod_ust a {
+  color: inherit;
+  font-size: inherit;
+  text-decoration: underline;
+}
+
+#intel .ms_button {
+  font-size: 1em;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #0f7dc2;
+  font-weight: 700;
+  border: 2px solid #0f7dc2;
+  text-align: center;
+  text-decoration: none;
+  margin: 20px 0;
+  padding: 10px 20px;
+  border-radius: 0;
+  transition: all .3s
+}
+
+#intel .ms_button::after {
+  content: none;
+}
+
+#intel .ms_button:hover {
+  color: #fff;
+  background: #0f7dc2;
+  border: 2px solid #fff;
+  text-decoration: none;
+  transition: all .5s;
+}
+
+#intel .ms_vergleich {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  clear: both;
+  margin-top: 20px;
+  padding: 15px 0;
+}
+
+#intel .ms_vergleich img {
+  width: 100%;
+  padding: 10px;
+}
+
+#intel .ms_vergleich div {
+  padding-bottom: 20px;
+  flex: 0 1 12%;
+}
+
+#intel .ms_vergleich span {
+  display: block;
+}
+
+#intel .ms_vergleich .ms_prod_name {
+  font-family: 'Roboto_Medium', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.7em;
+  line-height: 1.5em;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 5px 0;
+  padding: 0;
+  transition: all .3s;
+}
+
+#intel .image-text div {
+  text-align: left;
+  background: #000;
+  color: #fff;
+  padding: 0 20px;
+}
+
+#intel .markenseite div.unterboxen.serien div h3 {
+  text-align: center;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+#intel .markenseite div.unterboxen.serien div p {
+  text-align: left;
+}
+
+#intel .markenseite div.unterboxen.serien div img {
+  max-width: 80%;
+  margin-top: 10px;
+}
+
+#intel .row div p:first-child::first-letter {
+  float: left;
+  font-weight: bold;
+  font-size: 50px;
+  font-size: 5rem;
+  line-height: 50px;
+  line-height: 5rem;
+  height: 5rem;
+  text-transform: uppercase;
+  background: #959595;
+  color: #0f7dc2;
+  padding: 0 5px;
+  margin-right: 10px;
+}
+
+#intel .markenseite div.unterboxen.serien {
+  justify-content: space-evenly;
+}
+
+#intel .markenseite div.unterboxen.serien div {
+  flex: 0 0 22%;
+  background: #333;
+  margin: 10px;
+  border-top: 4px solid #0f7dc2;
+}
+
+#intel .markenseite div.unterboxen.serien div:hover {
+  border-top: 4px solid #fff;
+}
+
+#intel div.unterboxen div h3 {
+  border-bottom: none;
+  text-align: center;
+  color: #0f7dc2;
+  display: block;
+}
+
+#intel .product_single_row {
+  margin: 10px 20px;
+}
+
+#intel .product_single_row img {
+  border: 5px solid #0f7dc2;
+  padding: 10px;
+  background: #fff;
+}
+
+#intel .product_single_row b {
+  color: #0f7dc2;
+}
+
+#intel .ms_fragen {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  clear: both;
+}
+
+#intel .ms_fragen div {
+  flex: 0 0 48%;
+  margin: 10px;
+  background: #fff;
+  border: 2px dashed #0f7dc2;
+}
+
+#intel .ms_fragen p {
+  line-height: 1.5em;
+  padding: 15px;
+}
+
+/* Mobile*/
+@media screen and (max-width: 1670px) {}
+
+@media screen and (max-width: 850px) {}
+
+@media screen and (max-width: 750px) {}
+
+@media screen and (max-width: 600px) {
+  #intel .ms_links div {
+    flex: 0 1 45%;
+  }
+
+  #intel .ms_prod div {
+    padding-bottom: 20px;
+    flex: 0 0 45%;
+    margin: 5px;
+  }
+
+  #intel .ms_fragen div {
+    flex: 0 0 100%;
+  }
+
+  #intel .product_single_row p {
+    padding: 0;
+    margin: 0;
+  }
+
+  #intel .msres_textarea p {
+    padding: 10px 0px;
+    margin: 0;
+    font-size: 16px;
+  }
+
+  </style>
