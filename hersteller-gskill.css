@@ -1,0 +1,373 @@
+#gskill {
+  background: #000;
+  color: #fff;
+}
+
+#gskill h1 {
+  font-size: 2.5em;
+  background: #E60012;
+  color: #fff;
+  overflow: hidden;
+  line-height: 1.2em;
+  border-bottom: none;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 10px 0;
+}
+
+#gskill h2 {
+  font-size: 2em;
+  color: #b2b2b2;
+  overflow: hidden;
+  text-transform: uppercase;
+  line-height: 1.2em;
+  border-bottom: 0px;
+  margin-bottom: 0px;
+  font-weight: 900;
+}
+
+#gskill h3 {
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: none;
+  text-align: left;
+  color: #b2b2b2;
+  border-bottom: 2px solid #E60012;
+  overflow: hidden;
+  line-height: 1.2em;
+  border-bottom: none;
+}
+
+#gskill a {
+  color: #E60012;
+  text-decoration: underline;
+}
+
+#gskill p, #gskill .image-text p {
+  padding: 10px 0;
+}
+
+#gskill table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #fff;
+  border: none;
+  margin: 20px auto;
+}
+
+#gskill table tbody tr th, #catDatapage table tbody tr td {
+  text-align: center;
+  padding: 10px;
+}
+
+#gskill table th {
+  background: #f1f1f1;
+  color: #333;
+}
+
+#gskill table tbody tr:nth-child(even) {
+  background: #333;
+}
+
+#gskill table tbody tr:nth-child(odd) {
+  background: #555;
+}
+
+#gskill .table-highlight {
+  background: #E60012;
+  color: #fff;
+  font-weight: 700;
+}
+
+#gskill .flexbox-container img {
+  max-width: 100%;
+}
+
+#gskill .text-center {
+  text-align: center;
+}
+
+#gskill .msres_textarea {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  clear: both;
+  margin-top: 0px;
+  padding: 15px 0;
+}
+
+#gskill .msres_textarea div {
+  flex: 0 0 50%;
+  padding: 20px;
+}
+
+#gskill .msres_textarea p {
+  font-size: 16px;
+}
+
+#gskill .msres_textarea img {
+  width: 100%;
+}
+
+#gskill .ms_light {
+  background: #E60012;
+  color: #fff;
+}
+
+#gskill .ms_light a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+#gskill .ms_light a:after {
+  content: " »";
+}
+
+#gskill .ms_light h2, #gskill .ms_light h3 {
+  color: #f1f1f1;
+  border-bottom: none;
+}
+
+#gskill .ms_links {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  clear: both;
+  padding: 15px 0;
+}
+
+#gskill .ms_links h2, #gskill .ms_links h3 {
+  color: #fff;
+}
+
+#gskill .ms_links img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#gskill .ms_links div {
+  flex: 0 0 17%;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  border: 1px solid #fff;
+}
+
+#gskill .ms_links div div {
+  border: none;
+  padding: 0px;
+  display: block;
+}
+
+#gskill .ms_links div:hover {
+  border: 1px solid #E60012;
+}
+
+#gskill .ms_links span {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+#gskill .ms_prod {
+  background: #f4f4f4;
+  color: #333333;
+  margin: 0;
+  padding: 10px 0;
+}
+
+#gskill .ms_prod h3 {
+  color: #333333;
+}
+
+#gskill .ms_prod span {
+  font-size: 1.2em;
+  color: #333;
+  padding: 5px 0;
+  display: block;
+}
+
+#gskill .ms_prod .ms_button {
+  color: #fff;
+  width: 50%;
+  margin: 0 auto;
+}
+
+#gskill .ms_prod p {
+  padding: 15px 0;
+}
+
+#gskill .ms_prod a {
+  text-decoration: none;
+}
+
+#gskill .ms_prod img {
+  max-width: 250px;
+  border: 2px dashed #E60012;
+}
+
+#gskill a.ms_prod_name {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 5px 0;
+  padding: 0;
+  transition: all .3s;
+}
+
+#gskill a.ms_prod_name:hover {
+  text-decoration: none;
+  transition: all .3s;
+}
+
+#gskill .ms_prod_artnr {
+  color: rgba(160, 160, 160, 1.0);
+  margin: 5px 0;
+  padding: 0;
+  font-size: 1em;
+}
+
+#gskill .ms_button {
+  font-size: 1em;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #fff;
+  background: #E60012;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #E60012;
+  margin: 20px 0;
+  padding: 10px 20px;
+  border-radius: 0;
+  transition: all .3s
+}
+
+#gskill .ms_button::after {
+  content: none;
+}
+
+#gskill .ms_button:hover {
+  color: #E60012;
+  background: #fff;
+  border: 1px solid #E60012;
+  text-decoration: none;
+  transition: all .5s;
+}
+
+#gskill .ms_vergleich {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  clear: both;
+  margin-top: 20px;
+  padding: 15px 0;
+}
+
+#gskill .ms_vergleich img {
+  width: 100%;
+  padding: 10px;
+}
+
+#gskill .ms_vergleich div {
+  padding-bottom: 20px;
+  flex: 0 1 12%;
+}
+
+#gskill .ms_vergleich span {
+  display: block;
+}
+
+#gskill .ms_vergleich .ms_prod_name {
+  font-family: 'Roboto_Medium', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.7em;
+  line-height: 1.5em;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 5px 0;
+  padding: 0;
+  transition: all .3s;
+}
+
+#gskill .image-text div {
+  text-align: left;
+  padding: 0 20px;
+}
+
+#gskill div.unterboxen div {
+  border: 1px solid #595f65;
+  padding: 20px;
+  margin: 20px;
+  flex: 0 0 45%;
+  background: #333;
+}
+
+#gskill div.unterboxen div h3 {
+  color: #fff;
+  border: none;
+}
+
+#gskill .product_single_row {
+  margin: 0px;
+  border: 0px;
+}
+
+#gskill .product_single_row img {
+  border: 0px;
+  padding: 0px;
+}
+
+#gskill .ms_fragen {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  clear: both;
+}
+
+#gskill .ms_fragen div {
+  flex: 0 0 48%;
+  margin: 10px;
+  background: #fff;
+  border: 2px dashed #000000;
+}
+
+#gskill .ms_fragen p {
+  line-height: 1.5em;
+  padding: 15px;
+}
+
+/* Mobile*/
+@media screen and (max-width: 1670px) {}
+
+@media screen and (max-width: 850px) {}
+
+@media screen and (max-width: 750px) {}
+
+@media screen and (max-width: 600px) {
+  #gskill .ms_links div {
+    flex: 0 1 45%;
+  }
+
+  #gskill .ms_fragen div {
+    flex: 0 0 100%;
+  }
+
+  #gskill .product_single_row p {
+    padding: 0;
+    margin: 0;
+  }
+
+  #gskill .msres_textarea div {
+    flex: 0 0 100%;
+  }
+
+  #gskill .msres_textarea p {
+    padding: 10px 0px;
+    margin: 0;
+    font-size: 16px;
+  }
+
+  </style>
