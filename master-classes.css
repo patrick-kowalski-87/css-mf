@@ -45,13 +45,6 @@
   text-align: center;
 }
 
-#catDatapage h2:first-child, #catDatapage .markenseite h2.image-text, #catDatapage .markenseite h3.image-text, #catDatapage h2.image-text {
-  text-align: left;
-  width: 100%;
-  margin-bottom: 0;
-  background: none;
-}
-
 span.kleingeschrieben {
   text-transform: lowercase;
 }
@@ -508,7 +501,6 @@ img.float-right {
 
 #catDatapage .flexbox-container img {
   width: 100%;
-  max-width: 300px;
 }
 
 /* #catDatapage .markenseite div.unterboxen.serien div p a:after {content: ' »';}*/
@@ -674,26 +666,6 @@ table.vornachteile td {
   content: '';
   clear: both;
   display: block;
-}
-
-/*Fitst Letter Capital in ROW*/
-#catDatapage .row p {
-  padding: 5px 0px;
-}
-
-#catDatapage .row div p:first-child::first-letter {
-  float: left;
-  font-weight: bold;
-  font-size: 60px;
-  font-size: 6rem;
-  line-height: 60px;
-  line-height: 6rem;
-  height: 6rem;
-  text-transform: uppercase;
-  background: #152A72;
-  color: #fff;
-  padding: 0 5px;
-  margin-right: 10px;
 }
 
 #catDatapage .table-highlight {

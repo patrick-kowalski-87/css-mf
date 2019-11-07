@@ -1,0 +1,437 @@
+#coolermaster {
+  background: #000;
+  color: #fff;
+}
+
+#coolermaster h1 {
+  font-size: 2.5em;
+  color: #fff;
+  overflow: hidden;
+  line-height: 1.2em;
+  border-bottom: none;
+  text-transform: uppercase;
+}
+
+#coolermaster h2 {
+  font-size: 2em;
+  color: #fff;
+  overflow: hidden;
+  line-height: 1.2em;
+  border-bottom: none;
+  text-transform: uppercase;
+}
+
+#coolermaster h3 {
+  font-size: 1.5em;
+  text-transform: none;
+  text-align: left;
+  color: #fff;
+  overflow: hidden;
+  line-height: 1.2em;
+  border-bottom: 3px solid #83329b;
+  padding-left: 10px;
+}
+
+#coolermaster a {
+  color: #83329b;
+}
+
+#coolermaster p.kategorielink a {
+  color: #83329b;
+}
+
+#coolermaster p.kategorielink a:after {
+  content: " »";
+}
+
+#coolermaster p, #coolermaster .image-text p {
+  padding: 10px;
+  margin: 0;
+}
+
+#coolermaster table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #555;
+  border: 1px solid #555;
+  margin: 20px auto;
+}
+
+#coolermaster table tbody tr th, #coolermaster table tbody tr td {
+  text-align: center;
+  padding: 10px;
+}
+
+#coolermaster table tbody tr:nth-child(even) {
+  background: #d0d0d0;
+}
+
+#coolermaster table tbody tr:nth-child(odd) {
+  background: #eeeeee;
+}
+
+#coolermaster table tbody td:nth-child(0n+1) {
+  text-align: left;
+  font-weight: 700;
+}
+
+#coolermaster .table-highlight {
+  border-left: 2px solid #83329b;
+  border-right: 2px solid #83329b;
+  color: #83329b;
+  font-weight: 700;
+}
+
+#coolermaster .text-center {
+  text-align: center;
+}
+
+#coolermaster .msres_textarea {
+  width: 100%;
+  min-height: 250px;
+  padding: 10px;
+  padding-top: 0;
+  padding-bottom: 20px;
+  float: left;
+}
+
+#coolermaster .msres_textarea p {
+  padding: 20px;
+  font-size: 16px;
+}
+
+#coolermaster .ms_light {
+  background: #83329b;
+  color: #fff;
+}
+
+#coolermaster .ms_light a {
+  color: #fff;
+}
+
+#coolermaster .ms_light a:after {
+  content: " »";
+}
+
+#coolermaster .ms_light h2, #coolermaster .ms_light h3 {
+  color: #55;
+}
+
+#coolermaster .ms_links {
+  background: #000;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  clear: both;
+  margin-top: 20px;
+  padding: 15px 0;
+}
+
+#coolermaster .ms_links h2, #coolermaster .ms_links h3 {
+  color: #555;
+}
+
+#coolermaster .ms_links img {
+  width: 100%;
+  padding: 10px;
+}
+
+#coolermaster .ms_links div {
+  border: 1px solid #ccc;
+  padding-bottom: 20px;
+  flex: 0 1 30%;
+}
+
+#coolermaster .ms_links div div {
+  border: none;
+  padding: 0px;
+  display: block;
+}
+
+#coolermaster .ms_links div div:hover span {
+  color: #83329b;
+}
+
+#coolermaster .ms_links div:hover {
+  border: 1px solid #83329b;
+}
+
+#coolermaster .ms_links div div:hover {
+  border: none;
+}
+
+#coolermaster .ms_links span {
+  text-transform: uppercase;
+  color: #555;
+  font-size: 1em;
+}
+
+#coolermaster .ms_links {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  clear: both;
+  margin-top: 20px;
+  padding: 15px 0;
+}
+
+#coolermaster .ms_links h2, #coolermaster .ms_links h3 {
+  color: #fff;
+}
+
+#coolermaster .ms_links img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#coolermaster .ms_links div {
+  flex: 0 1 17%;
+  border: 5px solid #777;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+#coolermaster .ms_links div div {
+  border: none;
+  padding: 0px;
+  display: block;
+}
+
+#coolermaster .ms_links div div:hover span {
+  color: #83329b;
+}
+
+#coolermaster .ms_links div:hover {
+  border: 5px solid #83329b;
+}
+
+#coolermaster .ms_links div div:hover {
+  border: none;
+}
+
+#coolermaster .ms_links span {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+#coolermaster .ms_prod {
+  color: #fff;
+  margin: 0;
+}
+
+#coolermaster .ms_prod {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  clear: both;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 15px 0;
+}
+
+#coolermaster .ms_prod div {
+  padding-bottom: 10px;
+  flex: 0 1 20%;
+}
+
+#coolermaster .ms_prod span {
+  font-size: 1.2em;
+  color: #fff;
+  padding: 5px 0;
+  display: block;
+}
+
+#coolermaster .ms_prod p {
+  padding: 15px 0;
+}
+
+#coolermaster .ms_prod a {
+  text-decoration: none;
+}
+
+#coolermaster .ms_prod img {
+  max-width: 250px;
+}
+
+#coolermaster a.ms_prod_name {
+  font-family: 'Roboto_Medium', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 5px 0;
+  padding: 0;
+  transition: all .3s;
+}
+
+#coolermaster a.ms_prod_name:hover {
+  text-decoration: none;
+  transition: all .3s;
+}
+
+#coolermaster .ms_prod_artnr {
+  color: rgba(160, 160, 160, 1.0);
+  margin: 5px 0;
+  padding: 0;
+  font-size: 1em;
+}
+
+#coolermaster .ms_button {
+  font-family: 'Roboto_Condensed_Regular';
+  font-size: 1em;
+  display: inline-block;
+  color: #fff;
+  font-weight: 700;
+  border: 2px solid #83329b;
+  text-align: center;
+  text-decoration: none;
+  margin: 20px 0;
+  padding: 10px 20px;
+  border-radius: 0;
+  transition: all .3s
+}
+
+#coolermaster .ms_button::after {
+  content: none;
+}
+
+#coolermaster .ms_button:hover {
+  color: #83329b;
+  background-color: #fff;
+  border: 2px solid #152A72;
+  text-decoration: none;
+  transition: all .3s;
+}
+
+#coolermaster .ms_vergleich {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  clear: both;
+  margin-top: 20px;
+  padding: 15px 0;
+}
+
+#coolermaster .ms_vergleich img {
+  width: 100%;
+  padding: 10px;
+}
+
+#coolermaster .ms_vergleich div {
+  padding-bottom: 20px;
+  flex: 0 1 12%;
+}
+
+#coolermaster .ms_vergleich span {
+  display: block;
+}
+
+#coolermaster .ms_vergleich .ms_prod_name {
+  font-family: 'Roboto_Medium', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.7em;
+  line-height: 1.5em;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 5px 0;
+  padding: 0;
+  transition: all .3s;
+}
+
+#coolermaster .image-text div {
+  text-align: left;
+  background: #000;
+  color: #fff;
+  padding: 20px
+}
+
+#coolermaster .markenseite div.unterboxen.serien div {
+  flex: 0 1 31%;
+  border-top: 4px solid #152A72;
+}
+
+#coolermaster .markenseite div.unterboxen.serien div:hover {
+  border-top: 4px solid red;
+}
+
+#coolermaster .markenseite div.unterboxen.serien div h3 {
+  text-align: left;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+#coolermaster .markenseite div.unterboxen.serien div p {
+  text-align: left;
+}
+
+#coolermaster .markenseite div.unterboxen.serien div img {
+  max-width: 80%;
+  margin-top: 10px;
+}
+
+#coolermaster .row div p:first-child::first-letter {
+  float: left;
+  font-weight: bold;
+  font-size: 60px;
+  font-size: 6rem;
+  line-height: 60px;
+  line-height: 6rem;
+  height: 6rem;
+  text-transform: uppercase;
+  background: #83329b;
+  color: #fff;
+  padding: 0 5px;
+  margin-right: 10px;
+}
+
+#coolermaster .markenseite div.unterboxen.serien div {
+  background: #333;
+  margin: 10px;
+  border-top: 4px solid #83329b;
+}
+
+#coolermaster .markenseite div.unterboxen.serien div:hover {
+  border-top: 4px solid #fff;
+}
+
+#coolermaster div.unterboxen div h3 {
+  border-bottom: none;
+  text-align: center;
+  color: #83329b;
+  display: block;
+}
+
+#coolermaster .product_single_row {
+  margin: 10px 20px;
+}
+
+#coolermaster .product_single_row img {
+  border: 5px solid #83329b;
+  padding: 10px;
+  background: #fff;
+}
+
+hr {
+  width: 100%;
+  height: 5px;
+  color: #83329b;
+  background: #83329b;
+}
+
+/* Mobile*/
+@media screen and (max-width: 1670px) {}
+
+@media screen and (max-width: 850px) {}
+
+@media screen and (max-width: 750px) {}
+
+@media screen and (max-width: 600px) {
+  #coolermaster table td {
+    min-width: 200px;
+  }
+
+  </style>

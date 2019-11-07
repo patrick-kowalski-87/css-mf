@@ -1,0 +1,318 @@
+#msi_blog {
+  color: #000
+}
+
+#msi_blog h1 {
+  font-size: 2.5em;
+  color: #fff;
+  overflow: hidden;
+  line-height: 1.2em;
+  border-bottom: none;
+  text-transform: uppercase;
+  padding-top: 25px;
+  margin: 0;
+}
+
+#msi_blog p {
+  color: #000;
+}
+
+#msi_blog .h1-div {
+  background-color: #ff0000;
+}
+
+#msi_blog .h2-div {
+  background-color: #ff0000;
+}
+
+#msi_blog .h2-div h2 {
+  color: #fff;
+  text-align: center;
+}
+
+#msi_blog .h2-div p {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  margin: 0;
+}
+
+#msi_blog .h2-nodiv h2 {
+  margin-left: -10px;
+}
+
+#msi_blog table tbody tr:nth-child(even) {
+  background: #f1f1f1;
+}
+
+#msi_blog table tbody tr:nth-child(even):hover {
+  background: #333;
+}
+
+#msi_blog .image-text img {
+  margin: 0;
+  max-width: 25%;
+}
+
+#msi_blog .ms_links {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  clear: both;
+  padding: 15px 0;
+}
+
+#msi_blog .ms_links img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#msi_blog .ms_links div {
+  flex: 0 1 17%;
+  border: 5px solid #777;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  background-color: #000
+}
+
+#msi_blog .ms_links div div {
+  border: none;
+  padding: 0px;
+  display: block;
+}
+
+#msi_blog .ms_links div div:hover span {
+  color: #fecb00;
+}
+
+#msi_blog .ms_links div:hover {
+  border: 5px solid #ff0000;
+}
+
+#msi_blog .ms_links div div:hover {
+  border: none;
+}
+
+#msi_blog .ms_links span {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1.5em;
+  margin-top: 5px;
+  color: #ff0000;
+  margin: 5px;
+  background: #000;
+}
+
+#msi_blog h2 {
+  font-size: 2em;
+  color: #ff0000;
+  overflow: hidden;
+  line-height: 1.2em;
+  border-bottom: none;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#msi_blog h3 {
+  font-size: 1.5em;
+  text-transform: none;
+  text-align: left;
+  color: #000;
+  overflow: hidden;
+  line-height: 1.2em;
+  border-bottom: 3px solid #ff0000;
+  padding-left: 10px;
+}
+
+#msi_blog div.unterboxen div h3 {
+  font-size: 1.5em;
+  text-transform: none;
+  text-align: center;
+  color: #000;
+  overflow: hidden;
+  line-height: 1.2em;
+  border-bottom: 3px solid #ff0000;
+  padding-left: 10px;
+}
+
+#msi_blog #inhaltsverzeichnis {
+  border: 4px solid #ff0000;
+  margin-bottom: 20px;
+  float: left;
+  margin-top: 35px;
+  line-height: 1.2em;
+  background-color: #ff0000;
+}
+
+#msi_blog #inhaltsverzeichnis p {
+  margin-bottom: 20px;
+  float: left;
+  margin-left: 65px;
+  line-height: 1.2em;
+  font-size: 1.5em;
+  color: #fff;
+}
+
+#msi_blog #inhaltsverzeichnis a {
+  color: #fff;
+}
+
+#msi_blog #inhaltsverzeichnis li a:hover {
+  color: #152A72;
+  background-color: #fff;
+  text-decoration: none;
+}
+
+#msi_blog #inhaltsverzeichnis li {
+  color: #fff;
+}
+
+#msi_blog p.kategorielink a {
+  color: #ff0000;
+}
+
+#msi_blog p, #bequiet .image-text p {
+  padding: 10px;
+}
+
+#msi_blog .msres_textarea {
+  width: 100%;
+  min-height: 250px;
+  padding: 10px;
+  padding-top: 0;
+  padding-bottom: 20px;
+  float: left;
+}
+
+#msi_blog .msres_textarea p {
+  padding: 20px;
+  font-size: 14px;
+}
+
+#msi_blog .info-box {
+  width: 75%;
+  margin: 10px auto;
+  padding: 20px;
+  background: #152a72;
+  color: #fff;
+}
+
+#msi_blog .info-box p {
+  color: #fff;
+}
+
+#msi_blog .info-box h4 {
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+
+#msi_blog .info-box div {
+  border-left: 3px solid #ff0000;
+  padding: 5px;
+  text-align: center;
+  margin: 10px;
+}
+
+#msi_blog .flexbox-container {
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background: none;
+  align-items: inherit;
+}
+
+#msi_blog .flexbox-container>div {
+  flex: 0 1 48%;
+  padding: 10px;
+  margin: 10px;
+  background-color: #f1f1f1;
+  flex-wrap: wrap;
+  border-bottom: 2px solid #ff0000;
+}
+
+#msi_blog tr:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+#msi_blog .image-border {
+  border: 4px solid #f1f1f1;
+}
+
+#msi_blog .image-border img {
+  padding: 10px;
+}
+
+* Mobile*/ @media screen and (max-width: 1670px) {}
+
+@media screen and (max-width: 850px) {}
+
+@media screen and (max-width: 750px) {}
+
+@media screen and (max-width: 600px) {
+  #msi_blog .ms_links div {
+    flex: 0 1 44%;
+  }
+
+  @media screen and (max-width: 600px) {
+    #msi_blog #info-box {
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    @media screen and (max-width: 600px) {
+      #msi_blog .image-text img {
+        margin: 0;
+        max-width: 100%;
+      }
+
+      #msi_blog p, #msi_blog .image-text p {
+        text-align: justify;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 10px;
+      }
+
+      #msi_blog ul, #msi_blog ol {
+        text-align: left;
+        width: 100%;
+        margin: 0;
+      }
+
+      #msi_blog ol li {
+        line-height: 1.8em;
+        margin-bottom: 5px;
+      }
+
+      #msi_blog #inhaltsverzeichnis {
+        padding: 10px 0;
+      }
+
+      #msi_blog .msres_textarea p {
+        padding: 10px 0;
+      }
+
+      #msi_blog .flexbox-container>div {
+        flex: 0 1 100%;
+        padding: 10px;
+        margin: : 10px;
+        flex-wrap: wrap;
+        padding-bottom: 10px;
+      }
+
+      #msi_blog .flexbox-container>div:first-child {
+        flex: 0 0 100%;
+        flex-wrap: wrap;
+        padding-bottom: 10px;
+      }
+
+      #msi_blog .info-box {
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+      }
+
+      </style>

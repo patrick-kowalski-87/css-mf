@@ -1,0 +1,415 @@
+#ryzen {
+  background: #000;
+  color: #fff;
+}
+
+#ryzen h1 {
+  font-size: 2.5em;
+  color: #DA5B1F;
+  overflow: hidden;
+  line-height: 1.2em;
+  border-bottom: none;
+}
+
+#ryzen h2 {
+  font-size: 2em;
+  color: #fff;
+  overflow: hidden;
+  line-height: 1.2em;
+  border: none;
+}
+
+#ryzen h3 {
+  font-family: inherit;
+  font-size: 1.5em;
+  text-transform: none;
+  text-align: left;
+  color: #fff;
+  overflow: hidden;
+  line-height: 1.2em;
+  border-left: 10px solid #DA5B1F;
+  border-bottom: 0px;
+  padding-left: 10px;
+}
+
+#ryzen a {
+  color: #DA5B1F;
+  text-decoration: underline;
+}
+
+#ryzen p.kategorielink a {
+  color: #DA5B1F;
+}
+
+#ryzen p.kategorielink a:after {
+  content: " »";
+}
+
+#ryzen .image-text div p {
+  text-align: left;
+  background: #f1f1f1;
+  color: #333;
+  padding: 20px;
+}
+
+#ryzen .image-text div {
+  margin: 10px;
+}
+
+#ryzen p, #ryzen .image-text p {
+  padding: 10px;
+}
+
+#ryzen table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #fff;
+  border: 1px solid #f1f1f1;
+  margin: 20px auto;
+}
+
+#ryzen table tbody tr th, #ryzen table tbody tr td {
+  text-align: center;
+  padding: 10px;
+}
+
+#ryzen table tbody tr:nth-child(even) {
+  background: #555;
+}
+
+#ryzen table tbody tr:nth-child(odd) {
+  background: #333;
+}
+
+#ryzen table tbody td:nth-child(0n+1) {
+  text-align: left;
+  font-weight: 700;
+}
+
+#ryzen .table-highlight {
+  border-left: 2px solid #DA5B1F;
+  border-right: 2px solid #DA5B1F;
+  color: #DA5B1F;
+  font-weight: 700;
+}
+
+#ryzen .flexbox-container {
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background: #333;
+}
+
+#ryzen .flexbox-container img {
+  width: 100%;
+  max-width: 100%;
+}
+
+#ryzen .text-center {
+  text-align: center;
+}
+
+#ryzen .msres_textarea {
+  width: 100%;
+  min-height: 250px;
+  padding: 10px;
+  padding-top: 0;
+  padding-bottom: 20px;
+  float: left;
+}
+
+#ryzen .msres_textarea img {
+  padding: 30px;
+}
+
+#ryzen .msres_textarea p {
+  padding: 20px;
+  font-size: 16px;
+}
+
+#ryzen .ms_light {
+  background: #f1f1f1;
+  color: #333;
+}
+
+#ryzen .ms_light a:after {
+  content: " »";
+}
+
+#ryzen .ms_light h2, #ryzen .ms_light h3 {
+  color: #333;
+}
+
+#ryzen .ms_links {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  clear: both;
+  margin-top: 20px;
+  padding: 15px 0;
+}
+
+#ryzen .ms_links h2, #ryzen .ms_links h3 {
+  color: #fff;
+}
+
+#ryzen .ms_links img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#ryzen .ms_links div {
+  flex: 0 1 17%;
+  border: 2px solid #333;
+  padding-bottom: 20px;
+}
+
+#ryzen .ms_links div div {
+  border: none;
+  padding: 0px;
+  display: block;
+}
+
+#ryzen .ms_links div div:hover span {
+  color: #DA5B1F;
+}
+
+#ryzen .ms_links div:hover {
+  border: 2px solid #DA5B1F;
+}
+
+#ryzen .ms_links div div:hover {
+  border: none;
+}
+
+#ryzen .ms_links span {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+#ryzen .ms_prod {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  clear: both;
+  margin-top: 20px;
+  padding: 15px 0;
+}
+
+#ryzen .ms_prod div {
+  flex: 0 0 20%;
+}
+
+#ryzen .ms_prod a {
+  text-decoration: none;
+}
+
+#ryzen.ms_prod span {
+  display: block;
+}
+
+#ryzen .ms_prod p {
+  padding: 15px 0;
+}
+
+#ryzen .ms_prod img {
+  max-width: 250px;
+}
+
+#ryzen .ms_prod_name {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 5px 0;
+  padding: 0;
+  transition: all .3s;
+}
+
+#ryzen a.ms_prod_name:hover {
+  text-decoration: none;
+  transition: all .3s;
+}
+
+#ryzen .ms_prod_artnr {
+  color: rgba(160, 160, 160, 1.0);
+  margin: 5px 0;
+  padding: 0;
+  font-size: 1em;
+}
+
+#ryzen .ms_button {
+  font-size: 1em;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #DA5B1F;
+  font-weight: 700;
+  border: 2px solid #DA5B1F;
+  text-align: center;
+  text-decoration: none;
+  margin: 20px 0;
+  padding: 10px 20px;
+  border-radius: 0;
+  transition: all .3s
+}
+
+#ryzen .ms_button::after {
+  content: none;
+}
+
+#ryzen .ms_button:hover {
+  color: #fff;
+  background: none;
+  border: 2px solid #fff;
+  text-decoration: none;
+  transition: all .5s;
+}
+
+#ryzen .ms_vergleich {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  clear: both;
+  margin-top: 20px;
+  padding: 15px 0;
+}
+
+#ryzen .ms_vergleich img {
+  width: 100%;
+  padding: 10px;
+}
+
+#ryzen .ms_vergleich div {
+  padding-bottom: 20px;
+  flex: 0 1 12%;
+}
+
+#ryzen .ms_vergleich span {
+  display: block;
+}
+
+#ryzen .ms_vergleich .ms_prod_name {
+  font-family: 'Roboto_Medium', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.7em;
+  line-height: 1.5em;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 5px 0;
+  padding: 0;
+  transition: all .3s;
+}
+
+#ryzen .markenseite div.unterboxen.serien div h3 {
+  text-align: center;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+#ryzen .markenseite div.unterboxen.serien div p {
+  text-align: left;
+}
+
+#ryzen .markenseite div.unterboxen.serien div img {
+  max-width: 80%;
+  margin-top: 10px;
+}
+
+#ryzen .row div p:first-child::first-letter {
+  float: left;
+  font-weight: bold;
+  font-size: 50px;
+  font-size: 5rem;
+  line-height: 50px;
+  line-height: 5rem;
+  height: 5rem;
+  text-transform: uppercase;
+  background: #959595;
+  color: #DA5B1F;
+  padding: 0 5px;
+  margin-right: 10px;
+}
+
+#ryzen .markenseite div.unterboxen.serien {
+  justify-content: space-evenly;
+}
+
+#ryzen .markenseite div.unterboxen.serien div {
+  flex: 0 0 22%;
+  background: #333;
+  margin: 10px;
+  border-top: 4px solid #DA5B1F;
+}
+
+#ryzen .markenseite div.unterboxen.serien div:hover {
+  border-top: 4px solid #fff;
+}
+
+#ryzen div.unterboxen div h3 {
+  border-bottom: none;
+  text-align: center;
+  color: #DA5B1F;
+  display: block;
+}
+
+#ryzen .product_single_row {
+  margin: 10px 20px;
+}
+
+#ryzen .product_single_row img {
+  border: 5px solid #DA5B1F;
+  padding: 10px;
+  background: #fff;
+}
+
+#ryzen .product_single_row b {
+  color: #DA5B1F;
+}
+
+#ryzen .ms_fragen {
+  background: #DA5B1F;
+  margin: auto;
+  width: 80%;
+}
+
+#ryzen .ms_fragen b {
+  background: #333;
+  padding: 7px;
+}
+
+#ryzen .ms_fragen p {
+  line-height: 2.2em;
+}
+
+/* Mobile*/
+@media screen and (max-width: 1670px) {}
+
+@media screen and (max-width: 850px) {}
+
+@media screen and (max-width: 750px) {}
+
+@media screen and (max-width: 600px) {
+  #ryzen .ms_links div {
+    flex: 0 1 45%;
+  }
+
+  #ryzen .product_single_row p {
+    padding: 0;
+    margin: 0;
+  }
+
+  #ryzen .ms_fragen {
+    background: #DA5B1F;
+    margin: auto;
+    width: 100%;
+  }
+
+  </style>
