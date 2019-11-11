@@ -1,0 +1,401 @@
+#lenovo {
+  background: #000;
+  color: #fff;
+}
+
+#lenovo h1 {
+  font-size: 2.5em;
+  color: #fff;
+  overflow: hidden;
+  line-height: 1.2em;
+  border-bottom: none;
+  text-transform: uppercase;
+}
+
+#lenovo h2 {
+  font-size: 2em;
+  color: #fff;
+  overflow: hidden;
+  line-height: 1.2em;
+  border-bottom: none;
+  text-transform: uppercase;
+}
+
+#lenovo h3 {
+  font-size: 1.5em;
+  text-transform: none;
+  text-align: left;
+  color: #fff;
+  overflow: hidden;
+  line-height: 1.2em;
+  border-bottom: 3px solid #D23134;
+  padding-left: 10px;
+}
+
+#lenovo a {
+  color: #D23134;
+}
+
+#lenovo p .kategorielink a {
+  color: #D23134;
+}
+
+#lenovo p .kategorielink a:after {
+  content: " »";
+}
+
+#lenovo p, #lenovo .image-text p {
+  padding: 10px;
+  margin: 0;
+}
+
+#lenovo table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #555;
+  border: 1px solid #555;
+  margin: 20px auto;
+}
+
+#lenovo table tbody tr th, #lenovo table tbody tr td {
+  text-align: center;
+  padding: 10px;
+}
+
+#lenovo table tbody tr:nth-child(even) {
+  background: #d0d0d0;
+}
+
+#lenovo table tbody tr:nth-child(odd) {
+  background: #eeeeee;
+}
+
+#lenovo table tbody td:nth-child(0n+1) {
+  text-align: left;
+  font-weight: 700;
+}
+
+#lenovo .table-highlight {
+  border-left: 2px solid #D23134;
+  border-right: 2px solid #D23134;
+  color: #D23134;
+  font-weight: 700;
+}
+
+#lenovo .text-center {
+  text-align: center;
+}
+
+#lenovo .msres_textarea {
+  width: 100%;
+  min-height: 250px;
+  padding: 10px;
+  padding-top: 0;
+  padding-bottom: 20px;
+  float: left;
+}
+
+#lenovo .msres_textarea p {
+  padding: 20px;
+  font-size: 16px;
+}
+
+#lenovo .ms_light {
+  background: #D23134;
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+#lenovo .ms_light a {
+  color: #fff;
+}
+
+#lenovo .ms_light a:after {
+  content: " ";
+}
+
+#lenovo .ms_light h2, #lenovo .ms_light h3 {
+  color: #55;
+}
+
+#lenovo .ms_links {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  clear: both;
+  margin-top: 20px;
+  padding: 15px 0;
+}
+
+#lenovo .ms_links2 {
+  background: white;
+  margin-top: 0px;
+}
+
+#lenovo .ms_links span {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+#lenovo .ms_links img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#lenovo .ms_links div {
+  flex: 0 1 17%;
+  border: 5px solid #777;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+#lenovo .ms_links div div {
+  border: none;
+  padding: 0px;
+  display: block;
+}
+
+#lenovo .ms_links div:hover {
+  border: 5px solid #D23134;
+}
+
+#lenovo .ms_links div div:hover {
+  border: none;
+}
+
+#lenovo .ms_prod {
+  background: #000;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  clear: both;
+  margin-top: 20px;
+  padding: 15px 0;
+}
+
+#lenovo .ms_prod div {
+  flex: 0 0 20%;
+}
+
+#lenovo .ms_prod span {
+  display: block;
+}
+
+#lenovo .ms_prod p {
+  padding: 0;
+}
+
+#lenovo .ms_prod img {
+  max-width: 250px;
+}
+
+#lenovo a.ms_prod_name {
+  font-family: 'Roboto_Medium', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 5px 0;
+  padding: 0;
+  transition: all .3s;
+}
+
+#lenovo a.ms_prod_name:hover {
+  text-decoration: none;
+  transition: all .3s;
+}
+
+#lenovo .ms_prod_artnr {
+  color: rgba(160, 160, 160, 1.0);
+  margin: 5px 0;
+  padding: 0;
+  font-size: 1em;
+}
+
+#lenovo .ms_prod_prize {
+  font-family: 'Roboto_Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 2em;
+  color: inherit;
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+#lenovo .ms_prod_ust {
+  font-size: .8em;
+  color: rgba(160, 160, 160, 1.0);
+  margin: 0;
+  padding: 0;
+}
+
+#lenovo .ms_prod_ust a {
+  color: inherit;
+  font-size: inherit;
+  text-decoration: underline;
+}
+
+#lenovo .ms_button {
+  font-family: 'Roboto_Condensed_Regular';
+  font-size: 1em;
+  display: inline-block;
+  color: #fff;
+  font-weight: 700;
+  border: 2px solid #D23134;
+  text-align: center;
+  text-decoration: none;
+  margin: 20px 0;
+  padding: 10px 20px;
+  border-radius: 0;
+  transition: all .3s
+}
+
+#lenovo .ms_button::before {
+  content: "»";
+  margin-right: 10px;
+}
+
+#lenovo .ms_button::after {
+  content: none;
+}
+
+#lenovo .ms_button:hover {
+  color: #D23134;
+  background-color: #fff;
+  border: 2px solid #152A72;
+  text-decoration: none;
+  transition: all .3s;
+}
+
+#lenovo .ms_vergleich {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  clear: both;
+  margin-top: 20px;
+  padding: 15px 0;
+}
+
+#lenovo .ms_vergleich img {
+  width: 100%;
+  padding: 10px;
+}
+
+#lenovo .ms_vergleich div {
+  padding-bottom: 20px;
+  flex: 0 1 12%;
+}
+
+#lenovo .ms_vergleich span {
+  display: block;
+}
+
+#lenovo .ms_vergleich .ms_prod_name {
+  font-size: 1.7em;
+  line-height: 1.5em;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 5px 0;
+  padding: 0;
+  transition: all .3s;
+}
+
+#lenovo .fragen {
+  background: #f1f1f1;
+  color: #000;
+}
+
+#lenovo .image-text div {
+  text-align: left;
+  background: #000;
+  color: #fff;
+  padding: 20px
+}
+
+#lenovo .markenseite div.unterboxen.serien div {
+  flex: 0 1 31%;
+  border-top: 4px solid #152A72;
+}
+
+#lenovo .markenseite div.unterboxen.serien div:hover {
+  border-top: 4px solid red;
+}
+
+#lenovo .markenseite div.unterboxen.serien div h3 {
+  text-align: left;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+#lenovo .markenseite div.unterboxen.serien div p {
+  text-align: left;
+}
+
+#lenovo .markenseite div.unterboxen.serien div img {
+  max-width: 80%;
+  margin-top: 10px;
+}
+
+#lenovo .row div p:first-child::first-letter {
+  float: left;
+  font-weight: bold;
+  font-size: 60px;
+  font-size: 6rem;
+  line-height: 60px;
+  line-height: 6rem;
+  height: 6rem;
+  text-transform: uppercase;
+  background: #D23134;
+  color: #fff;
+  padding: 0 5px;
+  margin-right: 10px;
+}
+
+#lenovo .markenseite div.unterboxen.serien div {
+  background: #333;
+  margin: 10px;
+  border-top: 4px solid #D23134;
+}
+
+#lenovo .markenseite div.unterboxen.serien div:hover {
+  border-top: 4px solid #fff;
+}
+
+#lenovo div.unterboxen div h3 {
+  border-bottom: none;
+  text-align: center;
+  color: #D23134;
+  display: block;
+}
+
+#lenovo .product_single_row {
+  margin: 10px 20px;
+}
+
+#lenovo .product_single_row img {
+  border: 5px solid #D23134;
+  padding: 10px;
+  background: #fff;
+}
+
+#lenovo .serien-img-teaser {
+  width: 100%;
+}
+
+/* Mobile*/
+@media screen and (max-width: 1670px) {}
+
+@media screen and (max-width: 850px) {}
+
+@media screen and (max-width: 750px) {}
+
+@media screen and (max-width: 600px) {
+  #lenovo table td {
+    min-width: 200px;
+  }
+
+  </style>

@@ -392,6 +392,10 @@
   width: 70%;
 }
 
+#hol_lp .flexbox-container img {
+  margin-bottom: 10px;
+}
+
 #hol_lp .ms_links {
   display: flex;
   justify-content: space-between;

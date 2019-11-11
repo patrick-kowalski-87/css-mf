@@ -340,7 +340,7 @@ img.float-right {
 
 #catDatapage div.unterboxen {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   clear: both;
   margin-top: 20px;
@@ -503,6 +503,11 @@ img.float-right {
   width: 100%;
 }
 
+/* Allgemein Einzeilig */
+#catDatapage .ms_single {
+  margin: 50px 15em;
+}
+
 /* #catDatapage .markenseite div.unterboxen.serien div p a:after {content: ' »';}*/
 #catDatapage .markenseite div.unterboxen.serien div p:first-of-type {
   min-height: 150px;
@@ -620,6 +625,10 @@ img.float-right {
   text-align: center;
   margin: 1em auto;
   padding: 10px 20px;
+}
+
+#catDatapage.img-responsive.text-center {
+  margin: 0 auto;
 }
 
 #catDatapage .markenseite .image-text p {
@@ -818,6 +827,10 @@ table.vornachteile td {
   #catDatapage .flexbox-container div {
     flex: 0 0 100%;
     padding: 5px;
+  }
+
+  #catDatapage .ms_single {
+    margin: 20px 5px;
   }
 }
 
