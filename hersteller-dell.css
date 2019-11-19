@@ -1,0 +1,418 @@
+#dell {
+  background: #fff;
+  color: #555;
+}
+
+#dell h1 {
+  font-size: 2.5em;
+  background: #007DB8;
+  color: #fff;
+  overflow: hidden;
+  line-height: 1.2em;
+  border-bottom: none;
+  text-transform: none;
+  margin: 0;
+  padding: 10px 0;
+}
+
+#dell h2 {
+  font-family: 'roboto,Arial,Helvetica,sans-serif';
+  font-size: 2.2em;
+  color: #444444;
+  overflow: hidden;
+  text-transform: none;
+  line-height: 1.2em;
+  border-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+#dell h3 {
+  font-family: 'roboto,Arial,Helvetica,sans-serif';
+  font-size: 1.5em;
+  text-transform: none;
+  text-align: left;
+  color: #444444;
+  overflow: hidden;
+  line-height: 1.2em;
+  border-bottom: none;
+}
+
+#dell a {
+  color: #007DB8;
+  text-decoration: underline;
+}
+
+#dell strong {
+  color: #007DB8 !important;
+}
+
+#dell p.kategorielink a {
+  color: #000;
+}
+
+#dell p.kategorielink a:after {
+  content: " »";
+}
+
+#dell p, #dell .image-text p {
+  padding: 10px 10px 0px 0px;
+}
+
+#dell_core table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #444444;
+  border: 1px solid #444444;
+  margin: 20px auto;
+}
+
+#dell_core table tbody tr th, #catDatapage table tbody tr td {
+  text-align: center;
+  padding: 10px;
+}
+
+#dell_core table tbody tr:nth-child(even) {
+  background: #EEEEEE;
+}
+
+#dell .table-highlight {
+  border-left: 2px solid #007DB8;
+  border-right: 2px solid #007DB8;
+  color: #007DB8;
+  font-weight: 700;
+}
+
+#dell .flexbox-container div {
+  flex: 0 0 50%;
+  padding-right: 20px;
+}
+
+#dell .flexbox-container img {
+  max-width: 100%;
+}
+
+#dell .text-center {
+  text-align: center;
+}
+
+#dell .msres_textarea {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  clear: both;
+  margin-top: 0px;
+  padding: 15px 0;
+}
+
+#dell .msres_textarea div {
+  flex: 0 0 50%;
+}
+
+#dell .msres_textarea p {
+  font-size: 14px;
+}
+
+#dell .msres_textarea img {
+  width: 100%;
+  padding-right: 10px;
+}
+
+#dell .ms_light {
+  background: #007DB8;
+  color: #fff;
+}
+
+#dell .ms_light a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+#dell .ms_light a:after {
+  content: " »";
+}
+
+#dell .ms_light h2, #dell .ms_light h3 {
+  color: #fff;
+  border-bottom: none;
+}
+
+#dell .ms_links {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  clear: both;
+  background: #C8C8C8;
+  padding: 15px 0;
+}
+
+#dell .ms_links h2, #dell .ms_links h3 {
+  color: #007DB8;
+}
+
+#dell .ms_links img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#dell .ms_links div {
+  flex: 0 0 12%;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  border-top: 5px solid #444444;
+  background: #fff;
+}
+
+#dell .ms_links div div {
+  border: none;
+  padding: 0px;
+  display: block;
+}
+
+#dell .ms_links div:hover {
+  border-top: 5px solid #007DB8;
+}
+
+#dell .ms_links span {
+  text-transform: none;
+  color: #007DB8;
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+#dell .ms_prod {
+  background: none;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  clear: both;
+  margin-top: 20px;
+  padding: 15px 0;
+}
+
+#dell .ms_prod div {
+  flex: 0 0 20%;
+  background: #C8C8C8;
+}
+
+#dell .ms_prod span {
+  display: block;
+  margin-top: 10px;
+}
+
+#dell .ms_prod p {
+  padding: 0;
+}
+
+#dell .ms_prod img {
+  max-width: 100%;
+}
+
+#dell .row.ms_prod a {
+  text-decoration: none;
+}
+
+#dell a.ms_prod_name {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  color: #444444;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 5px 0;
+  padding: 0;
+  transition: all .3s;
+}
+
+#dell a.ms_prod_name:hover {
+  text-decoration: none;
+  transition: all .3s;
+}
+
+#dell .ms_prod_artnr {
+  color: #333;
+  margin: 5px 0;
+  padding: 0;
+  font-size: 1em;
+}
+
+#dell .ms_prod .ms_button {
+  font-size: 1em;
+  display: inline-block;
+  text-transform: none;
+  color: #fff;
+  background: #007DB8;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #007DB8;
+  margin: 0;
+  padding: 10px 20px;
+}
+
+#dell .ms_prod a {
+  text-decoration: none;
+}
+
+#dell .ms_button {
+  font-size: 1em;
+  display: inline-block;
+  text-transform: none;
+  color: #fff;
+  background: #007DB8;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #007DB8;
+  margin: 20px 10px;
+  padding: 10px 20px;
+  border-radius: 0;
+  transition: all .3s
+}
+
+#dell .ms_button::after {
+  content: none;
+}
+
+#dell .ms_button:hover {
+  color: #fff;
+  background: #00447C;
+  border: 1px solid #00447C;
+  text-decoration: none;
+  transition: all .5s;
+}
+
+#dell .ms_vergleich {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  clear: both;
+  margin-top: 20px;
+  padding: 15px 0;
+}
+
+#dell .ms_vergleich img {
+  width: 100%;
+  padding: 10px;
+}
+
+#dell .ms_vergleich div {
+  padding-bottom: 20px;
+  flex: 0 1 12%;
+}
+
+#dell .ms_vergleich span {
+  display: block;
+}
+
+#dell .ms_vergleich .ms_prod_name {
+  font-size: 1.7em;
+  line-height: 1.5em;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 5px 0;
+  padding: 0;
+  transition: all .3s;
+}
+
+#dell .image-text div {
+  text-align: left;
+  padding: 0 20px;
+}
+
+#dell div.unterboxen {
+  background: #C8C8C8;
+}
+
+#dell div.unterboxen div {
+  background: #fff;
+  border: none;
+  padding: 20px;
+  margin: 20px;
+  flex: 0 0 45%;
+}
+
+#dell div.unterboxen div h3 {
+  border: none;
+}
+
+#dell .product_single_row {
+  margin: 20px 20px;
+  border: 0px;
+  background: #C8C8C8;
+}
+
+#dell .product_single_row img {
+  border: 0px;
+  padding: 20px;
+  max-width: 300px;
+  background: #fff;
+  margin: 0 auto;
+}
+
+#dell .fragen {
+  border: none;
+  background: #007DB8;
+  color: #fff;
+}
+
+#dell .fragen h2 {
+  color: #fff;
+}
+
+#dell .ms_fragen {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  clear: both;
+}
+
+#dell .ms_fragen div {
+  flex: 0 0 48%;
+  margin: 10px;
+  background: #fff;
+  border: 2px dashed #000000;
+}
+
+#dell .ms_fragen p {
+  line-height: 1.5em;
+  padding: 15px;
+}
+
+/* Mobile*/
+@media screen and (max-width: 1670px) {}
+
+@media screen and (max-width: 850px) {}
+
+@media screen and (max-width: 750px) {}
+
+@media screen and (max-width: 600px) {
+  #dell .ms_links div {
+    flex: 0 1 45%;
+  }
+
+  #dell .ms_fragen div {
+    flex: 0 0 100%;
+  }
+
+  #dell .ms_prod div {
+    flex: 0 0 48%;
+  }
+
+  #dell .product_single_row p {
+    padding: 0;
+    margin: 0;
+  }
+
+  #dell .msres_textarea div {
+    flex: 0 0 100%;
+  }
+
+  #dell .msres_textarea p {
+    padding: 10px 0px;
+    margin: 0;
+    font-size: 16px;
+  }
+
+  </style>

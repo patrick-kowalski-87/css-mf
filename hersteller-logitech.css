@@ -1,9 +1,9 @@
-#lenovo {
+#logitech {
   background: #000;
   color: #fff;
 }
 
-#lenovo h1 {
+#logitech h1 {
   font-size: 2.5em;
   color: #fff;
   overflow: hidden;
@@ -12,7 +12,7 @@
   text-transform: uppercase;
 }
 
-#lenovo h2 {
+#logitech h2 {
   font-size: 2em;
   color: #fff;
   overflow: hidden;
@@ -21,117 +21,103 @@
   text-transform: uppercase;
 }
 
-#lenovo h3 {
+#logitech h3 {
   font-size: 1.5em;
   text-transform: none;
   text-align: left;
   color: #fff;
   overflow: hidden;
   line-height: 1.2em;
-  border-bottom: 3px solid #D23134;
+  border-bottom: 3px solid #1db1f1;
   padding-left: 10px;
 }
 
-#lenovo a {
-  color: #D23134;
+#logitech a {
+  color: #1db1f1;
 }
 
-#lenovo p .kategorielink a {
-  color: #D23134;
+#logitech p.kategorielink a {
+  color: #1db1f1;
 }
 
-#lenovo p .kategorielink a:after {
+#logitech p.kategorielink a:after {
   content: " »";
 }
 
-#lenovo p, #lenovo .image-text p {
+#logitech p, #logitech .image-text p {
   padding: 10px;
-  margin: 0;
 }
 
-#lenovo table {
+#logitech table {
   width: 100%;
   border-collapse: collapse;
-  color: #555;
-  border: 1px solid #555;
+  color: #fff;
+  border: 1px solid #f1f1f1;
   margin: 20px auto;
 }
 
-#lenovo table tbody tr th, #lenovo table tbody tr td {
+#logitech table tbody tr th, #logitech table tbody tr td {
   text-align: center;
   padding: 10px;
 }
 
-#lenovo table tbody tr:nth-child(even) {
-  background: #d0d0d0;
+#logitech table tbody tr:nth-child(even) {
+  background: #555;
 }
 
-#lenovo table tbody tr:nth-child(odd) {
-  background: #eeeeee;
+#logitech table tbody tr:nth-child(odd) {
+  background: #333;
 }
 
-#lenovo table tbody td:nth-child(0n+1) {
+#logitech table tbody td:nth-child(0n+1) {
   text-align: left;
   font-weight: 700;
 }
 
-#lenovo .table-highlight {
-  border-left: 2px solid #D23134;
-  border-right: 2px solid #D23134;
-  color: #D23134;
+#logitech .table-highlight {
+  border-left: 2px solid #1db1f1;
+  border-right: 2px solid #1db1f1;
+  color: #1db1f1;
   font-weight: 700;
 }
 
-#lenovo .text-center {
+#logitech .text-center {
   text-align: center;
 }
 
-#lenovo .msres_textarea {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  clear: both;
-  margin-top: 0px;
-  padding: 15px 0;
-}
-
-#lenovo .msres_textarea div {
-  flex: 0 0 50%;
-  padding: 20px;
-}
-
-#lenovo .msres_textarea img {
+#logitech .msres_textarea {
   width: 100%;
+  min-height: 250px;
+  padding: 10px;
+  padding-top: 0;
+  padding-bottom: 20px;
+  float: left;
 }
 
-#lenovo .msres_textarea p {
-  padding: 20px 0;
+#logitech .msres_textarea p {
+  padding: 20px;
   font-size: 16px;
 }
 
-#lenovo .flexbox-container {
-  background: #333
+#logitech .ms_light {
+  background: #1db1f1;
+  color: #000;
 }
 
-#lenovo .ms_light {
-  background: #D23134;
-  color: #fff;
-  padding-bottom: 20px;
+#logitech .ms_light a {
+  color: #000;
+  text-decoration: underline;
 }
 
-#lenovo .ms_light a {
-  color: #fff;
+#logitech .ms_light a:after {
+  content: " »";
 }
 
-#lenovo .ms_light a:after {
-  content: " ";
+#logitech .ms_light h2, #logitech .ms_light h3 {
+  color: #555;
 }
 
-#lenovo .ms_light h2, #lenovo .ms_light h3 {
-  color: #55;
-}
-
-#lenovo .ms_links {
+#logitech .ms_links {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -140,45 +126,48 @@
   padding: 15px 0;
 }
 
-#lenovo .ms_links2 {
-  background: white;
-  margin-top: 0px;
-}
-
-#lenovo .ms_links span {
-  text-transform: uppercase;
+#logitech .ms_links h2, #logitech .ms_links h3 {
   color: #fff;
-  font-size: 1em;
-  margin-top: 10px;
 }
 
-#lenovo .ms_links img {
+#logitech .ms_links img {
   width: 100%;
   margin-bottom: 10px;
 }
 
-#lenovo .ms_links div {
+#logitech .ms_links div {
   flex: 0 1 17%;
   border: 5px solid #777;
   padding-bottom: 20px;
   margin-bottom: 10px;
 }
 
-#lenovo .ms_links div div {
+#logitech .ms_links div div {
   border: none;
   padding: 0px;
   display: block;
 }
 
-#lenovo .ms_links div:hover {
-  border: 5px solid #D23134;
+#logitech .ms_links div div:hover span {
+  color: #1db1f1;
 }
 
-#lenovo .ms_links div div:hover {
+#logitech .ms_links div:hover {
+  border: 5px solid #1db1f1;
+}
+
+#logitech .ms_links div div:hover {
   border: none;
 }
 
-#lenovo .ms_prod {
+#logitech .ms_links span {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+#logitech .ms_prod {
   background: #000;
   margin: 0;
   display: flex;
@@ -189,29 +178,32 @@
   padding: 15px 0;
 }
 
-#lenovo .ms_prod div {
+#logitech .ms_prod div {
   flex: 0 0 20%;
+  background: #333;
 }
 
-#lenovo .ms_prod span {
+#logitech .ms_prod span {
   display: block;
+  margin-top: 10px;
 }
 
-#lenovo .ms_prod p {
+#logitech .ms_prod p {
   padding: 0;
 }
 
-#lenovo .ms_prod img {
+#logitech .ms_prod img {
   max-width: 100%;
 }
 
-#lenovo .row.ms_prod a {
+#logitech .row.ms_prod a {
   text-decoration: none;
 }
 
-#lenovo a.ms_prod_name {
+#logitech a.ms_prod_name {
   font-size: 1.5em;
   line-height: 1.5em;
+  color: #1db1f1;
   text-align: center;
   text-decoration: none;
   display: block;
@@ -220,44 +212,45 @@
   transition: all .3s;
 }
 
-#lenovo a.ms_prod_name:hover {
+#logitech a.ms_prod_name:hover {
   text-decoration: none;
   transition: all .3s;
 }
 
-#lenovo .ms_prod_artnr {
+#logitech .ms_prod_artnr {
   color: rgba(160, 160, 160, 1.0);
   margin: 5px 0;
   padding: 0;
   font-size: 1em;
 }
 
-#lenovo .ms_prod_prize {
+#logitech .ms_prod_prize {
   font-size: 2em;
   color: inherit;
   margin: 10px 0 0;
   padding: 0;
 }
 
-#lenovo .ms_prod_ust {
+#logitech .ms_prod_ust {
   font-size: .8em;
   color: rgba(160, 160, 160, 1.0);
   margin: 0;
   padding: 0;
 }
 
-#lenovo .ms_prod_ust a {
+#logitech .ms_prod_ust a {
   color: inherit;
   font-size: inherit;
   text-decoration: underline;
 }
 
-#lenovo .ms_button {
+#logitech .ms_button {
   font-size: 1em;
   display: inline-block;
-  color: #fff;
+  text-transform: uppercase;
+  color: #1db1f1;
   font-weight: 700;
-  border: 2px solid #D23134;
+  border: 2px solid #1db1f1;
   text-align: center;
   text-decoration: none;
   margin: 20px 0;
@@ -266,24 +259,29 @@
   transition: all .3s
 }
 
-#lenovo .ms_button::before {
-  content: "»";
-  margin-right: 10px;
-}
-
-#lenovo .ms_button::after {
+#logitech .ms_button::after {
   content: none;
 }
 
-#lenovo .ms_button:hover {
-  color: #D23134;
-  background-color: #fff;
-  border: 2px solid #152A72;
+#logitech .ms_button:hover {
+  color: #fff;
+  background: none;
+  border: 2px solid #fff;
   text-decoration: none;
-  transition: all .3s;
+  transition: all .5s;
 }
 
-#lenovo .ms_vergleich {
+#logitech .fragen {
+  background: #f1f1f1;
+  color: #000;
+}
+
+#logitech .fragen h2 {
+  color: #000;
+  padding: 0;
+}
+
+#logitech .ms_vergleich {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -292,21 +290,22 @@
   padding: 15px 0;
 }
 
-#lenovo .ms_vergleich img {
+#logitech .ms_vergleich img {
   width: 100%;
   padding: 10px;
 }
 
-#lenovo .ms_vergleich div {
+#logitech .ms_vergleich div {
   padding-bottom: 20px;
   flex: 0 1 12%;
 }
 
-#lenovo .ms_vergleich span {
+#logitech .ms_vergleich span {
   display: block;
 }
 
-#lenovo .ms_vergleich .ms_prod_name {
+#logitech .ms_vergleich .ms_prod_name {
+  font-family: 'Roboto_Medium', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1.7em;
   line-height: 1.5em;
   text-align: center;
@@ -317,72 +316,62 @@
   transition: all .3s;
 }
 
-#lenovo .fragen {
-  background: #f1f1f1;
-  color: #000;
-}
-
-#lenovo .image-text div {
+#logitech .image-text div {
   text-align: left;
   background: #000;
   color: #fff;
-  padding: 20px
+  padding: 0 20px;
 }
 
-#lenovo .markenseite div.unterboxen.serien div {
-  flex: 0 1 31%;
-  border-top: 4px solid #152A72;
+#logitech .markenseite div.unterboxen.serien div {
+  flex: 0 0 48%;
 }
 
-#lenovo .markenseite div.unterboxen.serien div:hover {
-  border-top: 4px solid red;
-}
-
-#lenovo .markenseite div.unterboxen.serien div h3 {
+#logitech .markenseite div.unterboxen.serien div h3 {
   text-align: left;
   border: none;
   padding: 0;
   margin: 0;
 }
 
-#lenovo .markenseite div.unterboxen.serien div p {
+#logitech .markenseite div.unterboxen.serien div p {
   text-align: left;
 }
 
-#lenovo .markenseite div.unterboxen.serien div img {
+#logitech .markenseite div.unterboxen.serien div img {
   max-width: 80%;
   margin-top: 10px;
 }
 
-#lenovo .markenseite div.unterboxen.serien div {
+#logitech .markenseite div.unterboxen.serien div {
   background: #333;
   margin: 10px;
-  border-top: 4px solid #D23134;
+  border-top: 4px solid #1db1f1;
 }
 
-#lenovo .markenseite div.unterboxen.serien div:hover {
+#logitech .markenseite div.unterboxen.serien div:hover {
   border-top: 4px solid #fff;
 }
 
-#lenovo div.unterboxen div h3 {
+#logitech div.unterboxen div h3 {
   border-bottom: none;
   text-align: center;
-  color: #D23134;
+  color: #1db1f1;
   display: block;
 }
 
-#lenovo .product_single_row {
+#logitech .product_single_row {
   margin: 10px 20px;
 }
 
-#lenovo .product_single_row img {
-  border: 5px solid #D23134;
+#logitech .product_single_row img {
+  border: 5px solid #1db1f1;
   padding: 10px;
   background: #fff;
 }
 
-#lenovo .serien-img-teaser {
-  width: 100%;
+#logitech .product-column {
+  width: 33%;
 }
 
 /* Mobile*/
@@ -393,17 +382,16 @@
 @media screen and (max-width: 750px) {}
 
 @media screen and (max-width: 600px) {
-  #lenovo table td {
+  #logitech table td {
     min-width: 200px;
   }
 
-  #lenovo .ms_prod div {
+  #logitech .ms_prod div {
     flex: 0 0 48%;
   }
 
-  #lenovo .ms_links div {
+  #logitech .ms_links div {
     flex: 0 0 48%;
   }
-}
 
-</style>
+  </style>

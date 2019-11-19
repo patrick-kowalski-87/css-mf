@@ -1,0 +1,495 @@
+#eigenschaften {
+  background: #fff;
+  color: #000;
+}
+
+#eigenschaften h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  background: #152A72;
+  color: #fff;
+  overflow: hidden;
+  line-height: 1.2em;
+  border-bottom: none;
+  text-transform: none;
+  margin: 0;
+  padding: 10px 0;
+}
+
+#eigenschaften h2 {
+  font-size: 2.2em;
+  color: #000;
+  overflow: hidden;
+  text-transform: none;
+  line-height: 1.2em;
+  border-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+#eigenschaften h3 {
+  font-size: 1.5em;
+  text-transform: none;
+  text-align: left;
+  color: #000;
+  overflow: hidden;
+  line-height: 1.2em;
+  border-left: 10px solid #152A72;
+  border-bottom: none;
+  padding-left: 10px;
+}
+
+#eigenschaften h4 {
+  font-size: 1.4em;
+  text-transform: uppercase;
+  text-align: left;
+  color: #000;
+  background: #E1E1E2;
+  border-bottom: none;
+  overflow: hidden;
+  line-height: 2.5em;
+  padding-left: 20px;
+  padding-top: 10px;
+  margin: 0px;
+  width: 100%;
+}
+
+#eigenschaften a {
+  color: #152A72;
+  text-decoration: none;
+}
+
+#eigenschaften strong {
+  background: #ccc;
+  color: #333 !important;
+  padding: 0 10px;
+}
+
+#eigenschaften p.kategorielink a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#eigenschaften p.kategorielink a:after {
+  content: " »";
+}
+
+#eigenschaften p, #eigenschaften .image-text p {
+  padding: 10px;
+}
+
+#eigenschaften_core table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #555;
+  border: 1px solid #555;
+  margin: 20px auto;
+}
+
+#eigenschaften_core table tbody tr th, #catDatapage table tbody tr td {
+  text-align: center;
+  padding: 10px;
+}
+
+#eigenschaften_core table tbody tr:nth-child(even) {
+  background: #d0d0d0;
+}
+
+#eigenschaften .table-highlight {
+  border-left: 2px solid #152A72;
+  border-right: 2px solid #152A72;
+  color: #152A72;
+  font-weight: 700;
+}
+
+#eigenschaften .text-center {
+  text-align: center;
+}
+
+#eigenschaften .msres_textarea {
+  width: 100%;
+  padding: 0px 10px 0px 10px;
+  float: left;
+}
+
+#eigenschaften .msres_textarea img {
+  padding: 30px 30px 0px 30px;
+}
+
+#eigenschaften .msres_textarea p {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 14px;
+  line-height: 1.5em;
+}
+
+#eigenschaften .ms_light {
+  background: #152A72;
+  color: #fff;
+}
+
+#eigenschaften .ms_light a {
+  color: #000;
+  text-decoration: underline;
+}
+
+#eigenschaften .ms_light a:after {
+  content: " »";
+}
+
+#eigenschaften .ms_light p {
+  padding: 0px;
+  text-align: justify;
+}
+
+#eigenschaften .ms_light h2 {
+  color: #fff;
+  border-bottom: none;
+  padding-bottom: 20px;
+}
+
+#eigenschaften .ms_light h3 {
+  color: #fff;
+  border: none;
+  padding: 0px 0px 20px 0px;
+  margin: 0px;
+}
+
+#eigenschaften .ms_links {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  clear: both;
+  margin-top: 20px;
+  padding: 15px 0;
+}
+
+#eigenschaften .ms_links h2, #eigenschaften .ms_links h3 {
+  color: #fff;
+}
+
+#eigenschaften .ms_links img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#eigenschaften .ms_links div {
+  flex: 0 1 17%;
+  border: 1px solid #000;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+#eigenschaften .ms_links div div {
+  border: none;
+  padding: 0px;
+  display: block;
+}
+
+#eigenschaften .ms_links div div:hover span {
+  color: #152A72;
+}
+
+#eigenschaften .ms_links div:hover {
+  border: 2px solid #152A72;
+}
+
+#eigenschaften .ms_links div div:hover {
+  border: none;
+}
+
+#eigenschaften .ms_links span {
+  text-transform: uppercase;
+  color: #333;
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+#eigenschaften .ms_prod {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  clear: both;
+  padding: 10px 0px 30px 0px;
+  background-color: #E1E1E2;
+}
+
+#eigenschaften .ms_prod div {
+  background: #fff;
+  padding-bottom: 10px;
+  flex: 0 1 20%;
+}
+
+#eigenschaften .ms_prod span {
+  display: block;
+  text-align: center;
+}
+
+#eigenschaften .ms_prod p {
+  padding: 15px 0;
+}
+
+#eigenschaften .ms_prod a {
+  text-decoration: none;
+}
+
+#eigenschaften .ms_prod img {
+  max-width: 100%;
+}
+
+#eigenschaften a.ms_prod_name {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 5px 0;
+  padding: 0;
+  transition: all .3s;
+}
+
+#eigenschaften a.ms_prod_name:hover {
+  text-decoration: none;
+  transition: all .3s;
+}
+
+#eigenschaften .ms_prod_artnr {
+  color: rgba(160, 160, 160, 1.0);
+  margin: 5px 0;
+  padding: 0;
+  font-size: 1em;
+}
+
+#eigenschaften .ms_prod_prize {
+  font-family: 'Roboto_Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 2em;
+  color: inherit;
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+#eigenschaften .ms_prod_ust {
+  font-size: .8em;
+  color: rgba(160, 160, 160, 1.0);
+  margin: 0;
+  padding: 0;
+}
+
+#eigenschaften .ms_prod_ust a {
+  color: inherit;
+  font-size: inherit;
+  text-decoration: underline;
+}
+
+#eigenschaften .ms_button {
+  font-size: 1em;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #152A72;
+  font-weight: 700;
+  border: 2px solid #152A72;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 0;
+  transition: all .3s
+}
+
+#eigenschaften .ms_button::after {
+  content: none;
+}
+
+#eigenschaften .ms_button:hover {
+  color: #fff;
+  background: #152A72;
+  border: 2px solid #152A72;
+  text-decoration: none;
+  transition: all .5s;
+}
+
+#eigenschaften .image-text .ms_button {
+  font-size: 1em;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+  border: 2px solid #fff;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 0;
+  transition: all .3s
+}
+
+#eigenschaften .ms_vergleich {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  clear: both;
+  margin-top: 20px;
+  padding: 15px 0;
+}
+
+#eigenschaften .ms_vergleich img {
+  width: 100%;
+  padding: 10px;
+}
+
+#eigenschaften .ms_vergleich div {
+  padding-bottom: 20px;
+  flex: 0 1 12%;
+}
+
+#eigenschaften .ms_vergleich span {
+  display: block;
+}
+
+#eigenschaften .ms_vergleich .ms_prod_name {
+  font-family: 'Roboto_Medium', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.7em;
+  line-height: 1.5em;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 5px 0;
+  padding: 0;
+  transition: all .3s;
+}
+
+#eigenschaften .image-text {
+  margin-bottom: 0px;
+}
+
+#eigenschaften .image-text div {
+  text-align: left;
+  background: #000;
+  color: #fff;
+  padding: 0 20px;
+}
+
+#eigenschaften .markenseite div.unterboxen.serien div h3 {
+  text-align: center;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+#eigenschaften .markenseite div.unterboxen.serien div p {
+  text-align: left;
+}
+
+#eigenschaften .markenseite div.unterboxen.serien div img {
+  max-width: 80%;
+  margin-top: 10px;
+}
+
+#eigenschaften .row div p:first-child::first-letter {
+  float: left;
+  font-weight: bold;
+  font-size: 50px;
+  font-size: 5rem;
+  line-height: 50px;
+  line-height: 5rem;
+  height: 5rem;
+  text-transform: uppercase;
+  background: #959595;
+  color: #152A72;
+  padding: 0 5px;
+  margin-right: 10px;
+}
+
+#eigenschaften .markenseite div.unterboxen.serien {
+  justify-content: space-evenly;
+}
+
+#eigenschaften .markenseite div.unterboxen.serien div {
+  flex: 0 0 22%;
+  background: #333;
+  margin: 10px;
+  border-top: 4px solid #152A72;
+}
+
+#eigenschaften .markenseite div.unterboxen.serien div:hover {
+  border-top: 4px solid #fff;
+}
+
+#eigenschaften div.unterboxen div h3 {
+  border-bottom: none;
+  text-align: center;
+  color: #152A72;
+  display: block;
+}
+
+#eigenschaften .product_single_row {
+  margin: 10px 20px;
+}
+
+#eigenschaften .product_single_row img {
+  border: 5px solid #152A72;
+  padding: 10px;
+  background: #fff;
+}
+
+#eigenschaften .product_single_row b {
+  color: #152A72;
+}
+
+#eigenschaften .ms_fragen {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  clear: both;
+  padding-bottom: 20px;
+}
+
+#eigenschaften .ms_fragen div {
+  flex: 0 0 46%;
+  margin: 10px;
+  border: 2px dashed #152A72;
+}
+
+#eigenschaften .ms_fragen p {
+  line-height: 1.5em;
+  font-size: 14px;
+  padding: 14px;
+}
+
+#eigenschaften .ms_fragen li {
+  line-height: 1.5em;
+  font-size: 14px;
+  padding-left: 10px;
+  margin-left: 30px;
+  list-style: disc;
+}
+
+/* Mobile*/
+@media screen and (max-width: 1670px) {}
+
+@media screen and (max-width: 850px) {}
+
+@media screen and (max-width: 750px) {}
+
+@media screen and (max-width: 600px) {
+  #eigenschaften .ms_links div {
+    flex: 0 1 45%;
+  }
+
+  #eigenschaften .ms_prod div {
+    padding-bottom: 20px;
+    flex: 0 0 45%;
+    margin: 5px;
+  }
+
+  #eigenschaften .ms_fragen div {
+    flex: 0 0 100%;
+  }
+
+  #eigenschaften .product_single_row p {
+    padding: 0;
+    margin: 0;
+  }
+
+  </style>

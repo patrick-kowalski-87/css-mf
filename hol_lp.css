@@ -9,18 +9,22 @@
   line-height: 1.2em;
   border-bottom: none;
   text-transform: uppercase;
-  background: #ff0000;
+  background: #152A72;
   color: #fff;
   margin: 0;
   padding: 10px;
 }
 
 #hol_lp h2 {
-  font-size: 1.5em;
-  color: #000;
-  border-bottom: none;
+  font-size: 1.8em;
   font-weight: bolder;
-  padding: 0;
+  padding: 20px 10px;
+  width: 100%;
+  color: #000;
+  background: #f1f1f1;
+  border-bottom: none;
+  border-left: 5px solid #152A72;
+  text-align: left;
 }
 
 #hol_lp h2.dark, #hol_lp h3.dark {
@@ -43,7 +47,7 @@
 #hol_lp h3 {
   font-size: 1.2em;
   line-height: 1.5em;
-  width: 80%;
+  width: 100%;
   background: #152A72;
   text-transform: uppercase;
   text-align: left;
@@ -53,18 +57,21 @@
   padding: 10px 20px;
 }
 
+#hol_lp h4 {
+  text-align: left;
+  padding: 20px 20px;
+  border-bottom: 2px solid #00247B;
+}
+
 #hol_lp hr {
   border: 5px dashed #ccc;
   margin: 10px 0;
   background: #f1f1f1;
 }
 
-#hol_lp li>p {
-  margin-left: 10px;
-}
-
 #hol_lp p {
-  padding: 0 20px;
+  padding: 0;
+  text-align: justify;
 }
 
 #hol_lp #li_mittig {
@@ -156,6 +163,14 @@
   padding: 10px 10px;
 }
 
+#hol_lp div.unterboxen div h3 {
+  color: #fff;
+}
+
+#hol_lp div.unterboxen div img {
+  margin: 0 auto;
+}
+
 #hol_lp .ms_prod {
   display: flex;
   justify-content: space-around;
@@ -186,10 +201,9 @@
 }
 
 #hol_lp a.ms_prod_name {
-  font-family: 'Roboto_Medium', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1.2em;
   height: 50px;
-  color: #ff0000;
+  color: #152A72;
   line-height: 1.5em;
   text-align: center;
   text-decoration: none;
@@ -215,9 +229,9 @@
   font-size: 1em;
   display: inline-block;
   text-transform: uppercase;
-  color: #ff0000;
+  color: #152A72;
   font-weight: 700;
-  border: 2px solid #ff0000;
+  border: 2px solid #152A72;
   text-align: center;
   text-decoration: none;
   margin: 20px 0;
@@ -253,12 +267,19 @@
   flex: 0 1 49%;
 }
 
-#hol_lp .component_row p {
+#hol_lp .component_row div div div {
+  flex: 0 0 30%;
+  background: #fff;
   padding: 10px;
-  font-size: 1.2em;
+  max-height: 300px;
+  border: 1px solid #ccc;
 }
 
-.ms_topmarken {
+#hol_lp .component_row p {
+  padding: 10px 25px;
+}
+
+#hol_lp .ms_topmarken {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -267,10 +288,11 @@
   padding: 15px 0;
 }
 
-.ms_topmarken img {
+#hol_lp .ms_topmarken img {
   border: 1px solid #ccc;
   padding: 10px;
   background: #fff;
+  max-width: 200px;
 }
 
 #hol_lp .ms_lp_highlight {
@@ -285,9 +307,32 @@
 }
 
 #hol_lp .ms_achtung {
-  background-color: #ff0000;
-  color: #fff;
+  background-color: #f1f1f1;
+  color: #000;
   padding: 5px;
+}
+
+#hol_lp .ms_achtung p {
+  text-align: justify;
+}
+
+#hol_lp .ms_achtung p {
+  padding: 10px 20rem;
+}
+
+#hol_lp .ms_achtung strong {
+  color: #152A72;
+}
+
+#hol_lp .ms_achtung_headline {
+  margin: 0;
+  font-size: 1.5em;
+  font-weight: bolder;
+  padding: 20px 10px;
+  width: 100%;
+  border-bottom: none;
+  border-left: 5px solid #ff0000;
+  text-align: left;
 }
 
 #hol_lp .msres_textarea {
@@ -311,9 +356,8 @@
 }
 
 #hol_lp .ms_anwendung p {
-  padding: 10px;
+  padding: 10px 20px;
   margin: 10px 0;
-  font-size: 1.2em;
   line-height: 1.7em;
 }
 
@@ -500,6 +544,11 @@
 
   #hol_lp .component_row div {
     flex: 0 1 100%;
+  }
+
+  #hol_lp .component_row div div div {
+    flex: 0 0 45%;
+    max-height: none;
   }
 
   #hol_lp .ms_prod div {
