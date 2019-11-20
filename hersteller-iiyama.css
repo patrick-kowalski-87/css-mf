@@ -3,6 +3,92 @@
   color: #333333;
 }
 
+#iiyama .blackhawk, #iiyama .redeagle, #iiyama .silvercrow, #iiyama .goldphoenix{
+  padding: 20px 10px;
+  margin: 0;
+  background-color: #BABCBB;
+}
+
+#iiyama .blackhawk span, #iiyama .redeagle span, #iiyama .silvercrow span, #iiyama .goldphoenix span{
+  color: #fff !important;
+}
+
+#iiyama .blackhawk a{
+font-size: 1.2em;
+display: inline-block;
+text-transform: none;
+color: #fff;
+border: none;
+background: #000;
+font-weight: 400;
+text-align: center;
+text-decoration: none;
+margin: 0;
+padding: 10px 20px;
+}
+
+#iiyama .blackhawk img{
+background: #000;
+padding: 20px;
+}
+
+#iiyama .redeagle a{
+font-size: 1.2em;
+display: inline-block;
+text-transform: none;
+color: #fff;
+border: none;
+background: #E40823;
+font-weight: 400;
+text-align: center;
+text-decoration: none;
+margin: 0;
+padding: 10px 20px;
+}
+
+#iiyama .redeagle img{
+background: #E40823;
+padding: 20px;
+}
+
+#iiyama .silvercrow a{
+font-size: 1.2em;
+display: inline-block;
+text-transform: none;
+color: #fff;
+border: none;
+background: #555;
+font-weight: 400;
+text-align: center;
+text-decoration: none;
+margin: 0;
+padding: 10px 20px;
+}
+
+#iiyama .silvercrow img{
+background: #555;
+padding: 20px;
+}
+
+#iiyama .goldphoenix a{
+font-size: 1.2em;
+display: inline-block;
+text-transform: none;
+color: #fff;
+border: none;
+background: #CF9F3B;
+font-weight: 400;
+text-align: center;
+text-decoration: none;
+margin: 0;
+padding: 10px 20px;
+}
+
+#iiyama .goldphoenix img{
+background: #CF9F3B;
+padding: 20px;
+}
+
 #iiyama h1 {
   font-size: 2.5em;
   background: #148EC9;
@@ -39,7 +125,7 @@
 
 #iiyama a {
   color: #148EC9;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 #iiyama strong {
@@ -291,8 +377,6 @@
   justify-content: space-around;
   flex-wrap: wrap;
   clear: both;
-  margin-top: 20px;
-  padding: 15px 0;
 }
 
 #iiyama .ms_vergleich img {
@@ -302,7 +386,7 @@
 
 #iiyama .ms_vergleich div {
   padding-bottom: 20px;
-  flex: 0 1 12%;
+  flex: 0 1 25%;
 }
 
 #iiyama .ms_vergleich span {
@@ -310,7 +394,6 @@
 }
 
 #iiyama .ms_vergleich .ms_prod_name {
-  font-size: 1.7em;
   line-height: 1.5em;
   text-align: center;
   text-decoration: none;
@@ -326,7 +409,7 @@
 }
 
 #iiyama div.unterboxen {
-  background: #C8C8C8;
+  background: #BABCBB;
 }
 
 #iiyama div.unterboxen div {
@@ -339,19 +422,16 @@
 
 #iiyama div.unterboxen div h3 {
   border: none;
+  color: #333333;
 }
 
 #iiyama .product_single_row {
   margin: 20px 20px;
   border: 0px;
-  background: #BABCBB;
 }
 
 #iiyama .product_single_row img {
-  border: 0px;
-  padding: 20px;
   max-width: 300px;
-  background: #fff;
   margin: 0 auto;
 }
 
