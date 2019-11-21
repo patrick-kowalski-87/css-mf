@@ -1,0 +1,379 @@
+#powercolor {
+  background: #000;
+  color: #969696;
+}
+
+#powercolor h1 {
+  font-size: 2.5em;
+  background: #e60012;
+  color: #fff;
+  overflow: hidden;
+  line-height: 1.2em;
+  border-bottom: none;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 10px 0;
+}
+
+#powercolor h2 {
+  font-size: 2em;
+  color: #969696;
+  overflow: hidden;
+  text-transform: none;
+  line-height: 1.2em;
+  border-bottom: 0px;
+  margin-bottom: 0px;
+  font-weight: 900;
+}
+
+#powercolor h3 {
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: none;
+  text-align: left;
+  color: #969696;
+  overflow: hidden;
+  line-height: 1.2em;
+  border-bottom: none;
+}
+
+#powercolor a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+#powercolor p.kategorielink a {
+  color: #000000;
+}
+
+#powercolor p.kategorielink a:after {
+  content: " »";
+}
+
+#powercolor p, #powercolor .image-text p {
+  padding: 10px 0;
+}
+
+#powercolor table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #969696;
+  border: none;
+  margin: 20px auto;
+}
+
+#powercolor table tbody tr th, #catDatapage table tbody tr td {
+  text-align: center;
+  padding: 10px;
+}
+
+#powercolor table tbody tr:nth-child(even) {
+  background: #333;
+}
+
+#powercolor .table-highlight {
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
+  color: #fff;
+  font-weight: 700;
+}
+
+#powercolor .text-center {
+  text-align: center;
+}
+
+#powercolor .msres_textarea {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  clear: both;
+  margin-top: 0px;
+  padding: 15px 0;
+}
+
+#powercolor .msres_textarea div {
+  flex: 0 0 50%;
+  padding: 20px;
+}
+
+#powercolor .msres_textarea p {
+  font-size: 14px;
+}
+
+#powercolor .msres_textarea img {
+  width: 100%;
+}
+
+#powercolor .ms_light {
+  background: #969696;
+  color: #000;
+}
+
+#powercolor .ms_light a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+#powercolor .ms_light a:after {
+  content: " »";
+}
+
+#powercolor .ms_light h2, #powercolor .ms_light h3 {
+  color: #000;
+  border-bottom: none;
+}
+
+#powercolor .ms_links {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  clear: both;
+  padding: 15px 0;
+}
+
+#powercolor .ms_links h2, #powercolor .ms_links h3 {
+  color: #fff;
+}
+
+#powercolor .ms_links img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#powercolor .ms_links div {
+  flex: 0 0 17%;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  border: 1px solid #fff;
+}
+
+#powercolor .ms_links div div {
+  border: none;
+  padding: 0px;
+  display: block;
+}
+
+#powercolor .ms_links div:hover {
+  border: 1px solid #e60012;
+}
+
+#powercolor .ms_links div div:hover {
+  border: none;
+}
+
+#powercolor .ms_links span {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+#powercolor .ms_prod {
+  color: #969696;
+  margin: 0;
+  background: none;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  clear: both;
+}
+
+#powercolor .ms_prod div {
+  flex: 0 0 45%;
+}
+
+#powercolor .ms_prod span {
+  padding: 5px 0;
+  display: block;
+}
+
+#powercolor .ms_prod p {
+  padding: 15px 0;
+}
+
+#powercolor .ms_prod a {
+  text-decoration: none;
+}
+
+#powercolor .ms_prod img {
+  max-width: 80%;
+}
+
+#powercolor a.ms_prod_name {
+  font-family: 'Roboto_Medium', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 5px 0;
+  padding: 0;
+  transition: all .3s;
+}
+
+#powercolor a.ms_prod_name:hover {
+  text-decoration: none;
+  transition: all .3s;
+}
+
+#powercolor .ms_prod_artnr {
+  color: rgba(160, 160, 160, 1.0);
+  margin: 5px 0;
+  padding: 0;
+  font-size: 1em;
+}
+
+#powercolor .ms_button {
+  font-size: 1em;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #fff;
+  background: #e60012;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #e60012;
+  margin: 20px 0;
+  padding: 10px 20px;
+  border-radius: 0;
+  transition: all .3s
+}
+
+#powercolor .ms_button::after {
+  content: none;
+}
+
+#powercolor .ms_button:hover {
+  color: #000;
+  background: #fff;
+  border: 1px solid #fff;
+  text-decoration: none;
+  transition: all .5s;
+}
+
+#powercolor .ms_vergleich {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  clear: both;
+  margin-top: 20px;
+  padding: 15px 0;
+}
+
+#powercolor .ms_vergleich img {
+  width: 100%;
+  padding: 10px;
+}
+
+#powercolor .ms_vergleich div {
+  padding-bottom: 20px;
+  flex: 0 1 12%;
+}
+
+#powercolor .ms_vergleich span {
+  display: block;
+}
+
+#powercolor .ms_vergleich .ms_prod_name {
+  font-family: 'Roboto_Medium', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.7em;
+  line-height: 1.5em;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 5px 0;
+  padding: 0;
+  transition: all .3s;
+}
+
+#powercolor .image-text div {
+  text-align: left;
+  padding: 0 20px;
+}
+
+#powercolor div.unterboxen div {
+  border: 1px solid #595f65;
+  padding: 20px;
+  margin: 20px;
+  flex: 0 0 45%;
+  background: #333;
+}
+
+#powercolor div.unterboxen div h3 {
+  color: #fff;
+  border: none;
+}
+
+#powercolor .product_single_row {
+  margin: 0px;
+  border: 0px;
+}
+
+#powercolor .product_single_row img {
+  border: 0px;
+  padding: 0px;
+}
+
+#powercolor .product_single_row .ms_button {
+  background: #fff;
+  color: #000;
+  border: none;
+}
+
+#powercolor .product_single_row .ms_button:hover {
+  background: #000;
+  color: #fff;
+}
+
+#powercolor .ms_fragen {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  clear: both;
+}
+
+#powercolor .ms_fragen div {
+  flex: 0 0 48%;
+  margin: 10px;
+  background: #fff;
+  border: 2px dashed #000000;
+}
+
+#powercolor .ms_fragen p {
+  line-height: 1.5em;
+  padding: 15px;
+}
+
+/* Mobile*/
+@media screen and (max-width: 1670px) {}
+
+@media screen and (max-width: 850px) {}
+
+@media screen and (max-width: 750px) {}
+
+@media screen and (max-width: 600px) {
+  #powercolor .ms_links div {
+    flex: 0 1 45%;
+  }
+
+  #powercolor .ms_fragen div {
+    flex: 0 0 100%;
+  }
+
+  #powercolor .product_single_row p {
+    padding: 0;
+    margin: 0;
+  }
+
+  #powercolor .msres_textarea div {
+    flex: 0 0 100%;
+  }
+
+  #powercolor .msres_textarea p {
+    padding: 10px 0px;
+    margin: 0;
+    font-size: 16px;
+  }
+
+  </style>
