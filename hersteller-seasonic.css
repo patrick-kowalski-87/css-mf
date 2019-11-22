@@ -1,0 +1,392 @@
+#seasonic {
+  background: #fff;
+  color: #2c3336;
+}
+
+#seasonic h1 {
+  font-size: 2.5em;
+  background: #197FBC;
+  color: #fff;
+  overflow: hidden;
+  line-height: 1.2em;
+  border-bottom: none;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 10px 0;
+}
+
+#seasonic h2 {
+  font-family: 'roboto,Arial,Helvetica,sans-serif';
+  font-size: 2em;
+  color: #333333;
+  overflow: hidden;
+  text-transform: uppercase;
+  line-height: 1.2em;
+  border-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+#seasonic h3 {
+  font-family: 'roboto,Arial,Helvetica,sans-serif';
+  font-size: 1.6em;
+  text-transform: none;
+  text-align: left;
+  color: #333333;
+  overflow: hidden;
+  line-height: 1.2em;
+  border-bottom: none;
+}
+
+#seasonic a {
+  color: #197FBC;
+  text-decoration: none;
+}
+
+#seasonic strong {
+  color: #197FBC !important;
+}
+
+#seasonic p.kategorielink a {
+  color: #000;
+}
+
+#seasonic p.kategorielink a:after {
+  content: " »";
+}
+
+#seasonic p, #seasonic .image-text p {
+  padding: 10px 10px 0px 0px;
+}
+
+#seasonic ul li {
+  text-align: center;
+}
+
+#seasonic table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #2c3336;
+  border: 1px solid #BABCBB;
+  margin: 20px auto;
+}
+
+#seasonic table tbody tr th, #catDatapage table tbody tr td {
+  text-align: center;
+  padding: 10px;
+}
+
+#seasonic table tbody tr:nth-child(even) {
+  background: #BABCBB;
+}
+
+#seasonic .table-highlight {
+  border-left: 2px solid #197FBC;
+  border-right: 2px solid #197FBC;
+  color: #197FBC;
+  font-weight: 700;
+}
+
+#seasonic .flexbox-container div {
+  flex: 0 0 50%;
+  padding-right: 20px;
+}
+
+#seasonic .flexbox-container img {
+  max-width: 100%;
+}
+
+#seasonic .text-center {
+  text-align: center;
+}
+
+#seasonic .msres_textarea {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  clear: both;
+  margin-top: 0px;
+  padding: 15px 0;
+}
+
+#seasonic .msres_textarea div {
+  flex: 0 0 50%;
+}
+
+#seasonic .msres_textarea p {
+  font-size: 14px;
+}
+
+#seasonic .msres_textarea img {
+  width: 100%;
+  padding-right: 10px;
+}
+
+#seasonic .ms_light {
+  background: #197FBC;
+  color: #fff;
+}
+
+#seasonic .ms_light a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+#seasonic .ms_light a:after {
+  content: " »";
+}
+
+#seasonic .ms_light h2, #seasonic .ms_light h3 {
+  color: #fff;
+  border-bottom: none;
+  margin-left: 0px
+}
+
+#seasonic .ms_links {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  clear: both;
+  padding: 15px 0;
+}
+
+#seasonic .ms_links h2, #seasonic .ms_links h3 {
+  color: #197FBC;
+}
+
+#seasonic .ms_links img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#seasonic .ms_links div {
+  flex: 0 0 15%;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  background: #fff;
+  border: solid 1px #2c3336;
+}
+
+#seasonic .ms_links div div {
+  border: none;
+  padding: 0px;
+  display: block;
+}
+
+#seasonic .ms_links div:hover {
+  border: 4px solid #197FBC;
+}
+
+#seasonic .ms_links span {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #2c3336;
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+#seasonic .ms_prod {
+  background: none;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  clear: both;
+}
+
+#seasonic .ms_prod div {
+  flex: 0 0 45%
+}
+
+#seasonic .ms_prod span {
+  font-size: 14px;
+  display: block;
+  margin-top: 10px;
+}
+
+#seasonic .ms_prod p {
+  padding: 0;
+}
+
+#seasonic .ms_prod img {
+  max-width: 90%;
+}
+
+#seasonic .row.ms_prod a {
+  text-decoration: none;
+}
+
+#seasonic a.ms_prod_name {
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 5px 0;
+  padding: 0;
+  transition: all .3s;
+}
+
+#seasonic .ms_prod_artnr {
+  color: #333;
+  margin: 5px 0;
+  padding: 0;
+  font-size: 1em;
+}
+
+#seasonic .ms_prod a {
+  text-decoration: none;
+}
+
+#seasonic .ms_button {
+  font-size: 1.2em;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #fff;
+  background: #197FBC;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #197FBC;
+  padding: 10px 20px;
+  border-radius: 0;
+  transition: all .3s
+}
+
+#seasonic .ms_button::after {
+  content: none;
+}
+
+#seasonic .ms_button:hover {
+  color: #fff;
+  border: 2px solid #197FBC;
+  background: #197FBC;
+  text-decoration: underline;
+  transition: all .5s;
+}
+
+#seasonic .ms_vergleich {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  clear: both;
+}
+
+#seasonic .ms_vergleich img {
+  width: 100%;
+  padding: 10px;
+}
+
+#seasonic .ms_vergleich div {
+  padding-bottom: 20px;
+  flex: 0 1 25%;
+}
+
+#seasonic .ms_vergleich span {
+  display: block;
+}
+
+#seasonic .ms_vergleich .ms_prod_name {
+  line-height: 1.5em;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 5px 0;
+  padding: 0;
+  transition: all .3s;
+}
+
+#seasonic .image-text div {
+  text-align: left;
+  padding: 0 20px;
+}
+
+#seasonic div.unterboxen {
+  background: #BABCBB;
+}
+
+#seasonic div.unterboxen div {
+  background: #fff;
+  border: none;
+  padding: 20px;
+  margin: 20px;
+  flex: 0 0 45%;
+}
+
+#seasonic div.unterboxen div h3 {
+  border: none;
+  color: #333333;
+}
+
+#seasonic .product_single_row {
+  margin: 20px 20px;
+  border: 0px;
+}
+
+#seasonic .product_single_row img {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+#seasonic .fragen {
+  border: none;
+  background: #197FBC;
+  color: #fff;
+}
+
+#seasonic .fragen h2 {
+  color: #fff;
+}
+
+#seasonic .ms_fragen {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  clear: both;
+}
+
+#seasonic .ms_fragen div {
+  flex: 0 0 48%;
+  margin: 10px;
+  background: #fff;
+  border: 2px dashed #000000;
+}
+
+#seasonic .ms_fragen p {
+  line-height: 1.5em;
+  padding: 15px;
+}
+
+/* Mobile*/
+@media screen and (max-width: 1670px) {}
+
+@media screen and (max-width: 850px) {}
+
+@media screen and (max-width: 750px) {}
+
+@media screen and (max-width: 600px) {
+  #seasonic .ms_links div {
+    flex: 0 1 45%;
+  }
+
+  #seasonic .ms_fragen div {
+    flex: 0 0 100%;
+  }
+
+  #seasonic .ms_prod div {
+    flex: 0 0 48%;
+  }
+
+  #seasonic .product_single_row p {
+    padding: 0;
+    margin: 0;
+  }
+
+  #seasonic .msres_textarea div {
+    flex: 0 0 100%;
+  }
+
+  #seasonic .msres_textarea p {
+    padding: 10px 0px;
+    margin: 0;
+    font-size: 16px;
+  }
+
+  </style>
