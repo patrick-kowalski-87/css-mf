@@ -39,7 +39,7 @@
 }
 
 #gskill a {
-  color: #E60012;
+  color: #fff;
   text-decoration: underline;
 }
 
@@ -262,18 +262,16 @@
   justify-content: space-around;
   flex-wrap: wrap;
   clear: both;
-  margin-top: 20px;
-  padding: 15px 0;
+  margin: 0px 30px 30px 30px;
+}
+
+#gskill .ms_vergleich p {
+  text-align: justify;
 }
 
 #gskill .ms_vergleich img {
   width: 100%;
   padding: 10px;
-}
-
-#gskill .ms_vergleich div {
-  padding-bottom: 20px;
-  flex: 0 1 12%;
 }
 
 #gskill .ms_vergleich span {
@@ -295,12 +293,11 @@
 #gskill .image-text div {
   text-align: left;
   padding: 0 20px;
+  margin: 10px 0;
 }
 
 #gskill div.unterboxen div {
   border: 1px solid #595f65;
-  padding: 20px;
-  margin: 20px;
   flex: 0 0 45%;
   background: #333;
 }
@@ -308,6 +305,11 @@
 #gskill div.unterboxen div h3 {
   color: #fff;
   border: none;
+}
+
+#gskill .unterboxen p {
+  padding-top: 20px;
+  text-align: justify;
 }
 
 #gskill .product_single_row {
