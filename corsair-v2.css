@@ -1,0 +1,137 @@
+/* Hersteller Farben */
+#corsair {
+  background: #000;
+}
+
+#corsair p {
+  color: #959595;
+  font-size: 1.2em;
+}
+
+#corsair ul {
+  margin: 15px;
+}
+
+#corsair li {
+  color: #959595;
+}
+
+#corsair li:before {
+  content: "» ";
+  color: #fecb00;
+}
+
+#corsair h1 {
+  color: #000;
+  margin: 0;
+  padding: 10px;
+  text-align: left;
+}
+
+#corsair h1 {
+  background-color: #fecb00;
+  background: linear-gradient(297deg, transparent 45px, #fecb00 0);
+}
+
+#corsair h2 {
+  font-size: 2.5em;
+  letter-spacing: 5px;
+  font-weight: bold;
+  padding: 20px 15px;
+  margin: 10px 0;
+  color: #fff;
+  border-bottom: 2px solid #fecb00;
+  border-left: none;
+  text-align: left;
+}
+
+#corsair h2 {
+  width: 100%;
+  background: none;
+}
+
+#corsair h3 {
+  font-size: 2em;
+  font-weight: normal;
+  padding: 20px 0px;
+  margin: 10px 0;
+  color: #fff;
+  background: none;
+  border-left: none;
+  text-align: left;
+}
+
+#corsair ._00_button {
+  background: #fecb00;
+  color: #555;
+  width: fit-content;
+  font-size: 1.2em;
+  border: none;
+  padding: 10px 20px;
+  text-transform: none;
+  display: block;
+  margin: 20px;
+  width: 50%;
+}
+
+#corsair ._02_bg_box_color {
+  background: #eee;
+}
+
+#corsair ._02_bg_box_color h3 {
+  color: #000;
+}
+
+/* 01-Sichtbarer-Bereich */
+#corsair ._01_sichtbarer_bereich_inhaltsverzeichnis_tabs ul li {
+  border: 2px solid #555;
+}
+
+#corsair ._01_sichtbarer_bereich_inhaltsverzeichnis_tabs ul li a {
+  color: #fff;
+  font-size: 1.2em;
+}
+
+#corsair ._01_sichtbarer_bereich_inhaltsverzeichnis_tabs ul li:hover {
+  border-color: #fecb00;
+  transition: border-color 1s;
+}
+
+#corsair ._01_sichtbarer_bereich_inhaltsverzeichnis_tabs ul li:hover>a {
+  color: #fecb00;
+  transition: color 1s;
+}
+
+/* 03-Produktbox */
+#corsair ._03_produktbox_details div li {
+  border: 2px solid #555;
+  background: #333;
+  text-align: center;
+  transition: all .3s ease-in-out;
+  letter-spacing: 2px;
+  padding: 10px;
+  margin: 1%;
+  background: transparent;
+  text-transform: uppercase;
+}
+
+#corsair ._03_produktbox_details div li a {
+  color: #fff;
+}
+
+#corsair ._03_produktbox_details div li:hover {
+  border-color: #fecb00;
+  transition: border-color 1s;
+}
+
+#corsair ._03_produktbox_details div li:hover>a {
+  color: #fecb00;
+  transition: color 1s;
+  text-decoration: none;
+}
+
+/* 04-Besondere-Elemente */
+#hol_lp-v2 ._04_link_box_2 div {
+  background: #333;
+  border: 5px solid #333;
+}
