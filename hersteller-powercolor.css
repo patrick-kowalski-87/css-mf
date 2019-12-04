@@ -1,11 +1,11 @@
-#gskill {
+#powercolor {
   background: #000;
-  color: #fff;
+  color: #969696;
 }
 
-#gskill h1 {
+#powercolor h1 {
   font-size: 2.5em;
-  background: #E60012;
+  background: #e60012;
   color: #fff;
   overflow: hidden;
   line-height: 1.2em;
@@ -15,79 +15,74 @@
   padding: 10px 0;
 }
 
-#gskill h2 {
+#powercolor h2 {
   font-size: 2em;
-  color: #b2b2b2;
+  color: #969696;
   overflow: hidden;
-  text-transform: uppercase;
+  text-transform: none;
   line-height: 1.2em;
   border-bottom: 0px;
   margin-bottom: 0px;
   font-weight: 900;
 }
 
-#gskill h3 {
+#powercolor h3 {
   font-size: 1.5em;
   font-weight: 700;
   text-transform: none;
   text-align: left;
-  color: #b2b2b2;
-  border-bottom: 2px solid #E60012;
+  color: #969696;
   overflow: hidden;
   line-height: 1.2em;
   border-bottom: none;
 }
 
-#gskill a {
+#powercolor a {
   color: #fff;
   text-decoration: underline;
 }
 
-#gskill p, #gskill .image-text p {
+#powercolor p.kategorielink a {
+  color: #000000;
+}
+
+#powercolor p.kategorielink a:after {
+  content: " »";
+}
+
+#powercolor p, #powercolor .image-text p {
   padding: 10px 0;
 }
 
-#gskill table {
+#powercolor table {
   width: 100%;
   border-collapse: collapse;
-  color: #fff;
+  color: #969696;
   border: none;
   margin: 20px auto;
 }
 
-#gskill table tbody tr th, #catDatapage table tbody tr td {
+#powercolor table tbody tr th, #catDatapage table tbody tr td {
   text-align: center;
   padding: 10px;
 }
 
-#gskill table th {
-  background: #f1f1f1;
-  color: #333;
-}
-
-#gskill table tbody tr:nth-child(even) {
+#powercolor table tbody tr:nth-child(even) {
   background: #333;
 }
 
-#gskill table tbody tr:nth-child(odd) {
-  background: #555;
-}
-
-#gskill .table-highlight {
-  background: #E60012;
+#powercolor .table-highlight {
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
   color: #fff;
   font-weight: 700;
 }
 
-#gskill .flexbox-container img {
-  max-width: 100%;
-}
-
-#gskill .text-center {
+#powercolor .text-center {
   text-align: center;
 }
 
-#gskill .msres_textarea {
+#powercolor .msres_textarea {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -96,39 +91,39 @@
   padding: 15px 0;
 }
 
-#gskill .msres_textarea div {
+#powercolor .msres_textarea div {
   flex: 0 0 50%;
   padding: 20px;
 }
 
-#gskill .msres_textarea p {
-  font-size: 16px;
+#powercolor .msres_textarea p {
+  font-size: 14px;
 }
 
-#gskill .msres_textarea img {
+#powercolor .msres_textarea img {
   width: 100%;
 }
 
-#gskill .ms_light {
-  background: #E60012;
-  color: #fff;
+#powercolor .ms_light {
+  background: #969696;
+  color: #000;
 }
 
-#gskill .ms_light a {
+#powercolor .ms_light a {
   color: #fff;
   text-decoration: underline;
 }
 
-#gskill .ms_light a:after {
+#powercolor .ms_light a:after {
   content: " »";
 }
 
-#gskill .ms_light h2, #gskill .ms_light h3 {
-  color: #f1f1f1;
+#powercolor .ms_light h2, #powercolor .ms_light h3 {
+  color: #000;
   border-bottom: none;
 }
 
-#gskill .ms_links {
+#powercolor .ms_links {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -136,79 +131,79 @@
   padding: 15px 0;
 }
 
-#gskill .ms_links h2, #gskill .ms_links h3 {
+#powercolor .ms_links h2, #powercolor .ms_links h3 {
   color: #fff;
 }
 
-#gskill .ms_links img {
+#powercolor .ms_links img {
   width: 100%;
   margin-bottom: 10px;
 }
 
-#gskill .ms_links div {
+#powercolor .ms_links div {
   flex: 0 0 17%;
   padding-bottom: 20px;
   margin-bottom: 10px;
   border: 1px solid #fff;
 }
 
-#gskill .ms_links div div {
+#powercolor .ms_links div div {
   border: none;
   padding: 0px;
   display: block;
 }
 
-#gskill .ms_links div:hover {
-  border: 1px solid #E60012;
+#powercolor .ms_links div:hover {
+  border: 1px solid #e60012;
 }
 
-#gskill .ms_links span {
+#powercolor .ms_links div div:hover {
+  border: none;
+}
+
+#powercolor .ms_links span {
   text-transform: uppercase;
   color: #fff;
   font-size: 1em;
   margin-top: 10px;
 }
 
-#gskill .ms_prod {
-  background: #f4f4f4;
-  color: #333333;
+#powercolor .ms_prod {
+  color: #969696;
   margin: 0;
-  padding: 10px 0;
+  background: none;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  clear: both;
 }
 
-#gskill .ms_prod h3 {
-  color: #333333;
+#powercolor .ms_prod div {
+  flex: 0 0 45%;
 }
 
-#gskill .ms_prod span {
-  font-size: 1.2em;
-  color: #333;
+#powercolor .ms_prod span {
   padding: 5px 0;
   display: block;
 }
 
-#gskill .ms_prod .ms_button {
-  color: #fff;
-  width: 50%;
-  margin: 0 auto;
-}
-
-#gskill .ms_prod p {
+#powercolor .ms_prod p {
   padding: 15px 0;
 }
 
-#gskill .ms_prod a {
+#powercolor .ms_prod a {
   text-decoration: none;
 }
 
-#gskill .ms_prod img {
-  max-width: 250px;
-  border: 2px dashed #E60012;
+#powercolor .ms_prod img {
+  max-width: 80%;
 }
 
-#gskill a.ms_prod_name {
+#powercolor a.ms_prod_name {
+  font-family: 'Roboto_Medium', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1.5em;
   line-height: 1.5em;
+  color: #fff;
   text-align: center;
   text-decoration: none;
   display: block;
@@ -217,68 +212,70 @@
   transition: all .3s;
 }
 
-#gskill a.ms_prod_name:hover {
+#powercolor a.ms_prod_name:hover {
   text-decoration: none;
   transition: all .3s;
 }
 
-#gskill .ms_prod_artnr {
+#powercolor .ms_prod_artnr {
   color: rgba(160, 160, 160, 1.0);
   margin: 5px 0;
   padding: 0;
   font-size: 1em;
 }
 
-#gskill .ms_button {
+#powercolor .ms_button {
   font-size: 1em;
   display: inline-block;
   text-transform: uppercase;
   color: #fff;
-  background: #E60012;
+  background: #e60012;
   font-weight: 700;
   text-align: center;
   text-decoration: none;
-  border: 1px solid #E60012;
+  border: 1px solid #e60012;
   margin: 20px 0;
   padding: 10px 20px;
   border-radius: 0;
   transition: all .3s
 }
 
-#gskill .ms_button::after {
+#powercolor .ms_button::after {
   content: none;
 }
 
-#gskill .ms_button:hover {
-  color: #E60012;
+#powercolor .ms_button:hover {
+  color: #000;
   background: #fff;
-  border: 1px solid #E60012;
+  border: 1px solid #fff;
   text-decoration: none;
   transition: all .5s;
 }
 
-#gskill .ms_vergleich {
+#powercolor .ms_vergleich {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   clear: both;
-  margin: 0px 30px 30px 30px;
+  margin-top: 20px;
+  padding: 15px 0;
 }
 
-#gskill .ms_vergleich p {
-  text-align: justify;
-}
-
-#gskill .ms_vergleich img {
+#powercolor .ms_vergleich img {
   width: 100%;
   padding: 10px;
 }
 
-#gskill .ms_vergleich span {
+#powercolor .ms_vergleich div {
+  padding-bottom: 20px;
+  flex: 0 1 12%;
+}
+
+#powercolor .ms_vergleich span {
   display: block;
 }
 
-#gskill .ms_vergleich .ms_prod_name {
+#powercolor .ms_vergleich .ms_prod_name {
   font-family: 'Roboto_Medium', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1.7em;
   line-height: 1.5em;
@@ -290,53 +287,60 @@
   transition: all .3s;
 }
 
-#gskill .image-text div {
+#powercolor .image-text div {
   text-align: left;
   padding: 0 20px;
-  margin: 10px 0;
 }
 
-#gskill div.unterboxen div {
+#powercolor div.unterboxen div {
   border: 1px solid #595f65;
+  padding: 20px;
+  margin: 20px;
   flex: 0 0 45%;
   background: #333;
 }
 
-#gskill div.unterboxen div h3 {
+#powercolor div.unterboxen div h3 {
   color: #fff;
   border: none;
 }
 
-#gskill .unterboxen p {
-  padding-top: 20px;
-  text-align: justify;
-}
-
-#gskill .product_single_row {
+#powercolor .product_single_row {
   margin: 0px;
   border: 0px;
 }
 
-#gskill .product_single_row img {
+#powercolor .product_single_row img {
   border: 0px;
   padding: 0px;
 }
 
-#gskill .ms_fragen {
+#powercolor .product_single_row .ms_button {
+  background: #fff;
+  color: #000;
+  border: none;
+}
+
+#powercolor .product_single_row .ms_button:hover {
+  background: #000;
+  color: #fff;
+}
+
+#powercolor .ms_fragen {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   clear: both;
 }
 
-#gskill .ms_fragen div {
+#powercolor .ms_fragen div {
   flex: 0 0 48%;
   margin: 10px;
   background: #fff;
   border: 2px dashed #000000;
 }
 
-#gskill .ms_fragen p {
+#powercolor .ms_fragen p {
   line-height: 1.5em;
   padding: 15px;
 }
@@ -349,24 +353,24 @@
 @media screen and (max-width: 750px) {}
 
 @media screen and (max-width: 600px) {
-  #gskill .ms_links div {
+  #powercolor .ms_links div {
     flex: 0 1 45%;
   }
 
-  #gskill .ms_fragen div {
+  #powercolor .ms_fragen div {
     flex: 0 0 100%;
   }
 
-  #gskill .product_single_row p {
+  #powercolor .product_single_row p {
     padding: 0;
     margin: 0;
   }
 
-  #gskill .msres_textarea div {
+  #powercolor .msres_textarea div {
     flex: 0 0 100%;
   }
 
-  #gskill .msres_textarea p {
+  #powercolor .msres_textarea p {
     padding: 10px 0px;
     margin: 0;
     font-size: 16px;
