@@ -7,18 +7,20 @@
   font-size: 2.5em;
   color: #fff;
   overflow: hidden;
-  line-height: 1.2em;
+  line-height: 2em;
   border-bottom: none;
   text-transform: uppercase;
+  margin-bottom: 0px;
 }
 
 #coolermaster h2 {
   font-size: 2em;
   color: #fff;
   overflow: hidden;
+  margin-bottom: 0px;
   line-height: 1.2em;
   border-bottom: none;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 #coolermaster h3 {
@@ -32,12 +34,17 @@
   padding-left: 10px;
 }
 
+#coolermaster strong {
+  color: #83329b !important;
+}
+
 #coolermaster a {
   color: #83329b;
 }
 
 #coolermaster p.kategorielink a {
-  color: #83329b;
+  color: #fff;
+  text-decoration: underline;
 }
 
 #coolermaster p.kategorielink a:after {
@@ -75,6 +82,10 @@
   font-weight: 700;
 }
 
+#coolermaster table ul li {
+  text-align: center;
+}
+
 #coolermaster .table-highlight {
   border-left: 2px solid #83329b;
   border-right: 2px solid #83329b;
@@ -95,14 +106,13 @@
   float: left;
 }
 
-#coolermaster .msres_textarea p {
-  padding: 20px;
-  font-size: 16px;
-}
-
 #coolermaster .ms_light {
   background: #83329b;
   color: #fff;
+}
+
+#coolermaster .ms_light img {
+  margin-top: 40px;
 }
 
 #coolermaster .ms_light a {
@@ -114,7 +124,8 @@
 }
 
 #coolermaster .ms_light h2, #coolermaster .ms_light h3 {
-  color: #55;
+  margin-left: 0px;
+  padding-left: 5px;
 }
 
 #coolermaster .ms_links {
@@ -233,7 +244,7 @@
 
 #coolermaster .ms_prod div {
   padding-bottom: 10px;
-  flex: 0 1 20%;
+  flex: 0 1 45%;
 }
 
 #coolermaster .ms_prod span {
@@ -280,8 +291,7 @@
 }
 
 #coolermaster .ms_button {
-  font-family: 'Roboto_Condensed_Regular';
-  font-size: 1em;
+  font-size: 14px;
   display: inline-block;
   color: #fff;
   font-weight: 700;

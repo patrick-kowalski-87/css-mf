@@ -64,7 +64,7 @@
   width: 100%;
   border-collapse: collapse;
   color: #2c3336;
-  border: 1px solid #BABCBB;
+  border: 1px solid #D2D3D5;
   margin: 20px auto;
 }
 
@@ -74,7 +74,7 @@
 }
 
 #seasonic table tbody tr:nth-child(even) {
-  background: #BABCBB;
+  background: #D2D3D5;
 }
 
 #seasonic .table-highlight {
@@ -145,6 +145,7 @@
   flex-wrap: wrap;
   clear: both;
   padding: 15px 0;
+  background: #D2D3D5;
 }
 
 #seasonic .ms_links h2, #seasonic .ms_links h3 {
@@ -184,7 +185,7 @@
 
 #seasonic .ms_prod {
   background: none;
-  margin: 0;
+  margin: 0 0 30px 0;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -192,7 +193,7 @@
 }
 
 #seasonic .ms_prod div {
-  flex: 0 0 45%
+  flex: 0 0 25%
 }
 
 #seasonic .ms_prod span {
@@ -297,7 +298,7 @@
 }
 
 #seasonic div.unterboxen {
-  background: #BABCBB;
+  background: #D2D3D5;
 }
 
 #seasonic div.unterboxen div {
@@ -352,6 +353,10 @@
   padding: 15px;
 }
 
+#seasonic .ms_hersteller_overlay {
+  background: rgba(255, 255, 255, 0.8);
+}
+
 /* Mobile*/
 @media screen and (max-width: 1670px) {}
 
@@ -369,7 +374,7 @@
   }
 
   #seasonic .ms_prod div {
-    flex: 0 0 48%;
+    flex: 0 0 45%;
   }
 
   #seasonic .product_single_row p {
@@ -385,5 +390,13 @@
     padding: 10px 0px;
     margin: 0;
     font-size: 16px;
+  }
+
+  #seasonic .ms_hersteller_overlay div {
+    flex: 0 0 100%;
+  }
+
+  #seasonic .ms_hersteller img {
+    max-width: 400px;
   }
 }
