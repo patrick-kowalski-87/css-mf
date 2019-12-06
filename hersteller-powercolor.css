@@ -31,7 +31,7 @@
   font-weight: 700;
   text-transform: none;
   text-align: left;
-  color: #969696;
+  color: #e60012;
   overflow: hidden;
   line-height: 1.2em;
   border-bottom: none;
@@ -169,7 +169,6 @@
 }
 
 #powercolor .ms_prod {
-  color: #969696;
   margin: 0;
   background: none;
   display: flex;
@@ -179,7 +178,9 @@
 }
 
 #powercolor .ms_prod div {
-  flex: 0 0 45%;
+  flex: 0 0 20%;
+  background: #fff;
+  padding: 10px;
 }
 
 #powercolor .ms_prod span {
@@ -196,14 +197,13 @@
 }
 
 #powercolor .ms_prod img {
-  max-width: 80%;
+  max-width: 100%;
 }
 
-#powercolor a.ms_prod_name {
-  font-family: 'Roboto_Medium', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+#powercolor span.ms_prod_name {
   font-size: 1.5em;
   line-height: 1.5em;
-  color: #fff;
+  color: #e60012;
   text-align: center;
   text-decoration: none;
   display: block;
@@ -222,6 +222,14 @@
   margin: 5px 0;
   padding: 0;
   font-size: 1em;
+}
+
+#powercolor .ms_prod .ms_button:hover {
+  color: #000;
+  background: #e60012;
+  border: 1px solid #e60012;
+  text-decoration: none;
+  transition: all .5s;
 }
 
 #powercolor .ms_button {
@@ -276,7 +284,6 @@
 }
 
 #powercolor .ms_vergleich .ms_prod_name {
-  font-family: 'Roboto_Medium', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1.7em;
   line-height: 1.5em;
   text-align: center;
@@ -345,6 +352,10 @@
   padding: 15px;
 }
 
+#catDatapage .ms_hersteller_overlay {
+  background: rgba(0, 0, 0, 0.6);
+}
+
 /* Mobile*/
 @media screen and (max-width: 1670px) {}
 
@@ -375,5 +386,3 @@
     margin: 0;
     font-size: 16px;
   }
-
-  </style>

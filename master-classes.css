@@ -1,6 +1,4 @@
-<style>
-
-/*2019-11-15-master-classes.css*/
+/*2019-12-04-master-classes.css*/
 #catDatapage h2 {
   font-size: 2.5em;
   display: table;
@@ -12,8 +10,24 @@
   font-family: inherit;
 }
 
-#catDatapage h2.image-text {
+#catDatapage .image-text h2 {
   padding: 5px 0;
+  clear: both;
+  margin-bottom: 20px;
+  text-align: left;
+  margin: 10px 0;
+  letter-spacing: 5px;
+  border: none;
+  color: #fff;
+}
+
+#catDatapage h2.dark {
+  background: #000;
+  width: 100%;
+  margin: 0;
+  border: none;
+  color: #fff;
+  letter-spacing: 5px;
 }
 
 #catDatapage h3, #catDatapage h4 {
@@ -482,6 +496,51 @@ img.float-right {
   align-items: center;
 }
 
+/* 28.11.2019 Linkbox*/
+#catDatapage .ms_links {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  clear: both;
+  margin-bottom: 0;
+  padding: 30px 0;
+  background: #000;
+}
+
+#catDatapage .ms_links div {
+  flex: 0 0 30%;
+  border: 5px solid #ccc;
+  background: #000;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+#catDatapage .ms_links span {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+#catDatapage .ms_links img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#catDatapage .ms_links div div {
+  border: none;
+  padding: 0px;
+  display: block;
+}
+
+#catDatapage .ms_links div:hover {
+  border: 5px solid #152A72;
+}
+
+#catDatapage .ms_links div div:hover {
+  border: none;
+}
+
 /* 11.09.2019 Bild und Text nebeneinander mit Flexbox*/
 #catDatapage .flexbox-container {
   display: -ms-flex;
@@ -699,6 +758,56 @@ table.vornachteile td {
   margin-top: 10px;
 }
 
+/* 04.12.219 Hersteller Box am Ende mit BG */
+#catDatapage .ms_hersteller {
+  background-color: #fff;
+  background-size: cover;
+  background-position: center;
+}
+
+#catDatapage .ms_hersteller_overlay {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  clear: both;
+  margin-top: 0px;
+  padding: 15px 0;
+}
+
+#catDatapage .ms_hersteller_overlay {
+  background: rgba(0, 0, 0, 0.45);
+}
+
+#catDatapage .ms_hersteller_overlay div {
+  padding: 20px;
+  flex: 0 0 48%;
+}
+
+#catDatapage .ms_hersteller img {
+  display: block;
+  max-width: 500px;
+}
+
+#catDatapage .ms_hersteller h3 {
+  font-size: 1.5em;
+  text-align: left;
+  border-bottom: none;
+}
+
+#catDatapage .ms_hersteller p {
+  font-size: 1em;
+  text-transform: none;
+  text-align: left;
+  padding: 20px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#catDatapage .ms_hersteller img {
+  margin: 0 auto;
+}
+
 /* Mobile*/
 @media screen and (max-width: 1670px) {
   #catDatapage .image-text {
@@ -833,5 +942,3 @@ table.vornachteile td {
     margin: 20px 5px;
   }
 }
-
-</style>

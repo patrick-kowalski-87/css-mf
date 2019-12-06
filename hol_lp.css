@@ -185,8 +185,8 @@
 }
 
 #hol_lp .ms_prod div:hover {
-  background: #ccc;
-  transition: background-color 1s ease-out;
+  border-color: #152A72;
+  transition: border-color 1s ease-out;
 }
 
 #hol_lp .ms_prod p {
@@ -201,10 +201,10 @@
 }
 
 #hol_lp a.ms_prod_name {
-  font-size: 1.2em;
-  height: 50px;
+  font-size: 1em;
+  min-height: 30px;
   color: #152A72;
-  line-height: 1.5em;
+  line-height: 1em;
   text-align: center;
   text-decoration: none;
   display: block;
@@ -246,8 +246,8 @@
 
 #hol_lp .ms_button:hover {
   color: #fff;
-  background: #ff0000;
-  border: 2px solid #fff;
+  background: #152A72;
+  border: 2px solid #152A72;
   text-decoration: none;
   transition: all .5s;
 }

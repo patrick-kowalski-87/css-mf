@@ -3,90 +3,90 @@
   color: #333333;
 }
 
-#iiyama .blackhawk, #iiyama .redeagle, #iiyama .silvercrow, #iiyama .goldphoenix{
+#iiyama .blackhawk, #iiyama .redeagle, #iiyama .silvercrow, #iiyama .goldphoenix {
   padding: 20px 10px;
   margin: 0;
   background-color: #BABCBB;
 }
 
-#iiyama .blackhawk span, #iiyama .redeagle span, #iiyama .silvercrow span, #iiyama .goldphoenix span{
+#iiyama .blackhawk span, #iiyama .redeagle span, #iiyama .silvercrow span, #iiyama .goldphoenix span {
   color: #fff !important;
 }
 
-#iiyama .blackhawk a{
-font-size: 1.2em;
-display: inline-block;
-text-transform: none;
-color: #fff;
-border: none;
-background: #000;
-font-weight: 400;
-text-align: center;
-text-decoration: none;
-margin: 0;
-padding: 10px 20px;
+#iiyama .blackhawk a {
+  font-size: 1.2em;
+  display: inline-block;
+  text-transform: none;
+  color: #fff;
+  border: none;
+  background: #000;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  margin: 0;
+  padding: 10px 20px;
 }
 
-#iiyama .blackhawk img{
-background: #000;
-padding: 20px;
+#iiyama .blackhawk img {
+  background: #000;
+  padding: 20px;
 }
 
-#iiyama .redeagle a{
-font-size: 1.2em;
-display: inline-block;
-text-transform: none;
-color: #fff;
-border: none;
-background: #E40823;
-font-weight: 400;
-text-align: center;
-text-decoration: none;
-margin: 0;
-padding: 10px 20px;
+#iiyama .redeagle a {
+  font-size: 1.2em;
+  display: inline-block;
+  text-transform: none;
+  color: #fff;
+  border: none;
+  background: #E40823;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  margin: 0;
+  padding: 10px 20px;
 }
 
-#iiyama .redeagle img{
-background: #E40823;
-padding: 20px;
+#iiyama .redeagle img {
+  background: #E40823;
+  padding: 20px;
 }
 
-#iiyama .silvercrow a{
-font-size: 1.2em;
-display: inline-block;
-text-transform: none;
-color: #fff;
-border: none;
-background: #555;
-font-weight: 400;
-text-align: center;
-text-decoration: none;
-margin: 0;
-padding: 10px 20px;
+#iiyama .silvercrow a {
+  font-size: 1.2em;
+  display: inline-block;
+  text-transform: none;
+  color: #fff;
+  border: none;
+  background: #555;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  margin: 0;
+  padding: 10px 20px;
 }
 
-#iiyama .silvercrow img{
-background: #555;
-padding: 20px;
+#iiyama .silvercrow img {
+  background: #555;
+  padding: 20px;
 }
 
-#iiyama .goldphoenix a{
-font-size: 1.2em;
-display: inline-block;
-text-transform: none;
-color: #fff;
-border: none;
-background: #CF9F3B;
-font-weight: 400;
-text-align: center;
-text-decoration: none;
-margin: 0;
-padding: 10px 20px;
+#iiyama .goldphoenix a {
+  font-size: 1.2em;
+  display: inline-block;
+  text-transform: none;
+  color: #fff;
+  border: none;
+  background: #CF9F3B;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  margin: 0;
+  padding: 10px 20px;
 }
 
-#iiyama .goldphoenix img{
-background: #CF9F3B;
-padding: 20px;
+#iiyama .goldphoenix img {
+  background: #CF9F3B;
+  padding: 20px;
 }
 
 #iiyama h1 {
@@ -102,25 +102,29 @@ padding: 20px;
 }
 
 #iiyama h2 {
-  font-family: 'roboto,Arial,Helvetica,sans-serif';
   font-size: 2.2em;
+  font-weight: 900;
+  letter-spacing: -1px;
   color: #333333;
   overflow: hidden;
   text-transform: none;
   line-height: 1.2em;
   border-bottom: 0px;
   margin-bottom: 0px;
+  text-transform: uppercase;
 }
 
 #iiyama h3 {
-  font-family: 'roboto,Arial,Helvetica,sans-serif';
   font-size: 1.5em;
-  text-transform: none;
-  text-align: left;
+  font-weight: 900;
+  letter-spacing: -1px;
   color: #333333;
   overflow: hidden;
+  text-transform: none;
   line-height: 1.2em;
-  border-bottom: none;
+  border-bottom: 0px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
 }
 
 #iiyama a {
@@ -151,7 +155,7 @@ padding: 20px;
 #iiyama table {
   width: 100%;
   border-collapse: collapse;
-  color: #333333;
+  color: #fff;
   border: 1px solid #BABCBB;
   margin: 20px auto;
 }
@@ -162,14 +166,20 @@ padding: 20px;
 }
 
 #iiyama table tbody tr:nth-child(even) {
-  background: #BABCBB;
+  background: #565656;
+}
+
+#iiyama table tbody tr:nth-child(odd) {
+  background: #323131;
 }
 
 #iiyama .table-highlight {
-  border-left: 2px solid #148EC9;
-  border-right: 2px solid #148EC9;
-  color: #148EC9;
   font-weight: 700;
+  border-left: none;
+  border-right: none;
+  color: #fff;
+  background: #148EC9;
+  opacity: 0.75;
 }
 
 #iiyama .flexbox-container div {
@@ -195,11 +205,18 @@ padding: 20px;
 }
 
 #iiyama .msres_textarea div {
-  flex: 0 0 50%;
+  flex: 0 0 48%;
+  padding: 10px 20px;
+  margin: 10px 10px;
+}
+
+#iiyama .msres_textarea h3 {
+  color: #fff;
 }
 
 #iiyama .msres_textarea p {
   font-size: 14px;
+  color: #fff;
 }
 
 #iiyama .msres_textarea img {
@@ -276,13 +293,11 @@ padding: 20px;
   justify-content: space-around;
   flex-wrap: wrap;
   clear: both;
-  margin-top: 20px;
   padding: 15px 0;
 }
 
 #iiyama .ms_prod div {
   flex: 0 0 45%;
-  background: #BABCBB;
 }
 
 #iiyama .ms_prod span {
@@ -302,22 +317,17 @@ padding: 20px;
   text-decoration: none;
 }
 
-#iiyama a.ms_prod_name {
-  font-size: 1.5em;
-  line-height: 1.5em;
-  color: #444444;
-  text-align: center;
-  text-decoration: none;
-  display: block;
-  margin: 5px 0;
-  padding: 0;
-  transition: all .3s;
-}
-
-#iiyama a.ms_prod_name:hover {
-  text-decoration: none;
-  background-color: #25C5EC;
-  transition: all .3s;
+#iiyama span.ms_prod_name {
+  font-size: 1.2em;
+  font-weight: 900;
+  letter-spacing: -1px;
+  color: #959595;
+  overflow: hidden;
+  text-transform: none;
+  line-height: 1.2em;
+  border-bottom: 0px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
 }
 
 #iiyama .ms_prod_artnr {
@@ -330,7 +340,6 @@ padding: 20px;
 #iiyama .ms_prod .ms_button {
   font-size: 1.2em;
   display: inline-block;
-  text-transform: none;
   color: #fff;
   background: #148EC9;
   font-weight: 400;
@@ -464,6 +473,33 @@ padding: 20px;
   padding: 15px;
 }
 
+#iiyama .ms_hersteller_overlay {
+  background: rgba(255, 255, 255, 0.45);
+}
+
+#iiyama .ms_hersteller h3 {
+  color: #000;
+}
+
+#iiyama .ms_hersteller p {
+  color: #000;
+  background: rgba(255, 255, 255, 0.75);
+}
+
+#iiyama .msres_textarea {
+  background-image: url(http://emoji.kunden.loewenstark.de/wordpress/wp-content/uploads/black-hawk-features-bg.jpg);
+  background-color: #fff;
+  background-size: cover;
+  background-position: center;
+}
+
+#iiyama .ms_links, #iiyama .ms_prod {
+  background-image: url(http://emoji.kunden.loewenstark.de/wordpress/wp-content/uploads/iiyama-produkt-bg.jpg);
+  background-color: #fff;
+  background-size: cover;
+  background-position: center;
+}
+
 /* Mobile*/
 @media screen and (max-width: 1670px) {}
 
@@ -498,5 +534,4 @@ padding: 20px;
     margin: 0;
     font-size: 16px;
   }
-
-  </style>
+}

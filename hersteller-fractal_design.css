@@ -1,0 +1,484 @@
+#fractal_design {
+  background: #fff;
+  color: #000;
+}
+
+#fractal_design h1 {
+  font-size: 2.5em;
+  color: #000;
+  overflow: hidden;
+  line-height: 1.2em;
+  border-bottom: none;
+  text-transform: none;
+}
+
+#fractal_design h2 {
+  font-size: 2.5em;
+  color: #333;
+  overflow: hidden;
+  line-height: 1.2em;
+  border-bottom: none;
+  text-transform: none;
+}
+
+#fractal_design h3 {
+  font-size: 1.5em;
+  text-transform: none;
+  text-align: left;
+  color: #333;
+  overflow: hidden;
+  line-height: 1.2em;
+  border-bottom: 3px solid #027aef;
+}
+
+#fractal_design a {
+  color: #027aef;
+}
+
+#fractal_design p .kategorielink a {
+  color: #027aef;
+}
+
+#fractal_design p .kategorielink a:after {
+  content: " »";
+}
+
+#fractal_design p, #fractal_design .image-text p {
+  padding: 10px;
+  margin: 0;
+}
+
+#fractal_design table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #555;
+  border: 1px solid #555;
+  margin: 20px auto;
+}
+
+#fractal_design table tbody tr th, #fractal_design table tbody tr td {
+  text-align: center;
+  padding: 10px;
+}
+
+#fractal_design table tbody tr th {
+  background: #67676B;
+  color: #fff;
+}
+
+#fractal_design table tbody tr:nth-child(even) {
+  background: #fff;
+}
+
+#fractal_design table tbody tr:nth-child(odd) {
+  background: #f1f1f1;
+}
+
+#fractal_design table tbody td:nth-child(0n+1) {
+  text-align: left;
+  font-weight: 700;
+}
+
+#fractal_design .table-highlight {
+  border-left: 2px solid #027aef;
+  border-right: 2px solid #027aef;
+  color: #027aef;
+  font-weight: 700;
+}
+
+#fractal_design .text-center {
+  text-align: center;
+}
+
+#fractal_design .msres_textarea {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  clear: both;
+  margin-top: 0px;
+  padding: 15px 0;
+}
+
+#fractal_design .msres_textarea div {
+  flex: 0 0 50%;
+  padding: 20px;
+}
+
+#fractal_design .msres_textarea img {
+  width: 100%;
+}
+
+#fractal_design .msres_textarea p {
+  padding: 20px 0;
+  font-size: 16px;
+}
+
+#fractal_design .flexbox-container {
+  background: #67676B;
+  padding: 60px 0;
+  color: #fff;
+}
+
+#fractal_design .flexbox-container h3 {
+  color: #fff;
+}
+
+#fractal_design .ms_light {
+  background: #027aef;
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+#fractal_design .ms_light a {
+  color: #fff;
+}
+
+#fractal_design .ms_light a:after {
+  content: " ";
+}
+
+#fractal_design .ms_light h2, #fractal_design .ms_light h3 {
+  color: #fff;
+}
+
+#fractal_design .ms_links {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  clear: both;
+  margin-top: 20px;
+  padding: 30px 0;
+  background: #67676B;
+}
+
+#fractal_design .ms_links div {
+  flex: 0 0 15%;
+  border: 5px solid #ccc;
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+#fractal_design .ms_links span {
+  text-transform: uppercase;
+  color: #000;
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+#fractal_design .ms_links img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#fractal_design .ms_links div div {
+  border: none;
+  padding: 0px;
+  display: block;
+}
+
+#fractal_design .ms_links div:hover {
+  border: 5px solid #027aef;
+}
+
+#fractal_design .ms_links div div:hover {
+  border: none;
+}
+
+#fractal_design .ms_prod {
+  background: #67676B;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  clear: both;
+  margin-top: 20px;
+  padding: 15px 0;
+}
+
+#fractal_design .ms_prod div {
+  flex: 0 0 20%;
+  background: #fff;
+  padding: 10px;
+}
+
+#fractal_design .ms_prod span {
+  display: block;
+}
+
+#fractal_design .ms_prod p {
+  padding: 0;
+}
+
+#fractal_design .ms_prod img {
+  max-width: 100%;
+}
+
+#fractal_design .row.ms_prod a {
+  text-decoration: none;
+}
+
+#fractal_design .ms_prod_name {
+  font-size: 1.2em;
+  line-height: 1.2em;
+  text-decoration: none;
+  margin: 5px 0;
+  padding: 0;
+}
+
+#fractal_design a.ms_prod_name:hover {
+  text-decoration: none;
+  transition: all .3s;
+}
+
+#fractal_design .ms_prod_artnr {
+  color: rgba(160, 160, 160, 1.0);
+  margin: 5px 0;
+  padding: 0;
+  font-size: 1em;
+}
+
+#fractal_design .ms_prod_prize {
+  font-size: 2em;
+  color: inherit;
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+#fractal_design .ms_prod_ust {
+  font-size: .8em;
+  color: rgba(160, 160, 160, 1.0);
+  margin: 0;
+  padding: 0;
+}
+
+#fractal_design .ms_prod_ust a {
+  color: inherit;
+  font-size: inherit;
+  text-decoration: underline;
+}
+
+#fractal_design .ms_button {
+  font-size: 1em;
+  display: inline-block;
+  color: #027aef;
+  font-weight: 700;
+  border: 2px solid #027aef;
+  text-align: center;
+  text-decoration: none;
+  margin: 20px 0;
+  padding: 10px 20px;
+  border-radius: 0;
+  transition: all .3s
+}
+
+#fractal_design .ms_button::before {
+  content: "»";
+  margin-right: 10px;
+}
+
+#fractal_design .ms_button::after {
+  content: none;
+}
+
+#fractal_design .ms_button:hover {
+  color: #fff;
+  background-color: #027aef;
+  border: 2px solid #027aef;
+  text-decoration: none;
+  transition: all .3s;
+}
+
+#fractal_design .image-text .ms_button {
+  background: #027aef;
+  color: #fff;
+  text-decoration: none;
+}
+
+#fractal_design .ms_vergleich {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  clear: both;
+  margin-top: 20px;
+  padding: 15px 0;
+}
+
+#fractal_design .ms_vergleich img {
+  width: 100%;
+  padding: 10px;
+}
+
+#fractal_design .ms_vergleich div {
+  padding-bottom: 20px;
+  flex: 0 1 12%;
+}
+
+#fractal_design .ms_vergleich span {
+  display: block;
+}
+
+#fractal_design .ms_vergleich .ms_prod_name {
+  font-size: 1.7em;
+  line-height: 1.5em;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 5px 0;
+  padding: 0;
+  transition: all .3s;
+}
+
+#fractal_design .fragen {
+  background: #f1f1f1;
+  color: #000;
+}
+
+#fractal_design .image-text div {
+  text-align: left;
+  background: #000;
+  color: #fff;
+  padding: 20px
+}
+
+#fractal_design .markenseite div.unterboxen.serien div h3 {
+  text-align: left;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+#fractal_design .markenseite div.unterboxen.serien div p {
+  text-align: left;
+}
+
+#fractal_design .markenseite div.unterboxen.serien div img {
+  max-width: 80%;
+  margin-top: 10px;
+}
+
+#fractal_design .markenseite div.unterboxen.serien div {
+  background: #ccc;
+  margin: 10px;
+  border-top: 4px solid #027aef;
+}
+
+#fractal_design .markenseite div.unterboxen.serien div:hover {
+  border-top: 4px solid #333333;
+}
+
+#fractal_design div.unterboxen div h3 {
+  border-bottom: none;
+  text-align: center;
+  color: #027aef;
+  display: block;
+}
+
+#fractal_design .product_single_row {
+  margin: 10px 20px;
+  border: 2px solid #027aef;
+  background: #ccc;
+}
+
+#fractal_design .product_single_row img {
+  padding: 10px;
+  background: #fff;
+}
+
+#fractal_design .serien-img-teaser {
+  width: 100%;
+}
+
+#fractal_design .ms_hersteller {
+  background-color: #fff;
+  background-size: cover;
+  background-position: center;
+}
+
+#fractal_design .ms_hersteller_overlay {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  clear: both;
+  margin-top: 0px;
+  padding: 15px 0;
+}
+
+#fractal_design .ms_hersteller_overlay {
+  background: rgba(0, 0, 0, 0.45);
+}
+
+#fractal_design .ms_hersteller_overlay div {
+  padding: 20px;
+  flex: 0 0 48%;
+}
+
+#fractal_design .ms_hersteller img {
+  display: block;
+}
+
+#fractal_design .ms_hersteller h3 {
+  font-size: 1.5em;
+  text-transform: none;
+  text-align: left;
+  color: #fff;
+  overflow: hidden;
+  line-height: 1.2em;
+  border-bottom: none;
+}
+
+#fractal_design .ms_hersteller p {
+  font-size: 1em;
+  text-transform: none;
+  text-align: left;
+  padding: 20px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#fractal_design .ms_hersteller img {
+  margin: 0 auto;
+}
+
+#fractal_design .ms_hersteller .ms_button {
+  color: #fff;
+  background: #000;
+  border: none;
+}
+
+/* Mobile*/
+@media screen and (max-width: 1670px) {}
+
+@media screen and (max-width: 850px) {}
+
+@media screen and (max-width: 750px) {}
+
+@media screen and (max-width: 600px) {
+  #fractal_design table td {
+    min-width: 200px;
+  }
+
+  #fractal_design .ms_prod div {
+    flex: 0 0 45%;
+    margin: 2%;
+  }
+
+  #fractal_design .ms_links div {
+    flex: 0 0 48%;
+  }
+
+  #fractal_design .product_single_row {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+
+  #fractal_design .msres_textarea div {
+    flex: 0 0 100%;
+  }
+
+  #fractal_design .ms_hersteller_overlay div {
+    flex: 0 0 100%;
+  }
+}

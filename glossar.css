@@ -1,0 +1,332 @@
+#mf_glossar h1 {
+  font-size: 2.5em;
+  color: #000000;
+  overflow: hidden;
+  line-height: 1.2em;
+  border-bottom: none;
+  text-transform: uppercase;
+  background: #152A72;
+  color: #fff;
+  margin: 0;
+  padding: 10px;
+}
+
+#mf_glossar h2 {
+  font-size: 1.8em;
+  font-weight: bolder;
+  padding: 20px 10px;
+  width: 100%;
+  color: #000;
+  background: #f1f1f1;
+  border-bottom: none;
+  text-align: center;
+}
+
+#mf_glossar h2::before {
+  content: '» ';
+}
+
+#mf_glossar h3 {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  width: 100%;
+  background: #152A72;
+  text-transform: uppercase;
+  text-align: left;
+  color: #fff;
+  overflow: hidden;
+  border-bottom: 0px;
+  padding: 10px 20px;
+}
+
+#mf_glossar h4 {
+  text-align: left;
+  padding: 20px 20px;
+  border-bottom: 2px solid #00247B;
+}
+
+#mf_glossar hr {
+  border: 5px dashed #ccc;
+  margin: 10px 0;
+  background: #f1f1f1;
+}
+
+#mf_glossar p {
+  padding: 0;
+  text-align: justify;
+}
+
+#mf_glossar table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+#mf_glossar table tbody tr th, #mf_glossar table tbody tr td {
+  text-align: center;
+  padding: 10px;
+  margin: 20px auto;
+}
+
+#mf_glossar table tbody tr td:first-child {
+  text-align: left;
+  font-weight: bold;
+}
+
+#mf_glossar table tbody th {
+  background-color: #333;
+  color: #fff;
+}
+
+#mf_glossar table tbody tr:nth-child(even) {
+  background-color: #ccc;
+}
+
+#mf_glossar table tbody tr:nth-child(odd) {
+  background-color: #ddd;
+}
+
+#mf_glossar .inhaltsverzeichnis {
+  background: #fff;
+  border: 1px dashed #333;
+  width: 75%;
+  padding: 20px 20px;
+  text-align: left;
+}
+
+#mf_glossar .inhaltsverzeichnis strong {
+  font-size: 1.2em;
+}
+
+#mf_glossar .inhaltsverzeichnis a {
+  color: #00247B;
+  line-height: 1.7em;
+}
+
+#mf_glossar .inhaltsverzeichnis ul, #mf_glossar .inhaltsverzeichnis ol {
+  padding: 10px;
+  margin: 0 20px;
+}
+
+#mf_glossar .inhaltsverzeichnis ul ul li, #mf_glossar .inhaltsverzeichnis ol ol li {
+  margin-left: 20px;
+}
+
+#mf_glossar .inhaltsverzeichnis ol ol li {
+  list-style-type: none;
+}
+
+#mf_glossar .inhaltsverzeichnis span {
+  text-align: left;
+  font-size: 1.4em;
+  padding: 10px 10px;
+}
+
+#mf_glossar .ms_button {
+  font-size: 1em;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #152A72;
+  font-weight: 700;
+  border: 2px solid #152A72;
+  text-align: center;
+  text-decoration: none;
+  margin: 20px 0;
+  padding: 10px 20px;
+  border-radius: 0;
+  transition: all .3s
+}
+
+#mf_glossar .ms_button::after {
+  content: none;
+}
+
+#mf_glossar .ms_button:hover {
+  color: #fff;
+  background: #152A72;
+  border: 2px solid #152A72;
+  text-decoration: none;
+  transition: all .5s;
+}
+
+#mf_glossar .ms_single {
+  margin: 50px 15em;
+}
+
+#mf_glossar .ms_quellen {
+  background: #152A72;
+}
+
+#mf_glossar.ms_quellen li {
+  padding: 10px;
+}
+
+#mf_glossar .ms_quellen a {
+  color: #fff;
+  line-height: 3em;
+}
+
+#mf_glossar .ms_quellen li:before {
+  color: #fff;
+}
+
+#mf_glossar .flexbox-container {
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: flex-start;
+  background: #f1f1f1;
+}
+
+#mf_glossar .flexbox-container div {
+  flex: 0 0 50%;
+  padding: 10px 20px 10px;
+}
+
+#mf_glossar .flexbox-container div div div {
+  padding: 0;
+}
+
+#mf_glossar .flexbox-container img {
+  margin-bottom: 10px;
+}
+
+#mf_glossar .ms_links {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  clear: both;
+  padding: 15px 0;
+}
+
+#mf_glossar .ms_links img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#mf_glossar .ms_links div {
+  flex: 0 1 17%;
+  border: 5px solid #ccc;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  background-color: #f1f1f1;
+}
+
+#mf_glossar .ms_links div div {
+  border: none;
+  padding: 0px;
+  display: block;
+}
+
+#mf_glossar .ms_links div:hover {
+  border: 5px solid #ff0000;
+}
+
+#mf_glossar .ms_links div div:hover {
+  border: none;
+}
+
+#mf_glossar .ms_links span {
+  text-transform: uppercase;
+  color: #333;
+  font-size: 1em;
+  margin-top: 5px;
+  margin: 5px;
+}
+
+#mf_glossar .glossar_ubersicht {
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#mf_glossar .glossar_ubersicht div {
+  flex: 0 0 30%;
+  margin: 20px 0;
+}
+
+#mf_glossar .glossar_ubersicht div li {
+  background: #f1f1f1;
+  padding: 5px 10px;
+  margin: 10px 0;
+}
+
+#mf_glossar .glossar_ubersicht div li:hover {
+  background: #fff;
+  border-left: 5px solid #333;
+  transition: all .5s;
+  color: #333;
+}
+
+#mf_glossar .glossar_ubersicht div li a:hover {
+  transition: all .5s;
+  color: #333;
+  text-decoration: none;
+}
+
+#mf_glossar .glossar_ubersicht div strong {
+  font-size: 1.5em;
+}
+
+a
+
+/* Mobile*/
+@media screen and (max-width: 1670px) {}
+
+@media screen and (max-width: 850px) {}
+
+@media screen and (max-width: 750px) {}
+
+@media screen and (max-width: 600px) {
+  #mf_glossar h1 {
+    font-size: 2em;
+  }
+
+  #mf_glossar h2 {
+    font-size: 1.5em;
+  }
+
+  #mf_glossar h3 {
+    width: 100%;
+  }
+
+  #mf_glossar.flexbox-container {
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    background: #f1f1f1;
+    align-items: baseline;
+  }
+
+  #mf_glossar .ms_links div {
+    flex: 0 0 48%;
+  }
+
+  #mf_glossar .ms_single {
+    margin: 10px 10px;
+  }
+
+  #mf_glossar.flexbox-container img {
+    max-width: none;
+  }
+
+  #mf_glossar .flexbox-container div {
+    flex: 0 0 100%;
+    padding: 0px 5px;
+  }
+
+  #mf_glossar .inhaltsverzeichnis {
+    width: 100%;
+    padding: 20px 20px;
+    margin: 10px 0;
+    border: none;
+  }
+}
+
+</style>
