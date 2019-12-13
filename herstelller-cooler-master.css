@@ -34,6 +34,17 @@
   padding-left: 10px;
 }
 
+#coolermaster h4 {
+  font-size: 1.2em;
+  text-transform: none;
+  text-align: left;
+  color: #fff;
+  overflow: hidden;
+  line-height: 1.2em;
+  border-bottom: none;
+  padding-left: 10px;
+}
+
 #coolermaster strong {
   color: #83329b !important;
 }
@@ -51,9 +62,15 @@
   content: " »";
 }
 
-#coolermaster p, #coolermaster .image-text p {
+#coolermaster p {
   padding: 10px;
   margin: 0;
+}
+
+#coolermaster ul {
+  width: 100%;
+  margin: 0px;
+  padding-left: 20px;
 }
 
 #coolermaster table {
@@ -70,11 +87,11 @@
 }
 
 #coolermaster table tbody tr:nth-child(even) {
-  background: #d0d0d0;
+  background: #b1b1b1;
 }
 
 #coolermaster table tbody tr:nth-child(odd) {
-  background: #eeeeee;
+  background: #e1e1e1;
 }
 
 #coolermaster table tbody td:nth-child(0n+1) {
@@ -97,13 +114,35 @@
   text-align: center;
 }
 
+#coolermaster .image-text p {
+  padding: 10px 10px 10px 0px;
+  margin: 0;
+}
+
+#coolermaster .image-text img {
+  margin-left: 15px;
+}
+
+#coolermaster .image-text div {
+  text-align: left;
+  background: #000;
+  color: #fff;
+  padding: 20px
+}
+
 #coolermaster .msres_textarea {
-  width: 100%;
-  min-height: 250px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
   padding: 10px;
   padding-top: 0;
   padding-bottom: 20px;
   float: left;
+}
+
+#coolermaster .msres_textarea div {
+  flex: 0 0 48%;
+  margin: 10px 10px;
 }
 
 #coolermaster .ms_light {
@@ -244,7 +283,7 @@
 
 #coolermaster .ms_prod div {
   padding-bottom: 10px;
-  flex: 0 1 45%;
+  flex: 0 1 25%;
 }
 
 #coolermaster .ms_prod span {
@@ -267,7 +306,6 @@
 }
 
 #coolermaster a.ms_prod_name {
-  font-family: 'Roboto_Medium', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1.5em;
   line-height: 1.5em;
   text-align: center;
@@ -295,7 +333,8 @@
   display: inline-block;
   color: #fff;
   font-weight: 700;
-  border: 2px solid #83329b;
+  background: #83329b;
+  border: none;
   text-align: center;
   text-decoration: none;
   margin: 20px 0;
@@ -340,7 +379,6 @@
 }
 
 #coolermaster .ms_vergleich .ms_prod_name {
-  font-family: 'Roboto_Medium', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1.7em;
   line-height: 1.5em;
   text-align: center;
@@ -351,11 +389,8 @@
   transition: all .3s;
 }
 
-#coolermaster .image-text div {
-  text-align: left;
-  background: #000;
-  color: #fff;
-  padding: 20px
+#coolermaster .unterboxen img {
+  max-width: 500px;
 }
 
 #coolermaster .markenseite div.unterboxen.serien div {
@@ -425,11 +460,16 @@
   background: #fff;
 }
 
-hr {
-  width: 100%;
-  height: 5px;
-  color: #83329b;
-  background: #83329b;
+#coolermaster .ms_hersteller_overlay {
+  background: rgba(0,0,0,0.5);
+}
+
+#coolermaster .ms_hersteller_overlay p {
+  background: rgba(255,255,255,0.4);
+}
+
+#coolermaster .ms_hersteller_overlay ul {
+  background: rgba(255,255,255,0.4);
 }
 
 /* Mobile*/
@@ -444,4 +484,32 @@ hr {
     min-width: 200px;
   }
 
-  </style>
+  #coolermaster .ms_links div {
+    flex: 0 1 45%;
+  }
+
+  #coolermaster .ms_fragen div {
+    flex: 0 0 100%;
+  }
+
+  #coolermaster .ms_prod div {
+    flex: 0 0 45%;
+  }
+
+  #coolermaster .product_single_row p {
+    padding: 0;
+    margin: 0;
+  }
+
+  #coolermaster .msres_textarea div {
+    flex: 0 0 100%;
+  }
+
+  #coolermaster .ms_hersteller_overlay div {
+    flex: 0 0 100%;
+  }
+
+  #coolermaster .ms_hersteller img {
+    max-width: 400px;
+  }
+}
