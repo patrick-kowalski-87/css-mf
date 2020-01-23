@@ -1,0 +1,112 @@
+<style>.is--seotext-content h2 {
+  font-size: 2em;
+  background: #f1f1f1;
+  text-align: center;
+  padding: 20px;
+  border-bottom: 5px solid #098CC6;
+}
+
+.is--seotext-content h3 {
+  margin: 10px 0;
+}
+
+.is--seotext-content p {
+  padding: 10px 20px;
+  margin: 0;
+}
+
+aside.aside.aside-2 {
+  padding: 0 20px;
+}
+
+aside.aside.aside-2 h3 {
+  text-align: left;
+}
+
+aside.aside.aside-2 p {
+  text-align: left;
+}
+
+button.textkacheln-button {
+  background: none;
+  padding: 10px;
+  border: 2px solid #098CC6;
+  width: fit-content;
+  color: #098CC6;
+  transition: all 1s ease;
+  -webkit-transition: all .5s ease;
+}
+
+button.textkacheln-button:hover {
+  background: #098CC6;
+  border: 2px solid #098CC6;
+  color: #fff;
+  transition: all 1s ease;
+  -webkit-transition: all .5s ease;
+}
+
+button.textkacheln-button span:hover {
+  color: #fff;
+}
+
+.textkacheln-gesamt h3 {
+  text-align: center;
+}
+
+.katkachel {
+  background: #f1f1f1;
+}
+
+.katkacheln-text p {
+  min-height: 260px;
+  padding: 15px;
+}
+
+.katkacheln-text {
+  text-align: center;
+}
+
+.llpages-autocontent-links {
+  line-height: 1.5em;
+  font-size: 1em;
+  background: #f1f1f1;
+  width: fit-content;
+  padding: 20px;
+  border: 2px dashed #098CC6;
+}
+
+.leo_bg_image p {
+  padding: 30px;
+  margin: 0 auto;
+  width: 80%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+.leo_bg_image div div {
+  background-size: cover;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+/* Mobile*/
+@media screen and (max-width: 1670px) {}
+
+@media screen and (max-width: 850px) {}
+
+@media screen and (max-width: 750px) {}
+
+@media screen and (max-width: 600px) {
+  .llpages-grid .llpages-gridrow .llpages-gridcell img {
+    max-width: 100%;
+    width: -webkit-fill-available;
+  }
+
+  .katkacheln-text p {
+    min-height: auto;
+    padding: 5px;
+  }
+}
+
+</style>

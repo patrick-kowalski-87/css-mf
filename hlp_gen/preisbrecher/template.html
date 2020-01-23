@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="de">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- #if assets -->
+    {assets}
+    <!-- #endif assets -->
+
+    <!-- #if elements.css -->
+    <style type="text/css">
+      {
+        elements.css
+      }
+    </style>
+    <!-- #endif elements.css -->
+    <!-- #if template.js -->
+    <script>
+      {
+        template.js
+      }
+    </script>
+    <!-- #endif template.js -->
+
+    <!-- #if template.css -->
+    <style type="text/css">
+      {
+        template.css
+      }
+    </style>
+    <!-- #endif template.css -->
+  </head>
+
+  <body>
+    <div id="{landingpage.metakeywords}">
+      <section>
+        <div class="section section-border markenseite" id="catDatapage">
+          {grid}
+        </div>
+      </section>
+    </div>
+    <!-- #if landingpage.customhtmlfooter -->
+    {landingpage.customhtmlfooter}
+    <!-- #endif landingpage.customhtmlfooter -->
+  </body>
+
+</html>

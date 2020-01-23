@@ -1,0 +1,300 @@
+/* Hersteller Farben */
+/* 00-Basics */
+#pny {
+  color: grey;
+}
+
+#pny a {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+#pny h1 {
+  font-size: 2.5em;
+  color: #fff;
+  overflow: hidden;
+  line-height: 1.2em;
+  border-bottom: none;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 10px;
+  text-align: left;
+}
+
+#pny h1 {
+  width: 75%;
+  background-color: #000;
+}
+
+#pny h2 {
+  color: #fff;
+  font-size: 1.5em;
+  background: linear-gradient(225deg,
+      transparent 0%,
+      transparent 10%,
+      #313131 10%,
+      #313131 90%,
+      transparent 90%,
+      transparent 100%);
+}
+
+#pny h2:after {
+  border-bottom: 3px solid #fff;
+}
+
+#pny h3 {
+  color: #000;
+  font-size: 1.5em;
+  background: none;
+  padding: 20px 0;
+}
+
+#pny h3:after {
+  border-bottom: 3px solid #000;
+}
+
+#pny ._00_button {
+  background: #05658b;
+  color: #fff;
+  border: 3px solid #05658b;
+  margin: 20px 0;
+  width: fit-content;
+}
+
+#pny ._00_button:after {
+  content: " »";
+}
+
+#pny ._00_button:hover {
+  background: #000;
+  color: #fff;
+  border: 3px solid #000;
+  transition: all 1s ease-out;
+  text-decoration: none;
+}
+
+/* 00-Basics Ende*/
+/* 00-Grid Fixes */
+#pny .textkacheln-gesamt {
+  background: #EDEDED;
+}
+
+#pny .textkacheln-gesamt h3 {
+  color: #000;
+  text-align: center;
+}
+
+#pny .textkacheln-gesamt h3:after {
+  border: none;
+  display: none;
+}
+
+#pny .textkacheln-gesamt p {
+  min-height: 175px;
+  padding: 10px;
+  color: #333;
+}
+
+#pny button.textkacheln-button {
+  background: none;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #05658b;
+  width: 100%;
+  color: #05658b;
+  transition: all 1s ease;
+  -webkit-transition: all .5s ease;
+}
+
+#pny button.textkacheln-button:hover {
+  background: #05658b;
+  border: 2px solid #05658b;
+  color: #fff;
+  transition: all 1s ease;
+  -webkit-transition: all .5s ease;
+}
+
+#pny ._02_usp button.textkacheln-button {
+  display: none;
+}
+
+/* 01-LOM Elemente */
+/* 01-Sichtbarer-Bereich */
+#pny ._01_sichtbarer_bereich h1 {
+  position: relative;
+  top: 50px;
+  min-height: 80px;
+  padding-left: 10%;
+  background: linear-gradient(225deg,
+      transparent 0%,
+      transparent 10%,
+      #000 7%,
+      #000 90%,
+      transparent 90%,
+      transparent 100%);
+}
+
+#pny ._01_inhaltsverzeichnis_tabs ul {
+  justify-content: space-around;
+}
+
+#pny ._01_inhaltsverzeichnis_tabs ul li {
+  flex: 0 0 20%;
+  border: 2px solid #555;
+  margin: 0;
+  margin-right: 10px;
+}
+
+#pny ._01_inhaltsverzeichnis_tabs ul li a {
+  color: #555;
+  font-size: 1.0em;
+}
+
+#pny ._01_inhaltsverzeichnis_tabs ul li:hover {
+  border-color: #05658b;
+  transition: border-color 1s;
+}
+
+#pny ._01_inhaltsverzeichnis_tabs ul li:hover>a {
+  color: #05658b;
+  transition: color 1s;
+}
+
+#pny ._02_bg_box_color {
+  background: #f1f1f1;
+}
+
+#pny ._03_produktbox .textkacheln-gesamt {
+  background: none;
+  color: #333;
+  text-align: center;
+}
+
+#pny ._03_produktbox .textkacheln-gesamt h3 {
+  text-align: center;
+  font-size: 1.2em;
+  letter-spacing: 0px;
+}
+
+#pny ._03_produktbox .textkacheln-gesamt p {
+  min-height: auto;
+}
+
+#pny ._03_produktbox .textkacheln-gesamt img {
+  max-width: 200px;
+  min-width: auto;
+  transition: all .3s ease-in-out;
+}
+
+#pny ._03_produktbox .textkacheln-gesamt button {
+  width: 50%;
+  background: #05658b;
+  color: #fff;
+}
+
+#pny ._03_produktbox .textkacheln-gesamt button:hover {
+  background: #fff;
+  color: #000;
+  border-color: #05658b;
+}
+
+#pny ._04_achtung_box {
+  background: linear-gradient(225deg,
+      transparent 0%,
+      transparent 15%,
+      #ddd 15%,
+      #ddd 85%,
+      transparent 85%,
+      transparent 100%);
+  color: #333;
+}
+
+#pny ._04_achtung_box p:before {
+  content: "";
+  display: none;
+  width: 20%;
+}
+
+#pny ._04_link_box .textkacheln-gesamt {
+  background: none;
+  border-radius: 5px;
+  background: #C0C0C0;
+  text-align: center;
+}
+
+#pny ._04_link_box .textkacheln-gesamt img {
+  min-width: 20px;
+  max-width: 150px;
+}
+
+#pny ._04_link_box .textkacheln-gesamt button {
+  width: 50%;
+}
+
+#pny ._04_link_box .textkacheln-gesamt h3 {
+  display: none;
+}
+
+#pny ._04_link_box .textkacheln-gesamt p {
+  display: none;
+}
+
+/* 01-LOM Elemente Ende*/
+/* Mobile*/
+@media screen and (max-width: 1670px) {}
+
+@media screen and (max-width: 850px) {}
+
+@media screen and (max-width: 750px) {}
+
+@media screen and (max-width: 600px) {
+  #pny h1 {
+    width: 100%;
+    font-size: 1.5em;
+  }
+
+  #pny ._01_sichtbarer_bereich h1 {
+    position: relative;
+    top: 0;
+    min-height: none;
+    padding-left: 0;
+    background: #000;
+  }
+
+  #pny h2 {
+    width: 100%;
+    font-size: 1.5em;
+    background: #313131;
+  }
+
+  #pny .loeseotext {
+    padding: 0 15px;
+  }
+
+  #pny ._01_sichtbarer_bereich_inhaltsverzeichnis_tabs ul li {
+    flex: 0 0 80%;
+    margin: 10px;
+  }
+
+  #pny ._02_image_box div div {
+    flex-direction: column;
+  }
+
+  #pny ._02_image_box h2 {
+    top: 0;
+  }
+
+  #pny ._02_image_box p {
+    padding: 10px;
+    flex: 0 0 100%;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  #pny ._03_produktbox .textkacheln-gesamt img {
+    max-width: fit-content;
+  }
+
+  #pny ._04_link_box .textkacheln-gesamt {
+    margin: 0 15%;
+  }
+}

@@ -1,0 +1,460 @@
+@import "https://cdn.loewenstark.info/data/x-gridflex.css";
+@import "https://cdn.loewenstark.info/data/temp-mindfactory.css";
+
+body {
+  max-width: 1185px;
+  margin: 0 auto;
+}
+
+/* 00-Basics */
+#catDatapage {}
+
+#catDatapage h1 {
+  font-size: 2.5em;
+  color: #333;
+  overflow: hidden;
+  line-height: 1.2em;
+  border-bottom: none;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 10px;
+  text-align: left;
+}
+
+#catDatapage h1 {
+  width: 75%;
+  background-color: #F7F7F7;
+  background: linear-gradient(297deg, transparent 45px, #F7F7F7 0);
+}
+
+#catDatapage h2 {
+  font-size: 1.5em;
+  width: 75%;
+  font-weight: 700;
+  margin: 0 auto;
+  color: #333;
+  padding: 20px 10%;
+  border: none;
+  background: linear-gradient(225deg,
+      transparent 0%,
+      transparent 10%,
+      #f7f7f7 10%,
+      #f7f7f7 90%,
+      transparent 90%,
+      transparent 100%);
+}
+
+#catDatapage h2:after {
+  content: "";
+  display: block;
+  width: 10%;
+  padding-top: 10px;
+  border-bottom: 3px solid #152A72;
+}
+
+#catDatapage h3 {
+  font-size: 1.2em;
+  font-weight: 700;
+  padding: 10px 0px;
+  color: #000;
+  border-bottom: none;
+  border-left: none;
+  text-align: left;
+}
+
+#catDatapage h3:after {
+  content: "";
+  display: block;
+  width: 10%;
+  padding-top: 10px;
+  border-bottom: 3px solid #152A72;
+}
+
+#catDatapage h4 {
+  font-size: 1.2em;
+  padding: 20px 10px;
+  width: 100%;
+  color: #000;
+  border-bottom: none;
+  text-align: center;
+}
+
+#catDatapage li {
+  font-size: 1.2em;
+  padding: 5px 0;
+}
+
+#catDatapage p {
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+
+#catDatapage ._00_button {
+  background: #152A72;
+  color: #fff;
+  border: 3px solid #152A72;
+  padding: 5px 20px;
+  text-transform: uppercase;
+  display: block;
+  margin: 20px;
+  width: 50%;
+}
+
+#catDatapage ._00_button:after {
+  content: " »";
+}
+
+#catDatapage ._00_button:hover {
+  background: #fff;
+  color: #152A72;
+  transition: background-color 1s ease-out;
+  text-decoration: none;
+}
+
+#catDatapage table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #555;
+  border: 1px solid #555;
+  margin: 20px auto;
+}
+
+#catDatapage table tbody tr th, #catDatapage table tbody tr td {
+  text-align: center;
+  padding: 10px;
+}
+
+#catDatapage table tbody tr th {
+  background: #67676B;
+  color: #fff;
+}
+
+#catDatapage table tbody tr:nth-child(even) {
+  background: #fff;
+}
+
+#catDatapage table tbody tr:nth-child(odd) {
+  background: #f7f7f7;
+}
+
+#catDatapage table tbody td:nth-child(0n+1) {
+  text-align: left;
+  font-weight: 700;
+}
+
+#catDatapage .table-highlight {
+  border-left: 2px solid #027aef;
+  border-right: 2px solid #027aef;
+  color: #027aef;
+  font-weight: 700;
+}
+
+/* 00-Grid Fixes */
+#catDatapage ._01_sichtbarer_bereich h1 {
+  position: relative;
+  top: 50px;
+  min-height: 80px;
+  padding-left: 10%;
+  letter-spacing: -2px;
+  background: linear-gradient(225deg,
+      transparent 0%,
+      transparent 10%,
+      #F7F7F7 7%,
+      #F7F7F7 90%,
+      transparent 90%,
+      transparent 100%);
+}
+
+#catDatapage ._01_inhaltsverzeichnis_tabs ul {
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+#catDatapage ._01_inhaltsverzeichnis_tabs ul ul {
+  margin-bottom: 0px;
+}
+
+#catDatapage ._01_inhaltsverzeichnis_tabs ul ul li {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+#catDatapage ._01_inhaltsverzeichnis_tabs ul li {
+  flex: 0 0 auto;
+  background: #152A72;
+  color: #fff;
+  text-align: center;
+  transition: all .3s ease-in-out;
+  letter-spacing: 2px;
+  padding: 10px 20px;
+}
+
+#catDatapage ._01_inhaltsverzeichnis_tabs ul li a {
+  color: #fff;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+#catDatapage ._01_inhaltsverzeichnis_tabs ul li:hover {
+  transition: all .3s ease-in-out;
+  color: #fff;
+}
+
+#catDatapage ._01_inhaltsverzeichnis_tabs ul li:before {
+  content: " »";
+}
+
+#catDatapage .llpages-grid .llpages-gridrow {
+  margin-bottom: 10px;
+}
+
+/* 01-LOM Elemente */
+#catDatapage .textkacheln-gesamt {
+  background: #f7f7f7;
+}
+
+#catDatapage .textkacheln-gesamt h3 {
+  background: none;
+  color: #152A72;
+  border: none;
+  margin: 0;
+  padding: 15px 10px;
+}
+
+#catDatapage .textkacheln-gesamt h3:after {
+  border: none;
+  display: none;
+}
+
+#catDatapage .textkacheln-gesamt p {
+  padding: 10px;
+  color: #333;
+  background: none;
+}
+
+#catDatapage .textkacheln-gesamt img {
+  min-width: -webkit-fill-available;
+}
+
+#catDatapage button.textkacheln-button {
+  background: none;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #152A72;
+  width: fit-content;
+  color: #152A72;
+  transition: all 1s ease;
+  -webkit-transition: all .5s ease;
+}
+
+#catDatapage button.textkacheln-button:hover {
+  background: #152A72;
+  border: 2px solid #152A72;
+  color: #fff;
+  transition: all 1s ease;
+  -webkit-transition: all .5s ease;
+}
+
+#catDatapage .llpages-autocontent {
+  background: linear-gradient(225deg,
+      transparent 0%,
+      transparent 0%,
+      #152A72 0%, #152A72 5%,
+      transparent 5%,
+      transparent 100%);
+  background-color: #f7f7f7;
+}
+
+#catDatapage .llpages-autocontent h3 {
+  background: none;
+  text-align: center;
+  border: none;
+}
+
+#catDatapage .llpages-autocontent-links div a {
+  margin: 20px;
+  line-height: 2em;
+  color: #152A72;
+}
+
+/* 02-Grids */
+#catDatapage ._02_bg_box_color {
+  background: #f7f7f7;
+  padding: 0px 20px;
+}
+
+#catDatapage ._02_bg_box_color p {
+  padding: 10px 0px;
+}
+
+#catDatapage ._02_image_box p {
+  padding: 30px;
+  margin: 0 auto;
+  flex: 0 0 80%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+#catDatapage ._02_image_box div div {
+  background-size: cover;
+  background-position: center;
+  min-height: 450px;
+  display: flex;
+  align-items: center;
+}
+
+#catDatapage ._02_image_box h2 {
+  position: relative;
+  top: 30px;
+}
+
+#catDatapage ._02_single p {
+  padding: 10px 15em;
+}
+
+#catDatapage ._03_produktbox .textkacheln-gesamt {
+  background: none;
+  color: #333;
+  text-align: center;
+}
+
+#catDatapage ._03_produktbox .textkacheln-gesamt h3 {
+  text-align: center;
+  font-size: 1.2em;
+  letter-spacing: 0px;
+}
+
+#catDatapage ._03_produktbox .textkacheln-gesamt p {
+  min-height: auto;
+}
+
+#catDatapage ._03_produktbox .textkacheln-gesamt img {
+  max-width: 200px;
+  min-width: auto;
+  transition: all .3s ease-in-out;
+}
+
+#catDatapage ._03_produktbox .textkacheln-gesamt img:hover {
+  transform: scale(1.1);
+  transition: all .3s ease-in-out;
+}
+
+#catDatapage ._03_produktbox .textkacheln-gesamt button {
+  width: 90%;
+  background: #152A72;
+  color: #fff;
+}
+
+#catDatapage ._03_produktbox .textkacheln-gesamt button:hover {
+  background: #001852;
+  color: #fff;
+}
+
+#catDatapage ._03_produktbox_bg .textkacheln-gesamt {
+  background: url(https://cdn.loewenstark.info/data/1429-produkt-bg-white.jpg);
+  -webkit-box-shadow: 1px 1px 2px 2px #ccc;
+  box-shadow: 1px 1px 2px 2px #ccc;
+}
+
+#catDatapage ._03_produktbox_marken figure {
+  width: 150px;
+  float: left;
+  padding: 15px;
+  margin: 10px;
+  background: #fff;
+  border: 1px solid #ccc;
+}
+
+#catDatapage ._03_produktbox_marken figure h2 {
+  display: none;
+}
+
+/* 04-Besondere-Elemente */
+#catDatapage ._04_highlight_first>div:first-child {
+  background: #C7C4D8;
+}
+
+#catDatapage ._04_highlight_last>div:last-child {
+  background: #C7C4D8;
+}
+
+#catDatapage ._04_achtung_box {
+  background: linear-gradient(225deg,
+      transparent 0%,
+      transparent 15%,
+      #777 15%,
+      #777 85%,
+      transparent 85%,
+      transparent 100%);
+  color: #fff;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+}
+
+#catDatapage ._04_hersteller p {
+  padding: 30px;
+  margin: 0 auto;
+  flex: 0 0 50%;
+  background: #fff;
+  color: #333;
+}
+
+#catDatapage ._04_hersteller button {
+  width: 100%;
+}
+
+#catDatapage ._04_pro .fa-ul {
+  border: 1px solid green;
+  padding: 20px 30px;
+}
+
+#catDatapage ._04_pro .fa-ul span {
+  color: green;
+}
+
+#catDatapage ._04_kontra .fa-ul {
+  border: 1px solid red;
+  padding: 20px 30px;
+}
+
+#catDatapage ._04_kontra .fa-ul span {
+  color: red;
+}
+
+/* Mobile*/
+@media screen and (max-width: 1670px) {}
+
+@media screen and (max-width: 850px) {}
+
+@media screen and (max-width: 750px) {}
+
+@media screen and (max-width: 600px) {
+  #catDatapage h1 {
+    width: 100%;
+    font-size: 1.5em;
+  }
+
+  #catDatapage ._01_sichtbarer_bereich h1 {
+    position: relative;
+    top: 0;
+    min-height: none;
+    padding-left: 0;
+    background: #152A72;
+  }
+
+  #catDatapage h2 {
+    width: 100%;
+    font-size: 1.5em;
+  }
+
+  #catDatapage ._02_image_box p {
+    padding: 10px;
+    width: 100%;
+  }
+}

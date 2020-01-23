@@ -206,6 +206,10 @@
   display: block;
 }
 
+#fractal_design .ms_prod_name, #fractal_design .ms_prod_artnr {
+  display: block;
+}
+
 #fractal_design .ms_prod p {
   padding: 0;
 }
@@ -261,8 +265,9 @@
 #fractal_design .ms_button {
   font-size: 1em;
   display: inline-block;
-  color: #027aef;
   font-weight: 700;
+  color: #027aef;
+  background-color: #fff;
   border: 2px solid #027aef;
   text-align: center;
   text-decoration: none;
@@ -390,61 +395,25 @@
 }
 
 #fractal_design .ms_hersteller {
-  background-color: #fff;
-  background-size: cover;
-  background-position: center;
-}
-
-#fractal_design .ms_hersteller_overlay {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  align-items: center;
-  clear: both;
-  margin-top: 0px;
-  padding: 15px 0;
-}
-
-#fractal_design .ms_hersteller_overlay {
-  background: rgba(0, 0, 0, 0.45);
-}
-
-#fractal_design .ms_hersteller_overlay div {
-  padding: 20px;
-  flex: 0 0 48%;
-}
-
-#fractal_design .ms_hersteller img {
-  display: block;
+  border-bottom: 5px solid #027aef;
 }
 
 #fractal_design .ms_hersteller h3 {
-  font-size: 1.5em;
-  text-transform: none;
-  text-align: left;
   color: #fff;
-  overflow: hidden;
-  line-height: 1.2em;
-  border-bottom: none;
 }
 
-#fractal_design .ms_hersteller p {
-  font-size: 1em;
-  text-transform: none;
-  text-align: left;
-  padding: 20px;
-  color: #fff;
-  background: rgba(0, 0, 0, 0.5);
-}
-
-#fractal_design .ms_hersteller img {
-  margin: 0 auto;
+#fractal_design .ms_hersteller a:hover {
+  text-decoration: none;
 }
 
 #fractal_design .ms_hersteller .ms_button {
   color: #fff;
-  background: #000;
-  border: none;
+  background-color: #027aef;
+  border: 2px solid #027aef;
+}
+
+#fractal_design .ms_hersteller .ms_button:hover {
+  border: 2px solid #fff;
 }
 
 /* Mobile*/

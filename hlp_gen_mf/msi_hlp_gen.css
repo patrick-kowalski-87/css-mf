@@ -1,0 +1,181 @@
+/* Hersteller Farben */
+/* 00-Basics */
+body {
+  background: #000;
+}
+
+#msi {
+  background: #000;
+  color: #888;
+}
+
+#msi a {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+#msi h1 {
+  font-size: 2.5em;
+  color: #fff;
+  overflow: hidden;
+  line-height: 1.2em;
+  border-bottom: none;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 10px;
+  text-align: left;
+}
+
+#msi h1 {
+  width: 75%;
+  background-color: #ff0000;
+}
+
+#msi h2 {
+  color: #fff;
+  font-size: 2em;
+  background: linear-gradient(225deg,
+      transparent 0%,
+      transparent 10%,
+      #ff0000 10%,
+      #ff0000 90%,
+      transparent 90%,
+      transparent 100%);
+}
+
+#msi h2:after {
+  border-bottom: 3px solid #fff;
+}
+
+#msi h3 {
+  color: #ff0000;
+  font-size: 2em;
+  background: none;
+  padding: 20px 0;
+  letter-spacing: 5px;
+}
+
+#msi h3:after {
+  border-bottom: 3px solid #ff0000;
+}
+
+/* 00-Basics Ende*/
+/* 00-Grid Fixes */
+#msi .textkacheln-gesamt {
+  background: none;
+}
+
+#msi .textkacheln-gesamt h3 {
+  background: none;
+  color: #ff0000;
+  border: none;
+}
+
+#msi .textkacheln-gesamt h3:after {
+  border: none;
+  display: none;
+}
+
+#msi .textkacheln-gesamt p {
+  padding: 10px;
+  color: #fff;
+  background: none;
+}
+
+#msi button.textkacheln-button {
+  background: none;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #ff0000;
+  width: 100%;
+  color: #ff0000;
+  transition: all 1s ease;
+  -webkit-transition: all .5s ease;
+}
+
+#msi button.textkacheln-button:hover {
+  background: #ff0000;
+  border: 2px solid #ff0000;
+  color: #fff;
+  transition: all 1s ease;
+  -webkit-transition: all .5s ease;
+}
+
+/* 01-LOM Elemente */
+/* 01-Sichtbarer-Bereich */
+#msi ._01_sichtbarer_bereich h1 {
+  position: relative;
+  top: 50px;
+  min-height: 80px;
+  padding-left: 10%;
+  background: linear-gradient(225deg,
+      transparent 0%,
+      transparent 10%,
+      #ff0000 7%,
+      #ff0000 90%,
+      transparent 90%,
+      transparent 100%);
+}
+
+#msi ._01_sichtbarer_bereich_inhaltsverzeichnis_tabs ul li {
+  border: 2px solid #555;
+}
+
+#msi ._01_sichtbarer_bereich_inhaltsverzeichnis_tabs ul li a {
+  color: #fff;
+  font-size: 1.2em;
+}
+
+#msi ._01_sichtbarer_bereich_inhaltsverzeichnis_tabs ul li:hover {
+  border-color: #ff0000;
+  transition: border-color 1s;
+}
+
+#msi ._01_sichtbarer_bereich_inhaltsverzeichnis_tabs ul li:hover>a {
+  color: #ff0000;
+  transition: color 1s;
+}
+
+#msi ._03_produktbox .textkacheln-gesamt {
+  background: #333;
+  color: #333;
+  text-align: center;
+}
+
+#msi ._03_produktbox .textkacheln-gesamt h3 {
+  text-align: center;
+  font-size: 1.2em;
+  letter-spacing: 0px;
+}
+
+#msi ._03_produktbox .textkacheln-gesamt button {
+  width: -webkit-fill-available;
+  background: #ff0000;
+  color: #fff;
+}
+
+#msi ._03_produktbox .textkacheln-gesamt button:hover {
+  width: -webkit-fill-available;
+  background: #fff;
+  color: #ff0000;
+  border-color: #fff;
+}
+
+#msi ._04_achtung_box {
+  background: linear-gradient(225deg,
+      transparent 0%,
+      transparent 15%,
+      #ddd 15%,
+      #ddd 85%,
+      transparent 85%,
+      transparent 100%);
+  color: #333;
+}
+
+#msi ._04_achtung_box p:before {
+  content: "";
+  display: none;
+  width: 20%;
+}
+
+/* 01-LOM Elemente Ende*/

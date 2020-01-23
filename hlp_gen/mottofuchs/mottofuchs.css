@@ -1,0 +1,60 @@
+@import url("https://cdn.loewenstark.info/data/x-grid.css");
+
+/*00-Basics*/
+body {
+  max-width: 1260px;
+  margin: 0 auto;
+}
+
+#mottofuchs_hlp h1 {
+  background: #55BDD6;
+  color: #fff;
+  padding: 15px;
+}
+
+#mottofuchs_hlp .textkacheln-gesamt {
+  background: #f1f1f1;
+  text-align: center;
+}
+
+/*01-Grid Fixes*/
+#mottofuchs_hlp .textkacheln-gesamt p {
+  display: none;
+}
+
+#mottofuchs_hlp .textkacheln-gesamt button {
+  background: red;
+}
+
+#mottofuchs_hlp .fa-ul {
+  line-height: 30px;
+}
+
+#mottofuchs_hlp .fa-ul span {
+  font-size: 1.5em;
+  color: green;
+}
+
+#mottofuchs_hlp .image_box div div {
+  background-size: cover;
+  background-position: center;
+  min-height: 450px;
+  display: flex;
+  align-items: center;
+}
+
+/*02-Individuelle Klassen*/
+#mottofuchs_hlp .mottofuchs_tipp {
+  background: #55BDD6;
+  color: #fff;
+  padding: 15px;
+}
+
+/* Mobile*/
+@media screen and (max-width: 1670px) {}
+
+@media screen and (max-width: 850px) {}
+
+@media screen and (max-width: 750px) {}
+
+@media screen and (max-width: 600px) {}

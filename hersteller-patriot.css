@@ -1,9 +1,9 @@
-#patriot-gaming {
+#patriot-viper {
   background: #000;
   color: #fff;
 }
 
-#patriot-gaming h1 {
+#patriot-viper h1 {
   font-size: 2.5em;
   font-weight: 900;
   letter-spacing: -1px;
@@ -15,16 +15,15 @@
   color: #fff;
   margin: 0;
   padding: 10px;
-  text-align: left;
 }
 
-#patriot-gaming h1 {
+#patriot-viper h1 {
   width: 75%;
   background-color: #fc0000;
   background: linear-gradient(297deg, transparent 45px, #fc0000 0);
 }
 
-#patriot-gaming h2 {
+#patriot-viper h2 {
   font-size: 3em;
   color: #fff;
   margin: 10px auto;
@@ -38,8 +37,8 @@
   font-weight: 900;
 }
 
-#patriot-gaming h3 {
-  font-size: 1.5em;
+#patriot-viper h3 {
+  font-size: 1.6em;
   color: #fff;
   letter-spacing: -1px;
   overflow: hidden;
@@ -49,9 +48,10 @@
   border-bottom: 0px;
   border-bottom: none;
   font-weight: 900;
+  margin: 0 auto;
 }
 
-#patriot-gaming h4 {
+#patriot-viper h4 {
   text-align: center;
   display: table;
   padding: 10px;
@@ -60,29 +60,29 @@
   border: none;
 }
 
-#patriot-gaming a {
+#patriot-viper a {
   color: #fff;
   text-decoration: underline;
 }
 
-#patriot-gaming strong {
+#patriot-viper strong {
   color: #fc0000 !important;
 }
 
-#patriot-gaming p.kategorielink a {
+#patriot-viper p.kategorielink a {
   color: #000;
   text-align: justify;
 }
 
-#patriot-gaming p.kategorielink a:after {
+#patriot-viper p.kategorielink a:after {
   content: " »";
 }
 
-#patriot-gaming p, #patriot-gaming .image-text p {
+#patriot-viper p, #patriot-viper .image-text p {
   padding: 10px 10px 0px 0px;
 }
 
-#patriot-gaming_core table {
+#patriot-viper_core table {
   width: 100%;
   border-collapse: collapse;
   color: #444444;
@@ -90,16 +90,16 @@
   margin: 20px auto;
 }
 
-#patriot-gaming table tbody tr th, #catDatapage table tbody tr td {
+#patriot-viper table tbody tr th, #catDatapage table tbody tr td {
   text-align: center;
   padding: 10px;
 }
 
-#patriot-gaming table tbody tr:nth-child(even) {
+#patriot-viper table tbody tr:nth-child(even) {
   background: #333333;
 }
 
-#patriot-gaming .table-highlight {
+#patriot-viper .table-highlight {
   border-left: none;
   border-right: none;
   color: #fff;
@@ -107,19 +107,19 @@
   opacity: 0.75;
 }
 
-#patriot-gaming .flexbox-container div {
+#patriot-viper .flexbox-container div {
   flex: 0 0 50%;
 }
 
-#patriot-gaming .flexbox-container img {
+#patriot-viper .flexbox-container img {
   max-width: 100%;
 }
 
-#patriot-gaming .text-center {
+#patriot-viper .text-center {
   text-align: center;
 }
 
-#patriot-gaming .msres_textarea {
+#patriot-viper .msres_textarea {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -128,45 +128,45 @@
   padding: 15px 0;
 }
 
-#patriot-gaming .msres_textarea div {
+#patriot-viper .msres_textarea div {
   flex: 0 0 47%;
 }
 
-#patriot-gaming .msres_textarea p {
+#patriot-viper .msres_textarea p {
   font-size: 14px;
   text-align: justify;
 }
 
-#patriot-gaming .msres_textarea img {
+#patriot-viper .msres_textarea img {
   width: 100%;
   padding-right: 10px;
 }
 
-#patriot-gaming .ms_light {
+#patriot-viper .ms_light {
   background: #fc0000;
   color: #fff;
 }
 
-#patriot-gaming .ms_light a {
+#patriot-viper .ms_light a {
   color: #fff;
   text-decoration: underline;
 }
 
-#patriot-gaming .ms_light a:after {
+#patriot-viper .ms_light a:after {
   content: " »";
 }
 
-#patriot-gaming .ms_light h2 {
+#patriot-viper .ms_light h2 {
   color: #fff;
   border-bottom: none;
 }
 
-#patriot-gaming .ms_light h3 {
+#patriot-viper .ms_light h3 {
   color: #fc0000;
   border-bottom: none;
 }
 
-#patriot-gaming .ms_links {
+#patriot-viper .ms_links {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -176,12 +176,12 @@
   border-top: 10px solid #fc0000;
 }
 
-#patriot-gaming .ms_links img {
+#patriot-viper .ms_links img {
   width: 100%;
   margin-bottom: 10px;
 }
 
-#patriot-gaming .ms_links div {
+#patriot-viper .ms_links div {
   flex: 0 0 15%;
   padding: 0;
   padding-bottom: 20px;
@@ -192,18 +192,18 @@
   background: none;
 }
 
-#patriot-gaming .ms_links div div {
+#patriot-viper .ms_links div div {
   border: none;
   padding: 0px;
   display: block;
 }
 
-#patriot-gaming .ms_links div:hover {
+#patriot-viper .ms_links div:hover {
   border: 4px solid #fc0000;
   transition: all .5s ease-in-out;
 }
 
-#patriot-gaming .ms_links span {
+#patriot-viper .ms_links span {
   text-transform: uppercase;
   color: #000;
   font-size: 1.2em;
@@ -212,7 +212,7 @@
   font-weight: 900;
 }
 
-#patriot-gaming .ms_prod {
+#patriot-viper .ms_prod {
   margin: 0;
   display: flex;
   justify-content: space-around;
@@ -225,12 +225,12 @@
   border-top: 10px solid #fc0000;
 }
 
-#patriot-gaming .ms_prod div {
-  flex: 0 0 30%;
+#patriot-viper .ms_prod div {
+  flex: 0 0 25%;
   padding: 10px;
 }
 
-#patriot-gaming span.ms_prod_name {
+#patriot-viper span.ms_prod_name {
   display: block;
   font-size: 1.5em;
   color: #000;
@@ -247,33 +247,33 @@
   font-weight: 900;
 }
 
-#patriot-gaming .ms_prod .ms_button {
+#patriot-viper .ms_prod .ms_button {
   font-size: 1em;
   color: #fc0000;
   display: inline-block;
   padding: 10px 20px;
 }
 
-#patriot-gaming .ms_prod p {
+#patriot-viper .ms_prod p {
   padding: 16px 0;
 }
 
-#patriot-gaming .ms_prod a {
+#patriot-viper .ms_prod a {
   text-decoration: none;
 }
 
-#patriot-gaming .ms_prod img {
+#patriot-viper .ms_prod img {
   max-width: 250px;
 }
 
-#patriot-gaming .ms_prod_artnr {
+#patriot-viper .ms_prod_artnr {
   color: #333;
   margin: 5px 0;
   padding: 0;
   font-size: 1em;
 }
 
-#patriot-gaming .ms_button {
+#patriot-viper .ms_button {
   font-size: 1em;
   display: inline-block;
   text-transform: none;
@@ -288,11 +288,11 @@
   transition: all .3s
 }
 
-#patriot-gaming .ms_button::after {
+#patriot-viper .ms_button::after {
   content: none;
 }
 
-#patriot-gaming .ms_button:hover {
+#patriot-viper .ms_button:hover {
   color: #fff;
   background: #fc0000;
   border: 2px solid #fc0000;
@@ -300,7 +300,7 @@
   transition: all .5s;
 }
 
-#patriot-gaming .ms_vergleich {
+#patriot-viper .ms_vergleich {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -309,21 +309,21 @@
   padding: 15px 0;
 }
 
-#patriot-gaming .ms_vergleich img {
+#patriot-viper .ms_vergleich img {
   width: 100%;
   padding: 10px;
 }
 
-#patriot-gaming .ms_vergleich div {
+#patriot-viper .ms_vergleich div {
   padding-bottom: 20px;
   flex: 0 1 12%;
 }
 
-#patriot-gaming .ms_vergleich span {
+#patriot-viper .ms_vergleich span {
   display: block;
 }
 
-#patriot-gaming .ms_vergleich .ms_prod_name {
+#patriot-viper .ms_vergleich .ms_prod_name {
   font-size: 1.7em;
   line-height: 1.5em;
   text-align: center;
@@ -334,12 +334,12 @@
   transition: all .3s;
 }
 
-#patriot-gaming .image-text div {
+#patriot-viper .image-text div {
   text-align: justify;
   padding: 0 20px;
 }
 
-#patriot-gaming div.unterboxen div {
+#patriot-viper div.unterboxen div {
   border: 1px solid #595f65;
   padding: 20px;
   margin: 20px;
@@ -347,81 +347,80 @@
   background: #333;
 }
 
-#patriot-gaming div.unterboxen div h3 {
+#patriot-viper div.unterboxen div h3 {
   color: #fc0000;
   border: none;
 }
 
-#patriot-gaming .product_single_row {
+#patriot-viper .product_single_row {
   margin: 0px;
   border: 0px;
 }
 
-#patriot-gaming .product_single_row img {
-  border: 3px solid;
+#patriot-viper .product_single_row img {
   padding: 0px;
   max-width: 300px;
   margin: 0 auto;
 }
 
-#patriot-gaming .product_single_row p {
+#patriot-viper .product_single_row p {
   text-align: justify;
 }
 
-#patriot-gaming .ms_fragen {
+#patriot-viper .ms_fragen {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   clear: both;
 }
 
-#patriot-gaming .ms_fragen div {
+#patriot-viper .ms_fragen div {
   flex: 0 0 48%;
   margin: 10px;
   background: #fff;
   border: 2px dashed #000000;
 }
 
-#patriot-gaming .ms_fragen p {
+#patriot-viper .ms_fragen p {
   line-height: 1.5em;
   padding: 15px;
 }
 
-#patriot-gaming .ms_single {
+#patriot-viper .ms_single {
   margin: 50px 15em;
   margin-top: 30px;
 }
 
-#patriot-gaming .ms_single p {
+#patriot-viper .ms_single p {
   text-align: justify;
 }
 
-#patriot-gaming .ms_single h2 {
+#patriot-viper .ms_single h2 {
   margin-top: 5px;
 }
 
-#patriot-gaming .fragen {
+#patriot-viper .fragen {
   border: 0px solid #fc0000;
   padding: 20px;
 }
 
-#patriot-gaming .ms_hersteller {}
+#patriot-viper .ms_hersteller {}
 
-#patriot-gaming .ms_hersteller_overlay {}
+#patriot-viper .ms_hersteller_overlay {}
 
-#patriot-gaming .ms_hersteller_overlay {}
+#patriot-viper .ms_hersteller_overlay {}
 
-#patriot-gaming .ms_hersteller_overlay div {}
+#patriot-viper .ms_hersteller_overlay div {}
 
-#patriot-gaming .ms_hersteller img {}
+#patriot-viper .ms_hersteller img {}
 
-#patriot-gaming .ms_hersteller h3 {}
+#patriot-viper .ms_hersteller h3 {}
 
-#patriot-gaming .ms_hersteller p {}
+#patriot-viper .ms_hersteller p {}
 
-#patriot-gaming .ms_hersteller img {}
+#patriot-viper .ms_hersteller img {}
 
-#patriot-gaming .ms_links, #patriot-gaming .ms_prod {
+#patriot-viper .ms_links, #patriot-viper .ms_prod {
   background-image: url(http://emoji.kunden.loewenstark.de/wordpress/wp-content/uploads/patriot-produkt-bg.jpg);
   background-color: #fff;
   background-size: cover;
@@ -436,53 +435,53 @@
 @media screen and (max-width: 750px) {}
 
 @media screen and (max-width: 600px) {
-  #patriot-gaming h1 {
+  #patriot-viper h1 {
     width: 100%;
     background: #fc0000;
   }
 
-  #patriot-gaming .ms_links div {
+  #patriot-viper .ms_links div {
     flex: 0 1 45%;
   }
 
-  #patriot-gaming .ms_fragen div {
+  #patriot-viper .ms_fragen div {
     flex: 0 0 100%;
   }
 
-  #patriot-gaming .product_single_row p {
+  #patriot-viper .product_single_row p {
     padding: 0;
     margin: 0;
     text-align: justify;
   }
 
-  #patriot-gaming .msres_textarea div {
+  #patriot-viper .msres_textarea div {
     flex: 0 0 100%;
     padding: 10px;
   }
 
-  #patriot-gaming .msres_textarea p {
+  #patriot-viper .msres_textarea p {
     padding: 10px 0px;
     font-size: 16px;
   }
 
-  #patriot-gaming .ms_single {
+  #patriot-viper .ms_single {
     margin: 20px 5px;
   }
 
-  #patriot-gaming .ms_prod div {
+  #patriot-viper .ms_prod div {
     flex: 0 0 50%;
   }
 
-  #patriot-gaming .ms_prod img {
+  #patriot-viper .ms_prod img {
     max-width: 160px;
   }
 
-  #patriot-gaming .flexbox-container div {
+  #patriot-viper .flexbox-container div {
     flex: 0 0 90%;
     padding-right: 5px;
   }
 
-  #patriot-gaming .ms_hersteller_overlay div {
+  #patriot-viper .ms_hersteller_overlay div {
     flex: 0 0 100%;
     padding: 0px;
   }

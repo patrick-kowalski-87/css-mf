@@ -1,7 +1,5 @@
 /* 00-Basics */
-#hol_lp-v2 {
-  background: #fff;
-}
+#hol_lp-v2 {}
 
 #hol_lp-v2 h1 {
   font-size: 2.5em;
@@ -259,11 +257,28 @@
   font-weight: bold;
 }
 
-#hol_lp-v2 ._02_cards_2 {}
+#hol_lp-v2 ._02_cards_2, #hol_lp-v2 ._02_cards_3, #hol_lp-v2 ._02_cards_4 {
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 30px 20px;
+}
 
-#hol_lp-v2 ._02_cards_3 {}
+#hol_lp-v2 ._02_cards_2 div {
+  flex: 0 0 50%;
+}
 
-#hol_lp-v2 ._02_cards_4 {}
+#hol_lp-v2 ._02_cards_3 div {
+  flex: 0 0 33%;
+}
+
+#hol_lp-v2 ._02_cards_4 div {
+  flex: 0 0 25%;
+}
 
 #hol_lp-v2 ._02_bg_box_color {
   background: #f7f7f7;
@@ -435,7 +450,10 @@
 }
 
 /* 04-Besondere-Elemente */
-#hol_lp-v2 ._04_achtung_box {}
+#hol_lp-v2 ._04_achtung_box {
+  background: #152A72;
+  color: #fff;
+}
 
 #hol_lp-v2 ._04_link_box_2 {
   display: -ms-flex;

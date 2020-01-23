@@ -806,6 +806,18 @@ table.vornachteile td {
 
 #catDatapage .ms_hersteller img {
   margin: 0 auto;
+  -webkit-transition: all 1s ease;
+}
+
+#catDatapage .ms_hersteller img:hover {
+  transition: all 1s ease;
+  -webkit-transition: all .5s ease;
+  filter: grayscale(0%);
+  transform: scale(1.05);
+}
+
+#catDatapage .ms_hersteller img {
+  filter: grayscale(100%);
 }
 
 /* Mobile*/
@@ -940,5 +952,14 @@ table.vornachteile td {
 
   #catDatapage .ms_single {
     margin: 20px 5px;
+  }
+
+  #catDatapage .ms_hersteller_overlay div {
+    padding: 5px;
+    flex: 0 0 100%;
+  }
+
+  #catDatapage .ms_hersteller img {
+    width: 100%;
   }
 }

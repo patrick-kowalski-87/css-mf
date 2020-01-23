@@ -1,0 +1,190 @@
+@import url("https://cdn.loewenstark.info/data/x-gridflex.css");
+@import url("https://tee-kaffee-shop.com/media/css_secure/83a1bc5fab9b4613e93e7157bb04b81e.css");
+
+/* 00-Basics */
+#hlp-loewenstark h2 {
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+#hlp-loewenstark h2:after {
+  content: "";
+  display: block;
+  width: 10%;
+  padding-top: 10px;
+  border-bottom: 3px solid #96BE41;
+}
+
+/* 01-Grid Fixes */
+#llpages-gridrow-1085 {
+  background-color: blue;
+}
+
+/* 02-HLP Generator Elemente */
+#hlp-loewenstark .inhaltsverzeichnis li {
+  display: block;
+  width: 100%;
+  border: 1px solid #f0f0f0;
+  padding: 2px 30px;
+  margin-bottom: 10px;
+}
+
+#hlp-loewenstark .inhaltsverzeichnis li:hover {
+  color: #96BE41;
+  border-color: #96BE41;
+}
+
+#hlp-loewenstark .inhaltsverzeichnis a {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+#hlp-loewenstark .inhaltsverzeichnis span {
+  font-size: 1.5em;
+}
+
+#hlp-loewenstark .inhaltsverzeichnis ol {
+  margin: 10px 0;
+}
+
+#hlp-loewenstark .loeseotext p {
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+#hlp-loewenstark .fa-ul {
+  font-size: 1.2em;
+  line-height: 1.6em;
+}
+
+#hlp-loewenstark span.fa-li {
+  color: #96BE41;
+}
+
+/* 03-Eigene Klassen */
+#hlp-loewenstark .sichtbarer_bereich div {
+  min-height: 270px;
+}
+
+#hlp-loewenstark .image_box div {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 185px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#hlp-loewenstark .image_box h1 {
+  background: #96BE41;
+  color: #fff;
+  padding: 10px 50px;
+  margin: 0 auto;
+  font-size: 2em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#hlp-loewenstark .image_box p {
+  flex: 0 0 100%;
+  color: #333;
+  font-size: 2.5em;
+  line-height: 1.2em;
+  text-align: center;
+  padding: 0 8em;
+}
+
+#hlp-loewenstark .image_box button {
+  width: 50%;
+  border: 2px solid #96BE41;
+  color: #F7F7F7;
+  background: #96BE41;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+#hlp-loewenstark .image_box button:hover {
+  border: 2px solid #96BE41;
+  color: #96BE41;
+  background: none;
+  transition: all 0.5s;
+}
+
+#hlp-loewenstark .produkt_box .textkacheln-gesamt {
+  background: #FBFBFB;
+  border: 1px solid #f0f0f0;
+  padding: 15px;
+  text-align: center;
+}
+
+#hlp-loewenstark .produkt_box .textkacheln-gesamt:hover {
+  -webkit-box-shadow: 0 0 10px 2px #FBFBFB;
+  box-shadow: 0 0 10px 2px #FBFBFB;
+}
+
+#hlp-loewenstark .produkt_box .textkacheln-gesamt h3 {
+  color: #96BE41;
+  font-size: 1.2em;
+}
+
+#hlp-loewenstark .produkt_box .textkacheln-button {
+  border: none;
+  color: #fff;
+  background: #96BE41;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+#hlp-loewenstark .produkt_box .textkacheln-button:hover {
+  color: #fff;
+  background: #F4D949;
+  transition: all 0.5s;
+}
+
+#hlp-loewenstark .produkt_box .katkacheln-image {
+  max-width: 160px;
+  margin: 10px auto;
+}
+
+/* 04-Mobile*/
+@media screen and (max-width: 1670px) {}
+
+@media screen and (max-width: 850px) {}
+
+@media screen and (max-width: 750px) {}
+
+@media screen and (max-width: 600px) {
+  #hlp-loewenstark h2 {
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  #hlp-loewenstark h2:after {
+    width: 100%;
+    border-bottom: 2px solid #96BE41;
+  }
+
+  #hlp-loewenstark .loeseotext {
+    padding: 10px;
+  }
+
+  #hlp-loewenstark .image_box div {
+    background-position: left;
+    min-height: 275px;
+  }
+
+  #hlp-loewenstark .image_box p {
+    font-size: 1.5em;
+    line-height: 1.2em;
+    padding: 10px;
+  }
+
+  #hlp-loewenstark .image_box button {
+    width: 100%;
+  }
+}
