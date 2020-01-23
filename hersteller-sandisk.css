@@ -1,0 +1,235 @@
+/* Hersteller Farben */
+/* 00-Basics */
+#sandisk {
+  color: #000;
+}
+
+#sandisk a {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+#sandisk h1 {
+  font-size: 2.5em;
+  color: #fff;
+  overflow: hidden;
+  line-height: 1.2em;
+  border-bottom: none;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 10px;
+  text-align: left;
+}
+
+#sandisk h1 {
+  width: 75%;
+  background-color: #000;
+}
+
+#sandisk h2 {
+  color: #000;
+  font-size: 2em;
+  margin: 15px auto;
+  background: linear-gradient(225deg,
+      transparent 0%,
+      transparent 10%,
+      #EC3428 10%,
+      #EC3428 90%,
+      transparent 90%,
+      transparent 100%);
+}
+
+#sandisk h2:after {
+  border-bottom: none;
+}
+
+#sandisk h3 {
+  color: #000;
+  font-size: 1.5em;
+  background: none;
+  padding: 20px 0;
+}
+
+#sandisk h3:after {
+  border-bottom: 3px solid #000;
+}
+
+/* 00-Basics Ende*/
+/* 00-Grid Fixes */
+
+#sandisk .textkacheln-gesamt h3 {
+  color: #000;
+}
+
+#sandisk .textkacheln-gesamt h3:after {
+  border: none;
+}
+
+#sandisk .textkacheln-gesamt p {
+  padding: 10px;
+}
+
+#sandisk button.textkacheln-button {
+  background: #000;
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+  color: #fff;
+  border: none;
+  transition: all 1s ease;
+  -webkit-transition: all .5s ease;
+}
+
+#sandisk button.textkacheln-button:hover {
+  background: #465052;
+  color: #fff;
+  border: none;
+  transition: all 1s ease;
+  -webkit-transition: all .5s ease;
+}
+
+#sandisk ._02_usp button.textkacheln-button {
+  display: none;
+}
+
+/* 01-LOM Elemente */
+/* 01-Sichtbarer-Bereich */
+#sandisk ._01_sichtbarer_bereich h1 {
+  position: relative;
+  top: 50px;
+  min-height: 80px;
+  padding-left: 10%;
+  background: linear-gradient(225deg,
+      transparent 0%,
+      transparent 10%,
+      #000 7%,
+      #000 90%,
+      transparent 90%,
+      transparent 100%);
+}
+
+#sandisk ._01_sichtbarer_bereich_inhaltsverzeichnis_tabs ul li {
+  border: 2px solid #e3e3e3;
+  margin: 0;
+  margin-right: 10px;
+}
+
+#sandisk ._01_sichtbarer_bereich_inhaltsverzeichnis_tabs ul li a {
+  color: #000;
+  font-size: 1.2em;
+}
+
+#sandisk ._01_sichtbarer_bereich_inhaltsverzeichnis_tabs ul li:hover {
+  border-color: #000;
+  transition: border-color 1s;
+}
+
+#sandisk ._01_sichtbarer_bereich_inhaltsverzeichnis_tabs ul li:hover>a {
+  color: #000;
+  transition: color 1s;
+}
+
+#sandisk ._03_produktbox .textkacheln-gesamt {
+  color: #333;
+  text-align: center;
+  border-radius: 5px;
+  border: 5px solid #e3e3e3;
+}
+
+#sandisk ._03_produktbox .textkacheln-gesamt h3 {
+  text-align: center;
+  font-size: 1.2em;
+  letter-spacing: 0px;
+}
+
+#sandisk ._03_produktbox .textkacheln-gesamt img {
+  max-width: 250px;
+  min-width: auto;
+}
+
+#sandisk ._03_produktbox .textkacheln-gesamt button {
+  width: -webkit-fill-available;
+  background: #000;
+  color: #fff;
+  border: none;
+  width: 50%;
+}
+
+#sandisk ._03_produktbox .textkacheln-gesamt button:hover {
+  width: -webkit-fill-available;
+  background: #465052;
+  color: #fff;
+  border: none;
+}
+
+#sandisk ._04_achtung_box {
+  background: linear-gradient(225deg,
+      transparent 0%,
+      transparent 15%,
+      #ddd 15%,
+      #ddd 85%,
+      transparent 85%,
+      transparent 100%);
+}
+
+#sandisk ._04_achtung_box p:before {
+  content: "";
+  display: none;
+  width: 20%;
+}
+
+#sandisk ._04_link_box .textkacheln-gesamt {
+  background: none;
+  text-align: center;
+}
+
+#sandisk ._04_link_box .textkacheln-gesamt {
+  border-radius: 5px;
+  border: 5px solid #e3e3e3;
+}
+
+#sandisk ._04_link_box .textkacheln-gesamt h3 {
+  text-align: center;
+}
+
+#sandisk ._04_link_box .textkacheln-gesamt img {
+  min-width: 20px;
+  max-width: 200px;
+}
+
+#sandisk ._04_link_box .textkacheln-gesamt button {
+  width: 50%;
+}
+
+/* 01-LOM Elemente Ende*/
+/* Mobile*/
+@media screen and (max-width: 1670px) {}
+
+@media screen and (max-width: 850px) {}
+
+@media screen and (max-width: 750px) {}
+
+@media screen and (max-width: 600px) {
+  #sandisk h1 {
+    width: 100%;
+    font-size: 1.5em;
+  }
+
+  #sandisk ._01_sichtbarer_bereich h1 {
+    position: relative;
+    top: 0;
+    min-height: none;
+    padding-left: 10px;
+    background: #000;
+  }
+
+  #sandisk h2 {
+    width: 100%;
+    font-size: 1.5em;
+  }
+
+  #sandisk ._02_image_box p {
+    padding: 10px;
+    width: 100%;
+  }
+}

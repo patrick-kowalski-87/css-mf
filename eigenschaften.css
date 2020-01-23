@@ -6,8 +6,7 @@
 #eigenschaften h1 {
   font-size: 2.5em;
   font-weight: bold;
-  background: #152A72;
-  color: #fff;
+  color: #152A72;
   overflow: hidden;
   line-height: 1.2em;
   border-bottom: none;
@@ -35,7 +34,7 @@
   line-height: 1.2em;
   border-left: 10px solid #152A72;
   border-bottom: none;
-  padding-left: 10px;
+  padding-left: 15px;
 }
 
 #eigenschaften h4 {
@@ -59,9 +58,7 @@
 }
 
 #eigenschaften strong {
-  background: #ccc;
-  color: #333 !important;
-  padding: 0 10px;
+  color: #152A72 !important;
 }
 
 #eigenschaften p.kategorielink a {
@@ -75,6 +72,7 @@
 
 #eigenschaften p, #eigenschaften .image-text p {
   padding: 10px;
+  text-align: justify;
 }
 
 #eigenschaften_core table {
@@ -112,14 +110,13 @@
 }
 
 #eigenschaften .msres_textarea img {
-  padding: 30px 30px 0px 30px;
+  padding: 25px;
 }
 
 #eigenschaften .msres_textarea p {
-  padding-left: 20px;
-  padding-right: 20px;
   font-size: 14px;
   line-height: 1.5em;
+  text-align: justify;
 }
 
 #eigenschaften .ms_light {
@@ -156,6 +153,7 @@
 
 #eigenschaften .ms_links {
   display: flex;
+  background: none;
   justify-content: space-around;
   flex-wrap: wrap;
   clear: both;
@@ -177,6 +175,7 @@
   border: 1px solid #000;
   padding-bottom: 20px;
   margin-bottom: 10px;
+  background: none;
 }
 
 #eigenschaften .ms_links div div {
@@ -308,22 +307,6 @@
   transition: all .5s;
 }
 
-#eigenschaften .image-text .ms_button {
-  font-size: 1em;
-  display: inline-block;
-  text-transform: uppercase;
-  color: #fff;
-  font-weight: 700;
-  border: 2px solid #fff;
-  width: 60%;
-  margin: auto;
-  text-align: center;
-  text-decoration: none;
-  padding: 10px 20px;
-  border-radius: 0;
-  transition: all .3s
-}
-
 #eigenschaften .ms_vergleich {
   display: flex;
   justify-content: space-around;
@@ -378,7 +361,7 @@
 }
 
 #eigenschaften .markenseite div.unterboxen.serien div p {
-  text-align: left;
+  text-align: justify;
 }
 
 #eigenschaften .markenseite div.unterboxen.serien div img {
@@ -455,6 +438,7 @@
   line-height: 1.5em;
   font-size: 14px;
   padding: 14px;
+  text-align: justify;
 }
 
 #eigenschaften .ms_fragen li {
