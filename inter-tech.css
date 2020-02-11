@@ -1,0 +1,496 @@
+#intertech {
+  background: #2f363b;
+  color: #fff;
+}
+
+#intertech h1 {
+  font-size: 2.5em;
+  font-weight: 900;
+  letter-spacing: -1px;
+  color: #fff;
+  overflow: hidden;
+  line-height: 1.2em;
+  border-bottom: none;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+  padding: 10px;
+  text-align: left;
+}
+
+#intertech h1 {
+  width: 80%;
+  background-color: #00814c;
+  background: linear-gradient(297deg, transparent 45px, #00814c 0);
+}
+
+#intertech h2 {
+  font-size: 3em;
+  color: #fff;
+  margin: 10px auto;
+  letter-spacing: -1px;
+  overflow: hidden;
+  text-transform: none;
+  line-height: 1.2em;
+  text-transform: uppercase;
+  border-bottom: 0px;
+  border-bottom: none;
+  font-weight: 900;
+}
+
+#intertech h3 {
+  font-size: 1.5em;
+  color: #fff;
+  letter-spacing: -1px;
+  overflow: hidden;
+  text-transform: none;
+  line-height: 1.2em;
+  text-transform: uppercase;
+  border-bottom: 0px;
+  border-bottom: none;
+  font-weight: 900;
+}
+
+#intertech h4 {
+  text-align: center;
+  display: table;
+  padding: 10px;
+  color: #fff;
+  margin: 1em auto;
+  border: none;
+}
+
+#intertech a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+#intertech strong {
+  color: #00814c !important;
+}
+
+#intertech p.kategorielink a {
+  color: #000;
+  text-align: justify;
+}
+
+#intertech p.kategorielink a:after {
+  content: " »";
+}
+
+#intertech p, #intertech .image-text p {
+  padding: 10px 10px 0px 0px;
+}
+
+#intertech_core table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #444444;
+  border: 1px solid #444444;
+  margin: 20px auto;
+}
+
+#intertech table tbody tr th, #catDatapage table tbody tr td {
+  text-align: center;
+  padding: 10px;
+}
+
+#intertech table tbody tr:nth-child(even) {
+  background: #333333;
+}
+
+#intertech .table-highlight {
+  border-left: none;
+  border-right: none;
+  color: #fff;
+  background: #00814c;
+  opacity: 0.75;
+}
+
+#intertech .flexbox-container div {
+  flex: 0 0 50%;
+}
+
+#intertech .flexbox-container img {
+  max-width: 100%;
+}
+
+#intertech .text-center {
+  text-align: center;
+}
+
+#intertech .msres_textarea {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  clear: both;
+  margin-top: 0px;
+  padding: 15px 0;
+}
+
+#intertech .msres_textarea div {
+  flex: 0 0 47%;
+}
+
+#intertech .msres_textarea p {
+  font-size: 14px;
+  text-align: justify;
+}
+
+#intertech .msres_textarea img {
+  width: 100%;
+  padding-right: 10px;
+}
+
+#intertech .ms_light {
+  background: #00814c;
+  color: #fff;
+}
+
+#intertech .ms_light a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+#intertech .ms_light a:after {
+  content: " »";
+}
+
+#intertech .ms_light h2 {
+  color: #fff;
+  border-bottom: none;
+}
+
+#intertech .ms_light h3 {
+  color: #00814c;
+  border-bottom: none;
+}
+
+#intertech .ms_links {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  clear: both;
+  padding: 35px 0;
+  border-bottom: 10px solid #00814c;
+  border-top: 10px solid #00814c;
+}
+
+#intertech .ms_links img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#intertech .ms_links div {
+  flex: 0 0 15%;
+  padding: 0;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  -webkit-box-shadow: 4px 4px 10px 1px #7A7A7A;
+  box-shadow: 4px 4px 10px 1px #7A7A7A;
+  border: none;
+  background: none;
+}
+
+#intertech .ms_links div div {
+  border: none;
+  padding: 0px;
+  display: block;
+}
+
+#intertech .ms_links div:hover {
+  border: 4px solid #00814c;
+  transition: all .5s ease-in-out;
+}
+
+#intertech .ms_links span {
+  text-transform: uppercase;
+  color: #000;
+  font-size: 1.2em;
+  letter-spacing: -1px;
+  margin-top: 10px;
+  font-weight: 900;
+}
+
+#intertech .ms_prod {
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  justify-content: center;
+  flex-wrap: wrap;
+  clear: both;
+  margin-top: 20px;
+  padding: 15px 0;
+  border-bottom: 10px solid #00814c;
+  border-top: 10px solid #00814c;
+}
+
+#intertech .ms_prod div {
+  flex: 0 0 25%;
+  padding: 10px;
+}
+
+#intertech span.ms_prod_name {
+  display: block;
+  font-size: 1.5em;
+  color: #000;
+  line-height: 1em;
+  letter-spacing: -1px;
+  overflow: hidden;
+  text-transform: none;
+  line-height: 1.2em;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  border-bottom: 0px;
+  border-bottom: none;
+  font-weight: 900;
+}
+
+#intertech .ms_prod .ms_button {
+  font-size: 1em;
+  color: #00814c;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+#intertech .ms_prod p {
+  padding: 16px 0;
+}
+
+#intertech .ms_prod a {
+  text-decoration: none;
+}
+
+#intertech .ms_prod img {
+  max-width: 250px;
+}
+
+#intertech .ms_prod_artnr {
+  color: #333;
+  margin: 5px 0;
+  padding: 0;
+  font-size: 1em;
+}
+
+#intertech .ms_button {
+  font-size: 1em;
+  display: inline-block;
+  text-transform: none;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #00814c;
+  margin: 20px 10px;
+  padding: 10px 20px;
+  border-radius: 0;
+  transition: all .3s
+}
+
+#intertech .ms_button::after {
+  content: none;
+}
+
+#intertech .ms_button:hover {
+  color: #fff;
+  background: #00814c;
+  border: 2px solid #00814c;
+  text-decoration: none;
+  transition: all .5s;
+}
+
+#intertech .ms_vergleich {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  clear: both;
+  margin-top: 20px;
+  padding: 15px 0;
+}
+
+#intertech .ms_vergleich img {
+  width: 100%;
+  padding: 10px;
+}
+
+#intertech .ms_vergleich div {
+  padding-bottom: 20px;
+  flex: 0 1 12%;
+}
+
+#intertech .ms_vergleich span {
+  display: block;
+}
+
+#intertech .ms_vergleich .ms_prod_name {
+  font-size: 1.7em;
+  line-height: 1.5em;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 5px 0;
+  padding: 0;
+  transition: all .3s;
+}
+
+#intertech .image-text div {
+  text-align: justify;
+  padding: 0 20px;
+}
+
+#intertech div.unterboxen div {
+  border: 1px solid #595f65;
+  padding: 20px;
+  margin: 20px;
+  flex: 0 0 45%;
+  background: #333;
+}
+
+#intertech div.unterboxen div h3 {
+  color: #00814c;
+  border: none;
+}
+
+#intertech .product_single_row {
+  margin: 0px;
+}
+
+#intertech .product_single_row img {
+  border: 3px solid;
+  padding: 0px;
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+#intertech hr {
+  border: 3px solid;
+}
+
+#intertech .product_single_row p {
+  text-align: justify;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+}
+
+#intertech .ms_fragen {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  clear: both;
+}
+
+#intertech .ms_fragen div {
+  flex: 0 0 48%;
+  margin: 10px;
+  background: #fff;
+  border: 2px dashed #000000;
+}
+
+#intertech .ms_fragen p {
+  line-height: 1.5em;
+  padding: 15px;
+}
+
+#intertech .ms_single {
+  margin: 50px 15em;
+  margin-top: 30px;
+}
+
+#intertech .ms_single p {
+  text-align: justify;
+}
+
+#intertech .ms_single h2 {
+  margin-top: 5px;
+}
+
+#intertech .fragen {
+  border: 0px solid #00814c;
+  padding: 20px;
+}
+
+#intertech .ms_hersteller {}
+
+#intertech .ms_hersteller_overlay {}
+
+#intertech .ms_hersteller_overlay {}
+
+#intertech .ms_hersteller_overlay div {}
+
+#intertech .ms_hersteller img {}
+
+#intertech .ms_hersteller h3 {}
+
+#intertech .ms_hersteller p {
+  text-align: justify;
+}
+
+#intertech .ms_hersteller img {}
+
+#intertech .ms_links, #intertech .ms_prod {
+  background-image: url(http://emoji.kunden.loewenstark.de/wordpress/wp-content/uploads/iner-tech-produkt-bg.jpg);
+  background-color: #fff;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Mobile*/
+@media screen and (max-width: 1670px) {}
+
+@media screen and (max-width: 850px) {}
+
+@media screen and (max-width: 750px) {}
+
+@media screen and (max-width: 600px) {
+  #intertech h1 {
+    width: 100%;
+    background: #00814c;
+  }
+
+  #intertech .ms_links div {
+    flex: 0 1 45%;
+  }
+
+  #intertech .ms_fragen div {
+    flex: 0 0 100%;
+  }
+
+  #intertech .product_single_row p {
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+  }
+
+  #intertech .msres_textarea div {
+    flex: 0 0 100%;
+    padding: 10px;
+  }
+
+  #intertech .msres_textarea p {
+    padding: 10px 0px;
+    font-size: 16px;
+  }
+
+  #intertech .ms_single {
+    margin: 20px 5px;
+  }
+
+  #intertech .ms_prod div {
+    flex: 0 0 50%;
+  }
+
+  #intertech .ms_prod img {
+    max-width: 160px;
+  }
+
+  #intertech .flexbox-container div {
+    flex: 0 0 90%;
+    padding-right: 5px;
+  }
+
+  #intertech .ms_hersteller_overlay div {
+    flex: 0 0 100%;
+    padding: 0px;
+  }
+}

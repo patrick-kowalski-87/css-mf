@@ -12,32 +12,32 @@
 }
 
 #wd .wd-blue {
-  background: #0079b9;
+  background: #0079b9 !important;
   color: #fff;
 }
 
 #wd .wd-green {
-  background: #3BAF2A;
+  background: #3BAF2A !important;
   color: #fff;
 }
 
 #wd .wd-red {
-  background: #e2001a;
+  background: #e2001a !important;
   color: #fff;
 }
 
 #wd .wd-purple {
-  background: #502d84;
+  background: #502d84 !important;
   color: #fff;
 }
 
 #wd .wd-black {
-  background: #000;
+  background: #000 !important;
   color: #fff;
 }
 
 #wd .wd-gold {
-  background: #B49100;
+  background: #B49100 !important;
   color: #fff;
 }
 
@@ -54,7 +54,6 @@
 }
 
 #wd h2 {
-  font-family: 'Klaviaka_Condensed_Regular';
   font-size: 2.2em;
   color: #555;
   overflow: hidden;
@@ -66,7 +65,6 @@
 }
 
 #wd h3 {
-  font-family: 'Klaviaka_Condensed_Regular';
   font-size: 2em;
   font-weight: 700;
   text-transform: none;
@@ -168,6 +166,7 @@
   flex-wrap: wrap;
   clear: both;
   padding: 15px 0;
+  background: none;
 }
 
 #wd .ms_links h2, #wd .ms_links h3 {
@@ -181,6 +180,7 @@
 
 #wd .ms_links div {
   flex: 0 1 15%;
+  background: #fff;
   padding-bottom: 20px;
   margin-bottom: 10px;
   -webkit-box-shadow: 1px 1px 20px 10px #C9C9C9;
@@ -452,5 +452,3 @@
     margin: 0;
     font-size: 16px;
   }
-
-  </style>

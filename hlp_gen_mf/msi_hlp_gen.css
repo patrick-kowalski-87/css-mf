@@ -59,6 +59,41 @@ body {
   border-bottom: 3px solid #ff0000;
 }
 
+#msi table {
+  color: #fff;
+  border: 1px solid #555;
+  margin: 20px auto;
+}
+
+#msi table tbody tr th, #msi table tbody tr td {
+  text-align: center;
+  padding: 10px;
+}
+
+#msi table tbody tr th {
+  background: none;
+  color: #ff0000;
+}
+
+#msi table tbody tr:nth-child(even) {
+  background: none;
+}
+
+#msi table tbody tr:nth-child(odd) {
+  background: #202020;
+}
+
+#msi table tbody td:nth-child(0n+1) {
+  text-align: left;
+  font-weight: 700;
+}
+
+#msi .table-highlight {
+  border-left: none;
+  border-right: none;
+  color: #ff0000;
+}
+
 /* 00-Basics Ende*/
 /* 00-Grid Fixes */
 #msi .textkacheln-gesamt {
@@ -117,21 +152,18 @@ body {
       transparent 100%);
 }
 
-#msi ._01_sichtbarer_bereich_inhaltsverzeichnis_tabs ul li {
+#msi ._01_inhaltsverzeichnis_tabs ul li {
   border: 2px solid #555;
+  background: #555;
 }
 
-#msi ._01_sichtbarer_bereich_inhaltsverzeichnis_tabs ul li a {
-  color: #fff;
-  font-size: 1.2em;
-}
-
-#msi ._01_sichtbarer_bereich_inhaltsverzeichnis_tabs ul li:hover {
+#msi ._01_inhaltsverzeichnis_tabs ul li:hover {
   border-color: #ff0000;
+  background: #000;
   transition: border-color 1s;
 }
 
-#msi ._01_sichtbarer_bereich_inhaltsverzeichnis_tabs ul li:hover>a {
+#msi ._01_inhaltsverzeichnis_tabs ul li:hover>a {
   color: #ff0000;
   transition: color 1s;
 }

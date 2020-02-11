@@ -137,12 +137,15 @@
   padding: 10px;
   padding-top: 0;
   padding-bottom: 20px;
-  float: left;
 }
 
 #coolermaster .msres_textarea div {
   flex: 0 0 48%;
   margin: 10px 10px;
+}
+
+#coolermaster .msres_textarea img {
+  max-width: 100%;
 }
 
 #coolermaster .ms_light {
@@ -334,7 +337,7 @@
   color: #fff;
   font-weight: 700;
   background: #83329b;
-  border: none;
+  border: 1px solid #83329b;
   text-align: center;
   text-decoration: none;
   margin: 20px 0;
@@ -350,7 +353,7 @@
 #coolermaster .ms_button:hover {
   color: #83329b;
   background-color: #fff;
-  border: 2px solid #152A72;
+  border: 1px solid #83329b;
   text-decoration: none;
   transition: all .3s;
 }
@@ -461,15 +464,15 @@
 }
 
 #coolermaster .ms_hersteller_overlay {
-  background: rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.5);
 }
 
 #coolermaster .ms_hersteller_overlay p {
-  background: rgba(255,255,255,0.4);
+  background: rgba(255, 255, 255, 0.4);
 }
 
 #coolermaster .ms_hersteller_overlay ul {
-  background: rgba(255,255,255,0.4);
+  background: rgba(255, 255, 255, 0.4);
 }
 
 /* Mobile*/
@@ -490,6 +493,10 @@
 
   #coolermaster .ms_fragen div {
     flex: 0 0 100%;
+  }
+
+  #coolermaster .ms_prod {
+    justify-content: center;
   }
 
   #coolermaster .ms_prod div {

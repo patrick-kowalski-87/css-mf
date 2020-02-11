@@ -90,7 +90,6 @@
 }
 
 #pny .textkacheln-gesamt p {
-  min-height: 175px;
   padding: 10px;
   color: #333;
 }
@@ -141,6 +140,7 @@
 #pny ._01_inhaltsverzeichnis_tabs ul li {
   flex: 0 0 20%;
   border: 2px solid #555;
+  background: none;
   margin: 0;
   margin-right: 10px;
 }
@@ -198,6 +198,10 @@
   border-color: #05658b;
 }
 
+#pny ._04_hersteller p {
+  color: #fff;
+}
+
 #pny ._04_achtung_box {
   background: linear-gradient(225deg,
       transparent 0%,
@@ -235,10 +239,6 @@
   display: none;
 }
 
-#pny ._04_link_box .textkacheln-gesamt p {
-  display: none;
-}
-
 /* 01-LOM Elemente Ende*/
 /* Mobile*/
 @media screen and (max-width: 1670px) {}
@@ -261,40 +261,19 @@
     background: #000;
   }
 
-  #pny h2 {
-    width: 100%;
-    font-size: 1.5em;
-    background: #313131;
-  }
-
-  #pny .loeseotext {
-    padding: 0 15px;
-  }
-
-  #pny ._01_sichtbarer_bereich_inhaltsverzeichnis_tabs ul li {
-    flex: 0 0 80%;
+  #pny ._01_inhaltsverzeichnis_tabs ul li {
+    flex: 0 0 100%;
+    border: 2px solid #555;
+    background: none;
     margin: 10px;
+    margin-right: 0px;
   }
 
-  #pny ._02_image_box div div {
-    flex-direction: column;
+  #pny h2 {
+    background: #313131;
   }
 
   #pny ._02_image_box h2 {
     top: 0;
-  }
-
-  #pny ._02_image_box p {
-    padding: 10px;
-    flex: 0 0 100%;
-    background: rgba(0, 0, 0, 0.5);
-  }
-
-  #pny ._03_produktbox .textkacheln-gesamt img {
-    max-width: fit-content;
-  }
-
-  #pny ._04_link_box .textkacheln-gesamt {
-    margin: 0 15%;
   }
 }

@@ -1,5 +1,6 @@
 @import "https://cdn.loewenstark.info/data/x-gridflex.css";
 @import "https://cdn.loewenstark.info/data/temp-mindfactory.css";
+@import "https://www.mindfactory.de/templates/global/bootstrap.min.css";
 
 body {
   max-width: 1185px;
@@ -7,7 +8,10 @@ body {
 }
 
 /* 00-Basics */
-#catDatapage {}
+#catDatapage h1, #catDatapage h2, #catDatapage h3, #catDatapage h4 {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
 
 #catDatapage h1 {
   font-size: 2.5em;
@@ -53,7 +57,7 @@ body {
 }
 
 #catDatapage h3 {
-  font-size: 1.2em;
+  font-size: 1.4em;
   font-weight: 700;
   padding: 10px 0px;
   color: #000;
@@ -72,21 +76,31 @@ body {
 
 #catDatapage h4 {
   font-size: 1.2em;
+  font-weight: 800;
   padding: 20px 10px;
   width: 100%;
-  color: #000;
+  color: #152A72;
   border-bottom: none;
   text-align: center;
 }
 
-#catDatapage li {
-  font-size: 1.2em;
-  padding: 5px 0;
+#catDatapage ul li {
+  font-size: 1em;
+  margin: 5px 25px;
+  list-style: square;
+  text-align: left;
+}
+
+#catDatapage ul ul li {
+  font-size: 1em;
+  margin: 5px 20px;
+  list-style: square !important;
 }
 
 #catDatapage p {
   font-size: 1.2em;
   line-height: 1.5em;
+  text-align: justify;
 }
 
 #catDatapage ._00_button {
@@ -150,6 +164,10 @@ body {
 }
 
 /* 00-Grid Fixes */
+#catDatapage .llpages-grid .llpages-gridrow.llpages-gridrow-1c .llpages-grid-cell-0 {
+  flex-basis: calc(100% - 0px);
+}
+
 #catDatapage ._01_sichtbarer_bereich h1 {
   position: relative;
   top: 50px;
@@ -185,13 +203,14 @@ body {
 }
 
 #catDatapage ._01_inhaltsverzeichnis_tabs ul li {
-  flex: 0 0 auto;
+  flex: 0 0 20%;
   background: #152A72;
   color: #fff;
   text-align: center;
   transition: all .3s ease-in-out;
   letter-spacing: 2px;
   padding: 10px 20px;
+  list-style: none;
 }
 
 #catDatapage ._01_inhaltsverzeichnis_tabs ul li a {
@@ -202,11 +221,16 @@ body {
 
 #catDatapage ._01_inhaltsverzeichnis_tabs ul li:hover {
   transition: all .3s ease-in-out;
-  color: #fff;
+  background: #C7C4D8;
+}
+
+#catDatapage ._01_inhaltsverzeichnis_tabs ul li>a:hover {
+  transition: all .3s ease-in-out;
+  color: #000;
 }
 
 #catDatapage ._01_inhaltsverzeichnis_tabs ul li:before {
-  content: " »";
+  content: "» ";
 }
 
 #catDatapage .llpages-grid .llpages-gridrow {
@@ -214,6 +238,19 @@ body {
 }
 
 /* 01-LOM Elemente */
+#catDatapage .kategoriekachel {
+  margin: 10px;
+}
+
+#catDatapage .kategoriekachel h2 {
+  width: 100%;
+  background: #ccc;
+}
+
+#catDatapage .kategoriekachel h2:after {
+  display: none;
+}
+
 #catDatapage .textkacheln-gesamt {
   background: #f7f7f7;
 }
@@ -232,9 +269,14 @@ body {
 }
 
 #catDatapage .textkacheln-gesamt p {
+  min-height: 175px;
   padding: 10px;
   color: #333;
   background: none;
+}
+
+#catDatapage .textkacheln-gesamt a:hover {
+  text-decoration: none;
 }
 
 #catDatapage .textkacheln-gesamt img {
@@ -242,19 +284,18 @@ body {
 }
 
 #catDatapage button.textkacheln-button {
-  background: none;
-  padding: 10px;
-  margin: 10px;
-  border: 2px solid #152A72;
-  width: fit-content;
-  color: #152A72;
+  text-decoration: none;
+  text-align: center;
+  color: #ffffff;
+  background-color: #152A72;
+  border: none;
+  padding: 5px 10px;
   transition: all 1s ease;
   -webkit-transition: all .5s ease;
 }
 
 #catDatapage button.textkacheln-button:hover {
-  background: #152A72;
-  border: 2px solid #152A72;
+  background: #ff0000;
   color: #fff;
   transition: all 1s ease;
   -webkit-transition: all .5s ease;
@@ -282,6 +323,10 @@ body {
   color: #152A72;
 }
 
+#catDatapage .fa-ul li {
+  list-style: none;
+}
+
 /* 02-Grids */
 #catDatapage ._02_bg_box_color {
   background: #f7f7f7;
@@ -292,11 +337,24 @@ body {
   padding: 10px 0px;
 }
 
+#catDatapage ._02_bg_box_color img {
+  padding: 2em 0px;
+}
+
+#catDatapage ._02_bg_col_color .llpages-gridcell {
+  background: #f7f7f7;
+}
+
+#catDatapage ._02_bg_col_color .llpages-gridcell p, #catDatapage ._02_bg_col_color .llpages-gridcell h3 {
+  padding: 20px;
+}
+
 #catDatapage ._02_image_box p {
+  line-height: 2em;
   padding: 30px;
   margin: 0 auto;
   flex: 0 0 80%;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.75);
   color: #fff;
 }
 
@@ -331,11 +389,11 @@ body {
 
 #catDatapage ._03_produktbox .textkacheln-gesamt p {
   min-height: auto;
+  text-align: center;
 }
 
 #catDatapage ._03_produktbox .textkacheln-gesamt img {
-  max-width: 200px;
-  min-width: auto;
+  max-width: 100%;
   transition: all .3s ease-in-out;
 }
 
@@ -359,6 +417,7 @@ body {
   background: url(https://cdn.loewenstark.info/data/1429-produkt-bg-white.jpg);
   -webkit-box-shadow: 1px 1px 2px 2px #ccc;
   box-shadow: 1px 1px 2px 2px #ccc;
+  background-size: contain;
 }
 
 #catDatapage ._03_produktbox_marken figure {
@@ -375,6 +434,10 @@ body {
 }
 
 /* 04-Besondere-Elemente */
+#catDatapage ._04_link_box .textkacheln-gesamt p {
+  display: none;
+}
+
 #catDatapage ._04_highlight_first>div:first-child {
   background: #C7C4D8;
 }
@@ -397,12 +460,15 @@ body {
   align-items: center;
 }
 
+#catDatapage ._04_hersteller div div {
+  align-items: stretch;
+  padding-top: 25%;
+}
+
 #catDatapage ._04_hersteller p {
   padding: 30px;
   margin: 0 auto;
   flex: 0 0 50%;
-  background: #fff;
-  color: #333;
 }
 
 #catDatapage ._04_hersteller button {
@@ -412,6 +478,10 @@ body {
 #catDatapage ._04_pro .fa-ul {
   border: 1px solid green;
   padding: 20px 30px;
+}
+
+#catDatapage ._04_pro .fa-ul li {
+  list-style: none;
 }
 
 #catDatapage ._04_pro .fa-ul span {
@@ -427,6 +497,76 @@ body {
   color: red;
 }
 
+#catDatapage table ._04_pro_kontra_tabelle tbody tr th, #catDatapage ._04_pro_kontra_tabelle table tbody tr td {
+  width: 50%;
+}
+
+#catDatapage ._04_pro_kontra_tabelle table tbody tr th:nth-child(0n+1) {
+  background: green;
+}
+
+#catDatapage ._04_pro_kontra_tabelle table tbody tr th:nth-child(0n+2) {
+  background: red;
+}
+
+#catDatapage ._04_pro_kontra_tabelle table tbody td:nth-child(0n+1) {
+  color: green;
+  text-align: center;
+  font-weight: 700;
+}
+
+#catDatapage ._04_pro_kontra_tabelle table tbody td:nth-child(0n+1):before {
+  content: "+ ";
+}
+
+#catDatapage ._04_pro_kontra_tabelle table tbody td:nth-child(0n+2) {
+  color: red;
+  text-align: center;
+  font-weight: 700;
+}
+
+#catDatapage ._04_pro_kontra_tabelle table tbody td:nth-child(0n+2):before {
+  content: "- ";
+}
+
+#catDatapage ._04_hub_articles img:hover {
+  -webkit-transition: .5s ease all;
+  -ms-transition: .5s ease all;
+  -o-transition: .5s ease all;
+  -transition: .5s ease all;
+  transition: .5s ease all;
+  opacity: 0.5;
+}
+
+#catDatapage ._04_hub_articles .llpages-button {
+  font-size: 1.2em;
+}
+
+#catDatapage ._04_hub_articles .llpages-button:hover {
+  -webkit-transition: .5s ease all;
+  -ms-transition: .5s ease all;
+  -o-transition: .5s ease all;
+  -transition: .5s ease all;
+  transition: .5s ease all;
+  background-color: #00247b;
+}
+
+#catDatapage ._04_more_articles ul li {
+  background: #152A72;
+  color: #152A72;
+  padding: 10px;
+  font-weight: 700;
+  list-style: none;
+}
+
+#catDatapage ._04_more_articles ul li a {
+  color: #f1f1f1;
+}
+
+#catDatapage ._04_video iframe {
+  margin: 2em 0;
+}
+
 /* Mobile*/
 @media screen and (max-width: 1670px) {}
 
@@ -440,21 +580,95 @@ body {
     font-size: 1.5em;
   }
 
-  #catDatapage ._01_sichtbarer_bereich h1 {
-    position: relative;
-    top: 0;
-    min-height: none;
-    padding-left: 0;
-    background: #152A72;
-  }
-
   #catDatapage h2 {
     width: 100%;
     font-size: 1.5em;
+    background: #152A72;
+    color: #fff;
+  }
+
+  #catDatapage h2:after {
+    border-bottom: 3px solid #fff;
+  }
+
+  #catDatapage h3 {
+    text-align: center;
+    padding: 10px;
+  }
+
+  #catDatapage h3:after {
+    width: 100%;
+  }
+
+  #catDatapage ul li {
+    font-size: 1.2em;
+    padding: 5px 0px;
+    margin: 5px 5px;
+  }
+
+  #catDatapage .fa-ul {
+    margin: 1em;
+    padding: 10px;
+  }
+
+  #catDatapage .fa-ul li {
+    list-style: none;
+  }
+
+  #catDatapage .loeseotext {
+    padding: 0 15px;
+  }
+
+  #catDatapage ._01_sichtbarer_bereich h1 {
+    position: relative;
+    top: 0;
+    padding: 20px 10px;
+    background: #152A72;
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+  }
+
+  #catDatapage ._01_inhaltsverzeichnis_tabs ul li {
+    flex: 0 0 100%;
+    margin: 5px;
+  }
+
+  #catDatapage ._02_bg_box_color {
+    padding: 0px;
+  }
+
+  #catDatapage ._02_bg_box_color img {
+    padding: 2em 3em;
+  }
+
+  #catDatapage ._02_image_box h2 {
+    top: 0px;
   }
 
   #catDatapage ._02_image_box p {
+    padding: 50px 25px;
+    flex: 0 0 100%;
+    background: rgba(0, 0, 0, 0.9);
+  }
+
+  #catDatapage ._02_image_box div div {
+    flex-direction: inherit;
+  }
+
+  #catDatapage ._02_single p {
     padding: 10px;
-    width: 100%;
+  }
+
+  #catDatapage ._03_produktbox_bg .textkacheln-gesamt {
+    margin: 0 2em;
+  }
+
+  #catDatapage ._04_link_box .textkacheln-gesamt {
+    margin: 0 15%;
+  }
+
+  #catDatapage ._04_achtung_box {
+    background: #777777;
   }
 }

@@ -1,0 +1,295 @@
+/* Hersteller Farben */
+/* 00-Basics */
+body {
+  background: #000;
+}
+
+#gigabyte {
+  background: #000;
+  color: #fff;
+}
+
+#gigabyte a {
+  color: #ff6400;
+  text-decoration: none;
+}
+
+#gigabyte h1 {
+  font-size: 2.5em;
+  color: #fff;
+  overflow: hidden;
+  line-height: 1.2em;
+  border-bottom: none;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 10px;
+  text-align: left;
+}
+
+#gigabyte h1 {
+  width: 75%;
+  background-color: #000;
+}
+
+#gigabyte h2 {
+  color: #ff6400;
+  margin: 0;
+  padding: 10px 0;
+  background: none;
+  font-size: 3vw;
+  line-height: 3.4vw;
+  letter-spacing: -2px;
+}
+
+#gigabyte h2:after {
+  border-bottom: 3px solid #ff6400;
+  width: 33%;
+}
+
+#gigabyte h3 {
+  color: #ccc;
+  font-size: 1.5em;
+  background: none;
+  padding: 20px 0;
+}
+
+#gigabyte p {
+  color: #999;
+}
+
+#gigabyte h3:after {
+  border-bottom: 3px solid #000;
+}
+
+#gigabyte ._00_button {
+  background: #3f3f3f;
+  color: #fff;
+  border-bottom: 3px solid #ff6400;
+  margin: 20px 0;
+  width: fit-content;
+}
+
+#gigabyte ._00_button:after {
+  content: " »";
+}
+
+#gigabyte ._00_button:hover {
+  background: #000;
+  color: #fff;
+  border: 3px solid #000;
+  transition: all 1s ease-out;
+  text-decoration: none;
+}
+
+#catDatapage button.textkacheln-button {
+  background: #3f3f3f;
+  color: #fff;
+  border-bottom: 3px solid #ff6400;
+}
+
+#catDatapage button.textkacheln-button:hover {
+  background: #3f3f3f;
+  color: #ff6400;
+}
+
+/* 00-Basics Ende*/
+/* 00-Grid Fixes */
+#gigabyte .textkacheln-gesamt {
+  background: #3f3f3f;
+  border: 2px solid #3f3f3f;
+}
+
+#gigabyte .textkacheln-gesamt h3 {
+  color: #fff;
+  text-align: center;
+}
+
+#gigabyte .textkacheln-gesamt h3:after {
+  border: none;
+  display: none;
+}
+
+#gigabyte .textkacheln-gesamt p {
+  padding: 20px;
+  color: #fff;
+  min-height: 225px;
+}
+
+#gigabyte ._02_usp button.textkacheln-button {
+  display: none;
+}
+
+/* 01-LOM Elemente */
+/* 01-Sichtbarer-Bereich */
+#gigabyte ._01_sichtbarer_bereich h1 {
+  position: relative;
+  top: 50px;
+  min-height: 80px;
+  padding-left: 10%;
+  background: linear-gradient(225deg,
+      transparent 0%,
+      transparent 10%,
+      #ff6400 7%,
+      #ff6400 90%,
+      transparent 90%,
+      transparent 100%);
+}
+
+#gigabyte ._01_inhaltsverzeichnis_tabs ul {
+  justify-content: space-around;
+}
+
+#gigabyte ._01_inhaltsverzeichnis_tabs ul li {
+  flex: 0 0 20%;
+  border: 2px solid #555;
+  background: none;
+  margin: 0;
+  margin-right: 10px;
+}
+
+#gigabyte ._01_inhaltsverzeichnis_tabs ul li a {
+  color: #555;
+  font-size: 1.0em;
+}
+
+#gigabyte ._01_inhaltsverzeichnis_tabs ul li:hover {
+  border-color: #05658b;
+  transition: border-color 1s;
+}
+
+#gigabyte ._01_inhaltsverzeichnis_tabs ul li:hover>a {
+  color: #05658b;
+  transition: color 1s;
+}
+
+#gigabyte ._02_bg_box_color {
+  background: #333;
+}
+
+#gigabyte ._02_bg_col_color .llpages-gridcell {
+  background: #333;
+}
+
+#gigabyte ._03_produktbox .textkacheln-gesamt {
+  background: none;
+  color: #fff;
+  text-align: center;
+}
+
+#gigabyte ._03_produktbox .textkacheln-gesamt h3 {
+  text-align: center;
+  font-size: 1.2em;
+  letter-spacing: 0px;
+}
+
+#gigabyte ._03_produktbox .textkacheln-gesamt p {
+  min-height: auto;
+}
+
+#gigabyte ._03_produktbox .textkacheln-gesamt img {
+  max-width: 200px;
+  min-width: auto;
+  transition: all .3s ease-in-out;
+}
+
+#gigabyte ._03_produktbox .textkacheln-gesamt button {
+  width: 100%;
+  background: #3f3f3f;
+  color: #fff;
+  border-bottom: 3px solid #ff6400;
+}
+
+#gigabyte ._03_produktbox .textkacheln-gesamt button:hover {
+  color: #ff6400;
+  background: #3f3f3f;
+}
+
+#gigabyte ._04_highlight_last>div:last-child {
+  background: #ff6400;
+}
+
+#gigabyte ._04_highlight_last>div:last-child {
+  background: #ff6400;
+}
+
+#gigabyte ._04_hersteller p {
+  color: #fff;
+}
+
+#gigabyte ._04_achtung_box {
+  background: linear-gradient(225deg,
+      transparent 0%,
+      transparent 15%,
+      #ddd 15%,
+      #ddd 85%,
+      transparent 85%,
+      transparent 100%);
+  color: #333;
+}
+
+#gigabyte ._04_achtung_box p:before {
+  content: "";
+  display: none;
+  width: 20%;
+}
+
+#gigabyte ._04_link_box .textkacheln-gesamt {
+  background: none;
+  background: #C0C0C0;
+  text-align: center;
+}
+
+#gigabyte ._04_link_box .textkacheln-gesamt img {
+  width: 100%;
+}
+
+#gigabyte ._04_link_box .textkacheln-gesamt button {
+  width: 100%;
+}
+
+#gigabyte ._04_link_box .textkacheln-gesamt h3 {
+  display: none;
+}
+
+/* 01-LOM Elemente Ende*/
+/* Mobile*/
+@media screen and (max-width: 1670px) {}
+
+@media screen and (max-width: 850px) {}
+
+@media screen and (max-width: 750px) {}
+
+@media screen and (max-width: 600px) {
+  #gigabyte h1 {
+    width: 100%;
+    font-size: 1.5em;
+  }
+
+  #gigabyte ._01_sichtbarer_bereich h1 {
+    position: relative;
+    top: 0;
+    min-height: none;
+    padding-left: 0;
+    background: #000;
+  }
+
+  #gigabyte .textkacheln-gesamt p {
+    min-height: none;
+  }
+
+  #gigabyte ._01_inhaltsverzeichnis_tabs ul li {
+    flex: 0 0 100%;
+    border: 2px solid #555;
+    background: none;
+    margin: 10px;
+    margin-right: 0px;
+  }
+
+  #gigabyte h2 {
+    background: #313131;
+  }
+
+  #gigabyte ._02_image_box h2 {
+    top: 0;
+  }
+}
